@@ -5,177 +5,159 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
 <meta name="supported-color-schemes" content="light">
-<title>Esc. Vanessa Kisler Eimer — Escribana Pública</title>
-<meta name="description" content="Escribana Pública en Montevideo. Estudio notarial con atención en escrituras, automotores, certificaciones y asesoramiento.">
+<title>Esc. Vanessa Kisler Eimer</title>
+<meta name="description" content="Escribana Pública. Estudio notarial en Montevideo.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    color-scheme: light;
-    --ink: #000000;
-    --paper: #fbf9f4;
-    --paper-warm: #fbf9f4;
-    --accent: #1f3a2a;
-    --muted: #2a2a2a;
-    --line: #c4bdae;
-  }
+  :root { color-scheme: light; --ink: #000000; --paper: #fbf9f4; --accent: #1f3a2a; --muted: #2a2a2a; --line: #c4bdae; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; background: #fbf9f4 !important; color-scheme: light; }
   body { font-family: 'Inter Tight', sans-serif; background: #fbf9f4 !important; color: var(--ink); line-height: 1.6; font-weight: 400; overflow-x: hidden; -webkit-text-size-adjust: 100%; position: relative; }
   .spotlight { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; background: radial-gradient(circle 380px at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,0.85) 0%, rgba(251,249,244,0.4) 40%, rgba(251,249,244,0) 70%); transition: background 0.15s ease-out; mix-blend-mode: screen; }
-  nav, header, section, .areas-bg, footer { position: relative; z-index: 2; }
-  nav { z-index: 100; }
-  .display { font-family: 'Cormorant Garamond', serif; font-weight: 400; letter-spacing: -0.01em; }
-  nav { position: fixed; top: 0; left: 0; right: 0; padding: 1.5rem 3rem; display: flex; justify-content: space-between; align-items: center; background: rgba(251,249,244,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid transparent; transition: border-color 0.3s ease; }
-  nav.scrolled { border-bottom-color: var(--line); }
-  .nav-mark { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-style: italic; letter-spacing: 0.02em; }
-  .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-  .nav-links a { color: var(--ink); text-decoration: none; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; position: relative; }
-  .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.3s ease; }
-  .nav-links a:hover::after { width: 100%; }
-  .hero { min-height: 100vh; display: flex; align-items: center; padding: 8rem 3rem 4rem; }
-  .hero-content { max-width: 1200px; margin: 0 auto; width: 100%; }
+  header, section, footer { position: relative; z-index: 2; }
+  .hero { min-height: 80vh; display: flex; align-items: center; padding: 6rem 3rem 4rem; }
+  .hero-content { max-width: 900px; margin: 0 auto; width: 100%; text-align: center; }
   .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.3em; text-transform: uppercase; color: #1a1a1a; margin-bottom: 2rem; }
-  .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 8vw, 6.5rem); line-height: 1; margin-bottom: 2rem; }
-  .hero-title em { font-style: italic; color: var(--accent); }
-  .hero-sub { font-size: 1.125rem; max-width: 540px; color: #1a1a1a; margin-bottom: 3rem; }
-  .hero-meta { display: flex; gap: 3rem; flex-wrap: wrap; padding-top: 2rem; border-top: 1px solid var(--line); }
-  .hero-meta-label { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #1a1a1a; margin-bottom: 0.4rem; }
-  section { padding: 7rem 3rem; max-width: 1200px; margin: 0 auto; }
-  .section-header { display: grid; grid-template-columns: 1fr 2fr; gap: 4rem; margin-bottom: 5rem; align-items: end; }
-  .section-number { font-family: 'Cormorant Garamond', serif; font-style: italic; color: #1a1a1a; }
-  .section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.05; }
-  .section-title em { font-style: italic; color: var(--accent); }
-  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
-  .about-text p { font-size: 1.05rem; margin-bottom: 1.5rem; color: #000; }
-  .about-text p:first-child::first-letter { font-family: 'Cormorant Garamond', serif; font-size: 3.5rem; float: left; line-height: 0.85; padding: 0.5rem 0.6rem 0 0; color: var(--accent); }
-  .credentials { background: var(--paper); padding: 2.5rem; border-left: 3px solid var(--accent); border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-  .credential-item { padding: 1rem 0; border-bottom: 1px solid var(--line); }
-  .credential-item:last-child { border-bottom: none; }
-  .credential-label { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #1a1a1a; margin-bottom: 0.4rem; }
-  .credential-value { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; }
-  .areas-bg { background: var(--paper-warm); padding: 7rem 3rem; }
-  .areas-inner { max-width: 1200px; margin: 0 auto; }
-  .areas-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid var(--line); }
-  .area-card { padding: 3rem 2rem; border-top: 1px solid var(--line); border-right: 1px solid var(--line); transition: background 0.4s ease; }
-  .area-card:nth-child(2n) { border-right: none; }
-  .area-card:hover { background: var(--paper); }
-  .area-number { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--accent); margin-bottom: 1.5rem; }
-  .area-title { font-family: 'Cormorant Garamond', serif; font-size: 1.75rem; margin-bottom: 1rem; }
-  .area-desc { color: #1a1a1a; font-size: 0.95rem; }
-  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; }
-  .contact-info { display: flex; flex-direction: column; gap: 2.5rem; }
-  .contact-item-label { font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: #1a1a1a; margin-bottom: 0.6rem; }
-  .contact-item-value { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--ink); text-decoration: none; }
-  a.contact-item-value:hover { color: var(--accent); }
-  .schedule-card { background: var(--paper); color: var(--ink); padding: 3rem; align-self: start; border: 1px solid var(--line); }
-  .schedule-card .display { font-size: 2rem; margin-bottom: 1.5rem; }
-  .schedule-card .display em { color: var(--accent); }
-  .schedule-time { font-size: 1.05rem; margin-bottom: 0.5rem; }
-  .schedule-note { font-size: 0.85rem; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: #2a2a2a; }
-  footer { padding: 3rem; border-top: 1px solid var(--line); text-align: center; }
-  .footer-mark { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.5rem; margin-bottom: 0.5rem; }
-  .footer-text { font-size: 0.8rem; color: #1a1a1a; letter-spacing: 0.05em; }
+  .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 7vw, 5rem); line-height: 1.05; margin-bottom: 1.5rem; }
+  .hero-subtitle { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.5rem; color: var(--accent); margin-bottom: 3rem; }
+  .hero-divider { width: 60px; height: 1px; background: var(--line); margin: 0 auto 3rem; }
+  section { padding: 5rem 3rem; max-width: 900px; margin: 0 auto; }
+  .section-title { font-family: 'Cormorant Garamond', serif; font-size: 2rem; text-align: center; margin-bottom: 3rem; letter-spacing: -0.01em; }
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .info-item { padding: 1.75rem 1.5rem; border-bottom: 1px solid var(--line); }
+  .info-item:nth-child(2n) { border-left: 1px solid var(--line); }
+  .info-item:nth-last-child(-n+2) { border-bottom: none; }
+  .info-label { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #1a1a1a; margin-bottom: 0.5rem; }
+  .info-value { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--ink); }
+  .info-value a { color: var(--ink); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.3s; }
+  .info-value a:hover { border-color: var(--accent); }
+  .area-group { margin-bottom: 2.5rem; }
+  .area-group:last-child { margin-bottom: 0; }
+  .area-group-title { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; color: var(--accent); text-align: center; margin-bottom: 1rem; letter-spacing: 0.05em; }
+  .area-items { list-style: none; max-width: 600px; margin: 0 auto; text-align: center; }
+  .area-items li { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; padding: 0.4rem 0; color: var(--ink); }
+  .group-divider { width: 40px; height: 1px; background: var(--line); margin: 1.5rem auto; }
+  footer { padding: 3rem; border-top: 1px solid var(--line); text-align: center; margin-top: 2rem; }
+  .footer-mark { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.25rem; margin-bottom: 0.5rem; }
+  .footer-text { font-size: 0.75rem; color: #1a1a1a; letter-spacing: 0.1em; text-transform: uppercase; }
   @media (max-width: 768px) {
-    nav { padding: 1rem 1.5rem; }
-    .nav-links { gap: 1.25rem; }
-    .nav-links a { font-size: 0.7rem; letter-spacing: 0.05em; }
-    .nav-mark { display: none; }
-    .hero { padding: 7rem 1.5rem 4rem; }
-    section { padding: 4rem 1.5rem; }
-    .section-header { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 3rem; }
-    .about-grid { grid-template-columns: 1fr; gap: 3rem; }
-    .areas-bg { padding: 4rem 1.5rem; }
-    .areas-grid { grid-template-columns: 1fr; }
-    .area-card { border-right: none !important; }
-    .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
-    .hero-meta { gap: 1.5rem; }
+    .hero { padding: 4rem 1.5rem 3rem; min-height: 70vh; }
+    section { padding: 3rem 1.5rem; }
+    .info-grid { grid-template-columns: 1fr; }
+    .info-item:nth-child(2n) { border-left: none; }
+    .info-item { border-bottom: 1px solid var(--line); }
+    .info-item:last-child { border-bottom: none; }
+    .area-items li { font-size: 1.05rem; }
+    footer { padding: 2rem 1.5rem; }
   }
 </style>
 </head>
 <body>
 <div class="spotlight" id="spotlight"></div>
-<nav id="nav">
-  <div class="nav-mark">V·K·E</div>
-  <ul class="nav-links">
-    <li><a href="#estudio">Estudio</a></li>
-    <li><a href="#areas">Áreas</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-  </ul>
-</nav>
+
 <header class="hero">
   <div class="hero-content">
-    <div class="hero-eyebrow">Escribanía Pública · Montevideo</div>
-    <h1 class="hero-title">Vanessa Kisler<br><em>Eimer</em></h1>
-    <p class="hero-sub">Escribana Pública. Estudio notarial en el corazón de la avenida 18 de Julio, con un enfoque cuidado, riguroso y cercano para cada acto y documento.</p>
-    <div class="hero-meta">
-      <div><div class="hero-meta-label">Ubicación</div><div>18 de Julio · Centro · Montevideo</div></div>
-      <div><div class="hero-meta-label">Atención</div><div>Lunes a viernes · 9:30 a 18:00</div></div>
-      <div><div class="hero-meta-label">Contacto</div><div>094 994 334</div></div>
-    </div>
+    <div class="hero-eyebrow">Montevideo · Uruguay</div>
+    <h1 class="hero-title">Vanessa Kisler Eimer</h1>
+    <div class="hero-subtitle">Escribana Pública</div>
+    <div class="hero-divider"></div>
   </div>
 </header>
-<section id="estudio">
-  <div class="section-header">
-    <div class="section-number">— 01 / Estudio</div>
-    <h2 class="display section-title">Una escribanía pensada con <em>detalle</em>.</h2>
-  </div>
-  <div class="about-grid">
-    <div class="about-text">
-      <p>Soy Vanessa Kisler Eimer, Escribana Pública egresada de la Universidad Católica del Uruguay. La función notarial me convoca por su precisión y por el peso de lo que se firma: detrás de cada documento hay decisiones personales importantes que merecen acompañamiento serio.</p>
-      <p>Mi forma de trabajar combina rigurosidad técnica con un trato accesible. Cada consulta se atiende con tiempo, cada operación se prepara con cuidado, cada cliente recibe explicaciones claras antes de firmar.</p>
-      <p>El estudio se ubica sobre 18 de Julio, en pleno centro de Montevideo, y atiende consultas presenciales y a distancia para personas y empresas que necesitan resolver trámites notariales con confianza.</p>
-    </div>
-    <aside class="credentials">
-      <div class="credential-item"><div class="credential-label">Título</div><div class="credential-value">Escribana Pública</div></div>
-      <div class="credential-item"><div class="credential-label">Formación</div><div class="credential-value">Universidad Católica del Uruguay, 2024</div></div>
-      <div class="credential-item"><div class="credential-label">Juramento</div><div class="credential-value">Julio de 2025</div></div>
-      <div class="credential-item"><div class="credential-label">Idiomas</div><div class="credential-value">Español · Inglés (lectura, nivel First)</div></div>
-    </aside>
+
+<section>
+  <h2 class="section-title">Información profesional</h2>
+  <div class="info-grid">
+    <div class="info-item"><div class="info-label">Título</div><div class="info-value">Escribana Pública</div></div>
+    <div class="info-item"><div class="info-label">Formación</div><div class="info-value">Universidad Católica del Uruguay</div></div>
+    <div class="info-item"><div class="info-label">Año de egreso</div><div class="info-value">2024</div></div>
+    <div class="info-item"><div class="info-label">Juramento</div><div class="info-value">Julio de 2025</div></div>
   </div>
 </section>
-<div class="areas-bg" id="areas">
-  <div class="areas-inner">
-    <div class="section-header">
-      <div class="section-number">— 02 / Áreas de actuación</div>
-      <h2 class="display section-title">Materias en las que <em>actúo</em>.</h2>
-    </div>
-    <div class="areas-grid">
-      <div class="area-card"><div class="area-number">i.</div><h3 class="area-title">Automotores</h3><p class="area-desc">Compraventas, transferencias, prendas, inscripciones registrales y trámites vinculados al régimen de vehículos automotores.</p></div>
-      <div class="area-card"><div class="area-number">ii.</div><h3 class="area-title">Compraventas</h3><p class="area-desc">Escrituras de compraventa de inmuebles, estudio de títulos, certificados registrales y acompañamiento integral de la operación.</p></div>
-      <div class="area-card"><div class="area-number">iii.</div><h3 class="area-title">Certificaciones de firma</h3><p class="area-desc">Certificación notarial de firmas con eficacia y rapidez para distintos tipos de documentos.</p></div>
-      <div class="area-card"><div class="area-number">iv.</div><h3 class="area-title">Poderes y mandatos</h3><p class="area-desc">Otorgamiento de poderes generales, especiales y de administración, adaptados a cada necesidad.</p></div>
-      <div class="area-card"><div class="area-number">v.</div><h3 class="area-title">Asesoramiento notarial</h3><p class="area-desc">Consultas sobre trámites, documentos y actos jurídicos del ámbito de competencia notarial.</p></div>
-    </div>
+
+<section>
+  <h2 class="section-title">Áreas de actuación</h2>
+
+  <div class="area-group">
+    <div class="area-group-title">Inmobiliario y registral</div>
+    <ul class="area-items">
+      <li>Compraventas</li>
+      <li>Permutas</li>
+      <li>Donaciones</li>
+      <li>Hipotecas</li>
+      <li>Cancelaciones</li>
+      <li>Reservas y boletos de reserva</li>
+      <li>Promesas de compraventa</li>
+      <li>Propiedad horizontal</li>
+    </ul>
   </div>
-</div>
-<section id="contacto">
-  <div class="section-header">
-    <div class="section-number">— 03 / Contacto</div>
-    <h2 class="display section-title">Para coordinar una <em>consulta</em>.</h2>
+
+  <div class="group-divider"></div>
+
+  <div class="area-group">
+    <div class="area-group-title">Vehículos</div>
+    <ul class="area-items">
+      <li>Automotores</li>
+      <li>Prendas sin desplazamiento</li>
+    </ul>
   </div>
-  <div class="contact-grid">
-    <div class="contact-info">
-      <div><div class="contact-item-label">Teléfono</div><a class="contact-item-value" href="tel:+59894994334">094 994 334</a></div>
-      <div><div class="contact-item-label">Correo electrónico</div><a class="contact-item-value" href="mailto:vanessakisler1@gmail.com">vanessakisler1@gmail.com</a></div>
-      <div><div class="contact-item-label">Estudio</div><div class="contact-item-value">Av. 18 de Julio<br>Centro · Montevideo</div></div>
-    </div>
-    <div class="schedule-card">
-      <div class="display">Atención <em>profesional</em></div>
-      <div class="schedule-time"><strong>Lunes a viernes</strong></div>
-      <div class="schedule-time">09:30 — 18:00</div>
-      <div class="schedule-note">Se recomienda coordinar previamente para asegurar disponibilidad y preparar la documentación necesaria.</div>
-    </div>
+
+  <div class="group-divider"></div>
+
+  <div class="area-group">
+    <div class="area-group-title">Personas y familia</div>
+    <ul class="area-items">
+      <li>Sucesiones</li>
+      <li>Particiones</li>
+      <li>Capitulaciones matrimoniales</li>
+      <li>Uniones concubinarias</li>
+      <li>Cesiones de derechos hereditarios</li>
+    </ul>
+  </div>
+
+  <div class="group-divider"></div>
+
+  <div class="area-group">
+    <div class="area-group-title">Actos generales</div>
+    <ul class="area-items">
+      <li>Poderes y mandatos</li>
+      <li>Certificaciones de firma</li>
+      <li>Certificaciones de fotocopias</li>
+      <li>Protocolizaciones</li>
+      <li>Testimonios</li>
+      <li>Actas notariales</li>
+      <li>Constataciones</li>
+    </ul>
+  </div>
+
+  <div class="group-divider"></div>
+
+  <div class="area-group">
+    <div class="area-group-title">Asesoramiento</div>
+    <ul class="area-items">
+      <li>Consultas notariales</li>
+      <li>Estudios de títulos</li>
+    </ul>
   </div>
 </section>
+
+<section>
+  <h2 class="section-title">Contacto</h2>
+  <div class="info-grid">
+    <div class="info-item"><div class="info-label">Estudio</div><div class="info-value">Av. 18 de Julio<br>Centro, Montevideo</div></div>
+    <div class="info-item"><div class="info-label">Horario de atención</div><div class="info-value">Lunes a viernes<br>9:30 a 18:00</div></div>
+    <div class="info-item"><div class="info-label">Teléfono</div><div class="info-value"><a href="tel:+59894994334">094 994 334</a></div></div>
+    <div class="info-item"><div class="info-label">Correo electrónico</div><div class="info-value"><a href="mailto:vanessakisler1@gmail.com">vanessakisler1@gmail.com</a></div></div>
+  </div>
+</section>
+
 <footer>
   <div class="footer-mark">Vanessa Kisler Eimer</div>
-  <div class="footer-text">Escribana Pública · Montevideo, Uruguay</div>
+  <div class="footer-text">Escribana Pública</div>
 </footer>
+
 <script>
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => { if (window.scrollY > 40) nav.classList.add('scrolled'); else nav.classList.remove('scrolled'); });
   const spotlight = document.getElementById('spotlight');
   function moveSpotlight(x, y) { spotlight.style.setProperty('--mx', x + 'px'); spotlight.style.setProperty('--my', y + 'px'); }
   document.addEventListener('mousemove', (e) => { moveSpotlight(e.clientX, e.clientY); });

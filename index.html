@@ -13,18 +13,26 @@
 <style>
   :root { color-scheme: light; --ink: #000000; --paper: #fbf9f4; --accent: #1f3a2a; --line: #c4bdae; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; background: #fbf9f4 !important; color-scheme: light; }
+  html { scroll-behavior: smooth; background: #fbf9f4 !important; color-scheme: light; scroll-padding-top: 80px; }
   body { font-family: 'Inter Tight', sans-serif; background: #fbf9f4 !important; color: var(--ink); line-height: 1.6; font-weight: 400; overflow-x: hidden; -webkit-text-size-adjust: 100%; position: relative; }
   .spotlight { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; background: radial-gradient(circle 380px at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,0.85) 0%, rgba(251,249,244,0.4) 40%, rgba(251,249,244,0) 70%); transition: background 0.15s ease-out; mix-blend-mode: screen; }
-  header, section, footer { position: relative; z-index: 2; }
-  .hero { min-height: 70vh; display: flex; align-items: center; padding: 5rem 2rem 3rem; }
+  nav, header, section, footer { position: relative; z-index: 2; }
+
+  nav { position: fixed; top: 0; left: 0; right: 0; padding: 1rem 2rem; display: flex; justify-content: center; gap: 0.5rem; background: rgba(251,249,244,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid transparent; transition: border-color 0.3s ease; z-index: 100; }
+  nav.scrolled { border-bottom-color: var(--line); }
+  nav a { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink); text-decoration: none; padding: 0.5rem 1rem; border: 1px solid transparent; border-radius: 999px; transition: all 0.25s ease; }
+  nav a:hover, nav a:focus { border-color: var(--accent); color: var(--accent); }
+
+  .hero { min-height: 80vh; display: flex; align-items: center; padding: 7rem 2rem 3rem; }
   .hero-content { max-width: 900px; margin: 0 auto; width: 100%; text-align: center; }
   .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.3em; text-transform: uppercase; color: #1a1a1a; margin-bottom: 2rem; }
   .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 6vw, 4.2rem); line-height: 1.1; margin-bottom: 1.5rem; }
   .hero-subtitle { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.4rem; color: var(--accent); margin-bottom: 2.5rem; }
   .hero-divider { width: 60px; height: 1px; background: var(--line); margin: 0 auto; }
+
   section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
   .section-title { font-family: 'Cormorant Garamond', serif; font-size: 2rem; text-align: center; margin-bottom: 2.5rem; letter-spacing: -0.01em; }
+
   .info-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
   .info-item { padding: 1.5rem 1.25rem; border-bottom: 1px solid var(--line); }
   .info-item:nth-child(2n) { border-left: 1px solid var(--line); }
@@ -33,29 +41,47 @@
   .info-value { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; color: var(--ink); }
   .info-value a { color: var(--ink); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.3s; }
   .info-value a:hover { border-color: var(--accent); }
-  .area-group { margin-bottom: 2rem; }
-  .area-group:last-child { margin-bottom: 0; }
-  .area-group-title { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; color: var(--accent); text-align: center; margin-bottom: 1rem; letter-spacing: 0.05em; }
-  .area-items { list-style: none; max-width: 600px; margin: 0 auto; text-align: center; }
-  .area-items li { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; padding: 0.35rem 0; color: var(--ink); }
-  .group-divider { width: 40px; height: 1px; background: var(--line); margin: 1.25rem auto; }
+
+  .accordion { max-width: 650px; margin: 0 auto; }
+  .accordion-item { border-bottom: 1px solid var(--line); }
+  .accordion-item:first-child { border-top: 1px solid var(--line); }
+  .accordion-trigger { width: 100%; background: none; border: none; cursor: pointer; padding: 1.4rem 1rem; display: flex; justify-content: space-between; align-items: center; font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-style: italic; color: var(--ink); text-align: left; transition: color 0.2s; }
+  .accordion-trigger:hover { color: var(--accent); }
+  .accordion-trigger .icon { font-family: 'Inter Tight', sans-serif; font-style: normal; font-size: 1.2rem; color: var(--accent); transition: transform 0.3s ease; flex-shrink: 0; margin-left: 1rem; }
+  .accordion-item.open .accordion-trigger .icon { transform: rotate(45deg); }
+  .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+  .accordion-item.open .accordion-content { max-height: 600px; }
+  .accordion-inner { padding: 0 1rem 1.5rem; }
+  .accordion-inner ul { list-style: none; }
+  .accordion-inner li { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; padding: 0.4rem 0; color: var(--ink); text-align: center; }
+
   footer { padding: 2.5rem 2rem; border-top: 1px solid var(--line); text-align: center; margin-top: 1rem; }
   .footer-mark { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.2rem; margin-bottom: 0.4rem; }
   .footer-text { font-size: 0.75rem; color: #1a1a1a; letter-spacing: 0.1em; text-transform: uppercase; }
+
   @media (max-width: 768px) {
-    .hero { padding: 3.5rem 1.5rem 2.5rem; min-height: 60vh; }
+    nav { padding: 0.75rem 0.5rem; gap: 0.25rem; }
+    nav a { font-size: 0.65rem; letter-spacing: 0.08em; padding: 0.4rem 0.7rem; }
+    .hero { padding: 6rem 1.5rem 2.5rem; min-height: 70vh; }
     section { padding: 2.5rem 1.5rem; }
     .info-grid { grid-template-columns: 1fr; }
     .info-item:nth-child(2n) { border-left: none; }
     .info-item { border-bottom: 1px solid var(--line); }
     .info-item:last-child { border-bottom: none; }
-    .area-items li { font-size: 1.05rem; }
+    .accordion-trigger { font-size: 1.2rem; padding: 1.2rem 0.5rem; }
+    .accordion-inner li { font-size: 1.05rem; }
     footer { padding: 2rem 1.5rem; }
   }
 </style>
 </head>
 <body>
 <div class="spotlight" id="spotlight"></div>
+
+<nav id="nav">
+  <a href="#informacion">Información</a>
+  <a href="#areas">Áreas</a>
+  <a href="#contacto">Contacto</a>
+</nav>
 
 <header class="hero">
   <div class="hero-content">
@@ -66,7 +92,7 @@
   </div>
 </header>
 
-<section>
+<section id="informacion">
   <h2 class="section-title">Información profesional</h2>
   <div class="info-grid">
     <div class="info-item"><div class="info-label">Título</div><div class="info-value">Escribana Pública</div></div>
@@ -76,73 +102,103 @@
   </div>
 </section>
 
-<section>
+<section id="areas">
   <h2 class="section-title">Áreas de actuación</h2>
+  <div class="accordion">
 
-  <div class="area-group">
-    <div class="area-group-title">Inmobiliario y registral</div>
-    <ul class="area-items">
-      <li>Compraventas</li>
-      <li>Permutas</li>
-      <li>Donaciones</li>
-      <li>Hipotecas</li>
-      <li>Cancelaciones</li>
-      <li>Reservas y boletos de reserva</li>
-      <li>Promesas de compraventa</li>
-      <li>Propiedad horizontal</li>
-    </ul>
-  </div>
+    <div class="accordion-item">
+      <button class="accordion-trigger" onclick="toggleAccordion(this)">
+        <span>Inmobiliario y registral</span>
+        <span class="icon">+</span>
+      </button>
+      <div class="accordion-content">
+        <div class="accordion-inner">
+          <ul>
+            <li>Compraventas</li>
+            <li>Permutas</li>
+            <li>Donaciones</li>
+            <li>Hipotecas</li>
+            <li>Cancelaciones</li>
+            <li>Reservas y boletos de reserva</li>
+            <li>Promesas de compraventa</li>
+            <li>Propiedad horizontal</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <div class="group-divider"></div>
+    <div class="accordion-item">
+      <button class="accordion-trigger" onclick="toggleAccordion(this)">
+        <span>Vehículos</span>
+        <span class="icon">+</span>
+      </button>
+      <div class="accordion-content">
+        <div class="accordion-inner">
+          <ul>
+            <li>Automotores</li>
+            <li>Prendas sin desplazamiento</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <div class="area-group">
-    <div class="area-group-title">Vehículos</div>
-    <ul class="area-items">
-      <li>Automotores</li>
-      <li>Prendas sin desplazamiento</li>
-    </ul>
-  </div>
+    <div class="accordion-item">
+      <button class="accordion-trigger" onclick="toggleAccordion(this)">
+        <span>Personas y familia</span>
+        <span class="icon">+</span>
+      </button>
+      <div class="accordion-content">
+        <div class="accordion-inner">
+          <ul>
+            <li>Sucesiones</li>
+            <li>Particiones</li>
+            <li>Capitulaciones matrimoniales</li>
+            <li>Uniones concubinarias</li>
+            <li>Cesiones de derechos hereditarios</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <div class="group-divider"></div>
+    <div class="accordion-item">
+      <button class="accordion-trigger" onclick="toggleAccordion(this)">
+        <span>Actos generales</span>
+        <span class="icon">+</span>
+      </button>
+      <div class="accordion-content">
+        <div class="accordion-inner">
+          <ul>
+            <li>Poderes y mandatos</li>
+            <li>Certificaciones de firma</li>
+            <li>Certificaciones de fotocopias</li>
+            <li>Protocolizaciones</li>
+            <li>Testimonios</li>
+            <li>Actas notariales</li>
+            <li>Constataciones</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <div class="area-group">
-    <div class="area-group-title">Personas y familia</div>
-    <ul class="area-items">
-      <li>Sucesiones</li>
-      <li>Particiones</li>
-      <li>Capitulaciones matrimoniales</li>
-      <li>Uniones concubinarias</li>
-      <li>Cesiones de derechos hereditarios</li>
-    </ul>
-  </div>
+    <div class="accordion-item">
+      <button class="accordion-trigger" onclick="toggleAccordion(this)">
+        <span>Asesoramiento</span>
+        <span class="icon">+</span>
+      </button>
+      <div class="accordion-content">
+        <div class="accordion-inner">
+          <ul>
+            <li>Consultas notariales</li>
+            <li>Estudios de títulos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <div class="group-divider"></div>
-
-  <div class="area-group">
-    <div class="area-group-title">Actos generales</div>
-    <ul class="area-items">
-      <li>Poderes y mandatos</li>
-      <li>Certificaciones de firma</li>
-      <li>Certificaciones de fotocopias</li>
-      <li>Protocolizaciones</li>
-      <li>Testimonios</li>
-      <li>Actas notariales</li>
-      <li>Constataciones</li>
-    </ul>
-  </div>
-
-  <div class="group-divider"></div>
-
-  <div class="area-group">
-    <div class="area-group-title">Asesoramiento</div>
-    <ul class="area-items">
-      <li>Consultas notariales</li>
-      <li>Estudios de títulos</li>
-    </ul>
   </div>
 </section>
 
-<section>
+<section id="contacto">
   <h2 class="section-title">Contacto</h2>
   <div class="info-grid">
     <div class="info-item"><div class="info-label">Estudio</div><div class="info-value">Av. 18 de Julio<br>Centro, Montevideo</div></div>
@@ -158,6 +214,14 @@
 </footer>
 
 <script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => { if (window.scrollY > 40) nav.classList.add('scrolled'); else nav.classList.remove('scrolled'); });
+
+  function toggleAccordion(btn) {
+    const item = btn.parentElement;
+    item.classList.toggle('open');
+  }
+
   const spotlight = document.getElementById('spotlight');
   function moveSpotlight(x, y) { spotlight.style.setProperty('--mx', x + 'px'); spotlight.style.setProperty('--my', y + 'px'); }
   document.addEventListener('mousemove', (e) => { moveSpotlight(e.clientX, e.clientY); });

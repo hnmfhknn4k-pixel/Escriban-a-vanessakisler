@@ -57,3 +57,5 @@ function identityCorrectionEditor(segment,box,caseData){
  function preview(){const [pid,field]=select.value.split(':');const party=caseData.parties.find(p=>p.id===pid);diff.replaceChildren(el('div',segment.text,'before'),el('div',old.value?segment.text.replace(old.value,party[field]):'Seleccioná el dato incorrecto; el destino se toma exclusivamente de la ficha.','after'));}
  old.oninput=preview;select.onchange=preview;preview();const row=el('div','','actions');row.append(action('Proponer corrección cotejada',async()=>{const why=await founded('Corrección determinista desde ficha cotejada');if(!why)return;const [party,field]=select.value.split(':');await casePost('/identity-fix',{...why,party,field,segment:segment.id,old:old.value});},'primary'),action('Cancelar',async()=>form.remove()));form.append(row);box.append(form);
 }
+
+$('party-form').elements.name.addEventListener('input',e=>{$('name-preview').textContent='Se registrará: '+e.target.value.trim().normalize('NFC').toLocaleUpperCase('es-UY');});

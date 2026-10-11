@@ -28,6 +28,6 @@ Prueba funcional con Chromium y viewport móvil 390×844 y escritorio: login con
 - Firma, fechado y anclaje externo/WORM: evaluados en documentación; no implementados ni certificados. El registro local no se llama inalterable.
 - Conservación legal y borrado integral de auditoría/backups: requieren política y operación externas; el botón de eliminación realiza borrado lógico del expediente.
 - Linear: sin herramientas/conector disponibles en esta sesión; no se creó ningún issue. Este documento conserva el avance local para registrar resultados efectivos cuando exista acceso.
-- GitHub: lectura y simulación de escritura aceptadas. GitHub API/GraphQL respondió Forbidden, por lo que no se pudo abrir un PR con `gh`; envío de la rama se verifica separadamente mediante Git. No se afirma creación ni publicación web a partir de acceso de lectura.
+- GitHub: lectura y simulación de escritura aceptadas. GitHub API/GraphQL respondió Forbidden, por lo que no se pudo abrir un PR con `gh`; la rama `codex/escribania-v04` se envió efectivamente mediante Git y se comprobó el seguimiento remoto. No se afirma creación ni publicación web a partir de acceso de lectura.
 
 Configuración cloud guardada: instalación con lock, pruebas e instrucciones de arranque; requerimientos de secreto `ANTHROPIC_API_KEY` y variable `ANTHROPIC_MODEL`; destinos oficiales IMPO/URCDP y `api.anthropic.com`. Guardar el borrador no configura los valores, no habilita la IA y no publica la app.

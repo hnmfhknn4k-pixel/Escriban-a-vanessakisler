@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!escribania/
+!escribania/**
+escribania/.venv/
+escribania/runtime/
+**/__pycache__/
+**/*.pyc
+**/.env
+**/.env.*

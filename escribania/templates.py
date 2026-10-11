@@ -4,7 +4,8 @@ from pathlib import Path
 from core import digest
 
 DIRECTORY=Path(__file__).resolve().parent/'templates'
-CATALOG={'compraventa-automotor':('automotor.json','automotor.docx')}
+CATALOG={'compraventa-automotor':('automotor.json','automotor.docx'),
+         'automotor-certificacion-protocolizacion':('automotor-certificacion-protocolizacion.json','automotor-certificacion-protocolizacion.docx')}
 
 def load_template(template_id):
     if template_id not in CATALOG: raise KeyError(template_id)

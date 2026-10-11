@@ -155,7 +155,7 @@ def template_data(template_id):
 @app.get('/api/templates/{template_id}/download')
 def template_download(template_id:str,request:Request):
     user(request); manifest,blob=template_data(template_id)
-    return Response(blob,media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document',headers={'Content-Disposition':'attachment; filename="EscribanIA-compraventa-automotor-borrador.docx"'})
+    return Response(blob,media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document',headers={'Content-Disposition':f'attachment; filename="EscribanIA-{template_id}-borrador.docx"'})
 
 @app.post('/api/templates/{template_id}/cases')
 async def template_case(template_id:str,request:Request):
@@ -164,7 +164,10 @@ async def template_case(template_id:str,request:Request):
     manifest,blob=template_data(template_id)
     origin={k:manifest[k] for k in ('id','version','source_sha256','converted_sha256','template_sha256','review_required','normative_format_verified')}
     origin['adaptations_sha256']=digest(json.dumps(manifest['changes'],ensure_ascii=False,sort_keys=True))
-    return import_document(blob,'Compraventa de automotor — borrador.docx',name,origin)
+    if 'sources' in manifest: origin['sources']=manifest['sources']
+    if 'source_hash_scope' in manifest: origin['source_hash_scope']=manifest['source_hash_scope']
+    if 'legal_review' in manifest: origin['legal_review']=manifest['legal_review']
+    return import_document(blob,manifest['title']+' — borrador.docx',name,origin)
 
 @app.get('/api/cases/{cid}')
 def get_case(cid:str,request:Request): return view(case_for(cid,request))

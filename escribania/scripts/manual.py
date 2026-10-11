@@ -58,7 +58,7 @@ def page(canvas,doc):
     canvas.drawRightString(A4[0]-48,32,str(doc.page));canvas.restoreState()
 
 story=[Spacer(1,65),Paragraph('EscribanIA',styles['Title']),Spacer(1,20),Paragraph('Asistencia notarial para Uruguay',styles['Heading1']),Paragraph('Manual de uso y administración · versión 0.4',styles['BodyES']),Paragraph('Edición: 11 de octubre de 2026',styles['BodyES']),Spacer(1,25),Paragraph('Identidades cotejadas. Cambios visibles. Decisiones fundadas.',styles['Heading2']),Paragraph('Versión web con servidor y datos cifrados, basada en el prototipo v0.3 adjunto. Puede contener errores; no acredita identidad, validez jurídica ni cumplimiento normativo integral.',styles['BodyES']),Paragraph('Estado de entrega: funciones locales probadas con datos ficticios; IA real y publicación HTTPS pendientes. Registro con protección local HMAC, sin firma, fechado ni anclaje independiente. Dimensiones y márgenes de papel notarial pendientes de plantilla técnica oficial validada; un único perfil para todos.',styles['BodyES']),Paragraph('Las hojas A4 de este manual no constituyen una plantilla de papel notarial.',styles['BodyES']),PageBreak()]
-for name in ['README.md','docs/plantillas.md','docs/fuentes.md','docs/seguridad.md']:
+for name in ['README.md','docs/plantillas.md','docs/compraventa-automotor.md','docs/fuentes.md','docs/seguridad.md']:
     story+=chapter(name)+[PageBreak()]
 SimpleDocTemplate(str(ROOT/'docs/manual.pdf'),pagesize=A4,rightMargin=48,leftMargin=48,topMargin=48,bottomMargin=65,title='EscribanIA — Manual v0.4',author='EscribanIA').build(story,onFirstPage=page,onLaterPages=page)
 print('Manual PDF actualizado generado.')

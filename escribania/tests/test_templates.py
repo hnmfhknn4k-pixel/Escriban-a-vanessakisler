@@ -8,6 +8,28 @@ from templates import load_template,catalog
 import test_app as baseline
 
 class TemplateDocumentTests(unittest.TestCase):
+    def test_combined_template_preserves_three_sources_and_pending_acts(self):
+        manifest,blob=load_template('automotor-certificacion-protocolizacion')
+        text=analyzed_text(read_docx(blob)[0])
+        self.assertEqual(len(manifest['sources']),3)
+        self.assertEqual(digest(json.dumps(manifest['sources'],sort_keys=True)),manifest['source_sha256'])
+        self.assertFalse(manifest['legal_review']['registral_acceptance_guaranteed'])
+        self.assertFalse(read_docx(blob)[1])
+        for heading in ('CERTIFICACIÓN NOTARIAL DE FIRMAS','ACTA DE PROTOCOLIZACIÓN PRECEPTIVA','CONTROL DE PRESENTACIÓN REGISTRAL'):
+            self.assertIn(heading,text)
+        for field in ('VENDEDOR_NOMBRES_APELLIDOS','COMPRADOR_NOMBRES_APELLIDOS','VEHICULO_PADRON'):
+            self.assertGreaterEqual(text.count('['+field+']'),2)
+        for obsolete in ('Bordenave','Onix','veintiséis de octubre','catorce de octubre','No tiene referencia por ser la primera'):
+            self.assertNotIn(obsolete,text)
+        self.assertIn('artículo 89 vigente',text)
+        self.assertIn('[PENDIENTE: comprobar si interviene apoderado',text)
+    def test_combined_adaptations_match_document(self):
+        manifest,blob=load_template('automotor-certificacion-protocolizacion')
+        doc=Document(__import__('io').BytesIO(blob))
+        for change in manifest['changes']:
+            self.assertEqual(doc.paragraphs[change['paragraph']].text,change['after'])
+        self.assertFalse(doc.core_properties.author)
+        self.assertFalse(doc.core_properties.last_modified_by)
     def test_template_derived_from_supplied_model(self):
         manifest,blob=load_template('compraventa-automotor')
         self.assertEqual(digest(blob),manifest['template_sha256'])
@@ -39,6 +61,22 @@ class TemplateDocumentTests(unittest.TestCase):
 class TemplateRoutesTests(unittest.TestCase):
     setUp=baseline.ApiTests.setUp
     post=baseline.ApiTests.post
+    def test_combined_case_records_sources_and_blocks_approval(self):
+        ident='automotor-certificacion-protocolizacion'
+        self.assertEqual(self.post('/api/templates/'+ident+'/cases',{}).status_code,422)
+        response=self.post('/api/templates/'+ident+'/cases',{'review_required_acknowledged':True})
+        self.assertEqual(response.status_code,200,response.text)
+        case=response.json()
+        self.assertIn('certificación y protocolización',case['title'])
+        self.assertFalse(case['approved'])
+        self.assertEqual(len(case['template_origin']['sources']),3)
+        self.assertEqual(self.post('/api/cases/'+case['id']+'/approve',baseline.EVIDENCE).status_code,409)
+        history=self.client.get('/api/cases/'+case['id']+'/audit').json()['events']
+        self.assertEqual(history[0]['action'],'template_case_created')
+        _,blob=load_template(ident)
+        download=self.client.get('/api/templates/'+ident+'/download')
+        self.assertEqual(download.content,blob)
+        self.assertIn(ident,download.headers['content-disposition'])
     def test_catalog_authenticated(self):
         response=self.client.get('/api/templates');self.assertEqual(response.status_code,200)
         self.assertEqual(response.json()[0]['id'],'compraventa-automotor')

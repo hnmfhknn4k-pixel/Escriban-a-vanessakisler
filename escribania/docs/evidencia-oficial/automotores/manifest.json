@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://www.impo.com.uy/bases/leyes/16871-1997/25",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "ley-16871-25.txt",
+    "text_sha256": "752425a299a32d2771ce331ea5071415e88684a36c2e69f22c2508b9ddd2b803"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/leyes/16871-1997/88",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "ley-16871-88.txt",
+    "text_sha256": "aefa92d404caf6fb2f5e4a58a2b7a422f4bbf708109df495b7119e38f6f004d1"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/leyes/16871-1997/89",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "ley-16871-89.txt",
+    "text_sha256": "71b415f532949ff1937ef4da2b7cb2a3e693f3c65987b9b5a91e8a6a0aabd0b4"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/leyes/18362-2008/291",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "ley-18362-291.txt",
+    "text_sha256": "c07aec23e61fef801c018675b6fe75f1ec3b1a395c880de22739e927d6e50173"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/decretos/99-1998/19",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "decreto-99-19.txt",
+    "text_sha256": "cc6526398f27c1ac02edcec596b647abdbe8b8f9bb2011ea6076f6694619e246"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/decretos/99-1998/20",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "decreto-99-20.txt",
+    "text_sha256": "2e0bf37a6cd09e9e4100f5dd2c852c91ab2fcf463d0172dfc2e2007aed677aee"
+  },
+  {
+    "url": "https://www.gub.uy/tramites/inscripcion-documentos-registro-propiedad-mobiliaria-seccion-vehiculos-automotores-minuta-automotores",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "dgr-tramite-automotores.txt",
+    "text_sha256": "faed66e16af0380fb3593edd50eedbef305bcc071b97ce0ccfe188b951c8acc4"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/leyes/18412-2008/27",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "ley-18412-27.txt",
+    "text_sha256": "331735d500e09a3a81b3983442bcc0553a1981aac8557d11217820441b60b4e8"
+  },
+  {
+    "url": "https://www.impo.com.uy/bases/leyes/18412-2008/28",
+    "retrieved_at": "2026-10-11",
+    "http_status": 200,
+    "file": "ley-18412-28.txt",
+    "text_sha256": "6dee5fd47aba3ecfa843f9a44a109885415acb9e0b3762e4eada9f9c4f53ecf3"
+  }
+]

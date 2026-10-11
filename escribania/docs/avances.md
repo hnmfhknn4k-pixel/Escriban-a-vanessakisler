@@ -10,11 +10,19 @@
 - Seudonimización local y reinserción determinista; adaptador Anthropic basado en v0.3, revisión de proveedor y envío explícito requerido; respuestas estructuradas y fragmentos literales validados, sin hechos generados ni citas inventadas aceptadas.
 - Registro cifrado con cadena HMAC, identidad de cuenta autenticada, eventos de cambios y decisiones, huellas de original/texto/final, reglas y prompt, reapertura e impugnación interna. Sin prueba de fecha, firma personal ni protección independiente contra administrador.
 - Perfil notarial único para todos los expedientes; sin medidas normativas supuestas ni edición de márgenes por usuario. Validación de impresión exigida. Consulta oficial y alcance en `fuentes.md`.
-- Manual PDF actualizado de diez páginas, reproducible desde documentación versionada.
+- Manual PDF actualizado de doce páginas, reproducible desde documentación versionada.
 
 ## Validación ejecutada
 
-57 pruebas `unittest` completadas y aprobadas en un venv limpio con dependencias fijadas. Incluyen mayúsculas Unicode, CI válida/inválida, seudonimización y reinserción, referencias desconocidas, citas falsas, respuesta que se atribuye hechos, fragmentos inventados, discrepancias, nombre separado en runs, corrección desde ficha, cambios aceptados/rechazados/deshechos, campos pendientes, bloqueo sin perfil, cierre y reapertura con perfil de laboratorio, impresión declarada y huella, conservación Word, cifrado, permisos, alteraciones y rollback del estado, MFA y CSRF. Los valores de dimensiones del test son ficticios: nunca se instalaron como perfil legal.
+60 pruebas `unittest` completadas y aprobadas con dependencias fijadas. Incluyen mayúsculas Unicode, CI válida/inválida, seudonimización y reinserción, referencias desconocidas, citas falsas, respuesta que se atribuye hechos, fragmentos inventados, discrepancias, nombre separado en runs, corrección desde ficha, cambios aceptados/rechazados/deshechos, campos pendientes, bloqueo sin perfil, cierre y reapertura con perfil de laboratorio, impresión declarada y huella, conservación Word, cifrado, permisos, alteraciones y rollback del estado, MFA y CSRF. Los valores de dimensiones del test son ficticios: nunca se instalaron como perfil legal.
+
+## Conjunto privado de compraventa, certificación y protocolización
+
+Integrado por solicitud expresa un borrador conjunto basado en los tres modelos, con 77 campos/avisos distintos, referencias comunes y huellas individuales de las fuentes. La certificación no presupone firmas en presencia, conocimiento personal, capacidad ni SOA; el acta no presupone poder ni primera protocolización. Los originales permanecen fuera del repositorio. La cita general al art. 291 de la Ley 18.362 se sustituyó por el art. 89 vigente de la Ley 16.871 para la protocolización de la compraventa; la representación queda condicionada a evidencia real.
+
+Consulta efectiva de nueve fuentes oficiales: IMPO y ficha del trámite DGR en gub.uy. Se identificó el Manual de Automotores 2025 mediante el buscador oficial, pero su descarga y el portal DGR devolvieron bloqueo 403 del proxy. No se afirman lectura del manual, examen de resoluciones ni aprobación DGR del modelo. Informe en `compraventa-automotor.md` y evidencia de consulta con URL/huellas; sin firma ni sellado de tiempo.
+
+Tres pruebas adicionales aprobadas de conjunto documental, adaptaciones, procedencia, descarga y bloqueo; 60 en total. Chromium móvil/escritorio también verificó apertura del conjunto tras reconocimiento y texto de protocolización. Manual actualizado: doce páginas. No se publicó una URL web, habilitó IA ni creó un issue en Linear.
 
 Pasaron los controles históricos v0.3 de texto y extracción ZIP y `node --check web/app.js`. Instalación repetible validada; versiones directas y transitivas fijadas en `requirements.lock`.
 

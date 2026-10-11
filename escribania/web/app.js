@@ -68,7 +68,7 @@ async function loadTemplates(){
   for(const change of t.changes){const diff=el('div','','diff');diff.append(el('div',change.before||'(párrafo vacío)','before'),el('div',change.after,'after'));adaptations.append(diff);}
   panel.append(adaptations,el('p',t.margin_policy,'quiet'));
   const label=el('label','','check'),check=el('input');check.type='checkbox';label.append(check,el('span','Revisé las adaptaciones y entiendo que requiere completar datos y revisión profesional.'));
-  const use=action('Abrir borrador de automotor',async()=>{current=await post('/api/templates/'+t.id+'/cases',{review_required_acknowledged:check.checked});render();tab('review');await refresh();},'primary');use.disabled=true;check.onchange=()=>use.disabled=!check.checked;
+  const use=action(t.id==='compraventa-automotor'?'Abrir borrador de automotor':'Abrir borrador conjunto',async()=>{current=await post('/api/templates/'+t.id+'/cases',{review_required_acknowledged:check.checked});render();tab('review');await refresh();},'primary');use.disabled=true;check.onchange=()=>use.disabled=!check.checked;
   const download=el('a','Descargar plantilla Word','button');download.href='/api/templates/'+t.id+'/download';panel.append(label,use,download);return panel;
  }));
 }

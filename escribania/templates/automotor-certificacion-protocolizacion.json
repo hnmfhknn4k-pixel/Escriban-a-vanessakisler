@@ -1,0 +1,262 @@
+{
+  "id": "automotor-certificacion-protocolizacion",
+  "title": "Compraventa privada de automotor, certificación y protocolización",
+  "version": "automotor-paquete-1",
+  "filename": "automotor-certificacion-protocolizacion.docx",
+  "status": "borrador_no_validado",
+  "source_filename": "Tres modelos aportados; originales conservados fuera del repositorio",
+  "source_sha256": "58920161fba9ca6be666a07772ee056e9b98fbd0daba3a5e93eb54ebd18dbfaa",
+  "converted_sha256": "099d09a2a0f06b934ec707407d669095751141f6969b8ca948a00f6766c0328d",
+  "template_sha256": "a77aea2f2a417185181f2b7bf37c29b38c60f0679a80e9d4acb4371c77f2891d",
+  "conversion_tool": "LibreOfficeDev 26.8.0.0.alpha0",
+  "review_required": true,
+  "normative_format_verified": false,
+  "margin_policy": "Los márgenes heredados del modelo no se acreditan como normativos. El cierre usa el perfil único validado del servidor.",
+  "fields": [
+    "ACTA_FOJAS",
+    "ANTECEDENTE_ESCRIBANO_Y_CERTIFICACION",
+    "ANTECEDENTE_FECHA",
+    "ANTECEDENTE_INSCRIPCION_NUMERO_Y_FECHA",
+    "ANTECEDENTE_REGISTRO_SECCION_DEPARTAMENTO",
+    "ANTECEDENTE_TITULO_MODO_Y_PARTES",
+    "CANTIDAD_EJEMPLARES",
+    "CERTIFICACION_FOJAS_Y_PAPEL",
+    "COMPRADOR_DOCUMENTO_IDENTIDAD",
+    "COMPRADOR_DOMICILIO",
+    "COMPRADOR_EDAD_Y_CAPACIDAD",
+    "COMPRADOR_ESTADO_CIVIL",
+    "COMPRADOR_NACIONALIDAD",
+    "COMPRADOR_NOMBRES_APELLIDOS",
+    "CONTRATO_FOJAS_Y_CARILLAS",
+    "DESTINO_Y_REGISTRO_COMPETENTE",
+    "ENTREGA_FECHA_HORA_Y_EVIDENCIA",
+    "ESCRIBANO_DOMICILIO",
+    "ESCRIBANO_NOMBRES_APELLIDOS",
+    "ESCRIBANO_TELEFONO",
+    "EVIDENCIA_IDENTIDAD_CAPACIDAD_Y_REPRESENTACION",
+    "FECHA_CERTIFICACION",
+    "FECHA_OTORGAMIENTO",
+    "FECHA_PROTOCOLIZACION",
+    "FOLIO_FINAL",
+    "FOLIO_INICIAL",
+    "FORMA_Y_EVIDENCIA_DE_PAGO",
+    "INTERVENCION_NOTARIAL_REQUERIDA",
+    "LUGAR_CERTIFICACION",
+    "LUGAR_OTORGAMIENTO",
+    "LUGAR_PROTOCOLIZACION",
+    "MONEDA",
+    "PAPEL_NOTARIAL_SERIE_Y_NUMERO",
+    "PENDIENTE: actuación efectiva, papel notarial, sello, signo y firma del profesional",
+    "PENDIENTE: completar minuta de automotores, antecedente, datos registrales, carátula y requisitos del canal elegido",
+    "PENDIENTE: comprobar si interviene apoderado; identificar poder, facultades, vigencia y protocolización previa o simultánea exigible conforme al artículo 291 de la Ley 18.362. Si no existe representación, retirar esta previsión con fundamento registrado",
+    "PENDIENTE: corroborar antecedentes y certificados y redactar el alcance de la venta según la evidencia",
+    "PENDIENTE: corroborar el modo y las condiciones de la tradición y redactar la cláusula correspondiente",
+    "PENDIENTE: corroborar la situación de la parte vendedora ante BPS y DGI y redactar las declaraciones que correspondan al acto. No presumir que no es contribuyente de BPS, IRAE o IMEBA",
+    "PENDIENTE: cotejar el antecedente y su correspondencia con el vehículo y quien dispone",
+    "PENDIENTE: cotejar todas las referencias con el contrato y las fichas verificadas",
+    "PENDIENTE: describir con precisión los originales efectivamente incorporados y su orden",
+    "PENDIENTE: expedir el testimonio de protocolización en forma legal y verificar destinatario, concordancia e integridad",
+    "PENDIENTE: identificar la cláusula correcta y cotejar procedencia documental y registral; no copiar una referencia ordinal sin verificar",
+    "PENDIENTE: redactar la certificación según la actuación efectivamente realizada, conforme al artículo 88 de la Ley 16.871. Distinguir otorgamiento y suscripción recibidos ante escribano de ratificación de documento previamente firmado; no certificar presencia, conocimiento personal ni capacidad sin corroboración",
+    "PENDIENTE: redactar la incorporación efectiva al Registro de Protocolizaciones conforme al artículo 89 vigente de la Ley 16.871 y las formalidades notariales aplicables",
+    "PENDIENTE: registrar la calificación de DGR; la generación del DOCX y el inicio de la minuta digital no acreditan inscripción",
+    "PENDIENTE: suscripción efectiva",
+    "PENDIENTE: suscripción y actuación efectiva",
+    "PENDIENTE: verificar actuación, comparecencia, identidad y requisitos de la certificación",
+    "PENDIENTE: verificar el régimen aplicable y la póliza antes de certificar cobertura; no presumir aseguradora ni vigencia",
+    "PENDIENTE: verificar numeración correlativa, registro, año, documentos, folios y actuación efectiva; no presumir que sea la primera protocolización",
+    "PENDIENTE: verificar papel e intervención que correspondan al acto",
+    "PENDIENTE: verificar si corresponde carta de pago total, parcial o ninguna y redactarla según evidencia",
+    "PRECIO_EN_CIFRAS",
+    "PRECIO_EN_LETRAS",
+    "PROTOCOLIZACION_NUMERO",
+    "REFERENCIA_ANTERIOR_O_PRIMERA_DEL_ANIO_CORROBORADA",
+    "SOA_ASEGURADORA_POLIZA_VIGENCIA_Y_EVIDENCIA",
+    "SOLICITANTE_Y_CALIDAD",
+    "TOTAL_FOJAS",
+    "VEHICULO_ANIO",
+    "VEHICULO_CHASIS",
+    "VEHICULO_COMBUSTIBLE",
+    "VEHICULO_DEPARTAMENTO",
+    "VEHICULO_MARCA",
+    "VEHICULO_MATRICULA",
+    "VEHICULO_MODELO",
+    "VEHICULO_MOTOR",
+    "VEHICULO_PADRON",
+    "VEHICULO_TIPO",
+    "VENDEDOR_DOCUMENTO_IDENTIDAD",
+    "VENDEDOR_DOMICILIO",
+    "VENDEDOR_EDAD_Y_CAPACIDAD",
+    "VENDEDOR_ESTADO_CIVIL",
+    "VENDEDOR_NACIONALIDAD",
+    "VENDEDOR_NOMBRES_APELLIDOS"
+  ],
+  "changes": [
+    {
+      "paragraph": 0,
+      "before": "",
+      "after": "BORRADOR — PLANTILLA PENDIENTE DE REVISIÓN PROFESIONAL. Completar únicamente con datos y antecedentes corroborados; no constituye instrumento aprobado."
+    },
+    {
+      "paragraph": 3,
+      "before": "En la ciudad de Montevideo, el día 19 de setiembre del año 2025, entre:",
+      "after": "En [LUGAR_OTORGAMIENTO], el [FECHA_OTORGAMIENTO], entre:"
+    },
+    {
+      "paragraph": 5,
+      "before": "POR UNA PARTE: El señor xxxxx, uruguayo, mayor de edad, soltero, titular de la cédula de identidad número xxxxx y domiciliado en xxxxx de la ciudad de Montevideo, y\t\t        ",
+      "after": "POR UNA PARTE: [VENDEDOR_NOMBRES_APELLIDOS], [VENDEDOR_NACIONALIDAD], [VENDEDOR_EDAD_Y_CAPACIDAD], [VENDEDOR_ESTADO_CIVIL], titular de [VENDEDOR_DOCUMENTO_IDENTIDAD] y domiciliado en [VENDEDOR_DOMICILIO], y"
+    },
+    {
+      "paragraph": 6,
+      "before": "POR OTRA PARTE: El señor xxxxxx, uruguayo, mayor de edad, titular de la cédula de identidad número xxxxxx, soltero y domiciliado en la xxxxxxxxde la ciudad de Montevideo convienen en celebrar el siguiente contrato de compraventa:",
+      "after": "POR OTRA PARTE: [COMPRADOR_NOMBRES_APELLIDOS], [COMPRADOR_NACIONALIDAD], [COMPRADOR_EDAD_Y_CAPACIDAD], [COMPRADOR_ESTADO_CIVIL], titular de [COMPRADOR_DOCUMENTO_IDENTIDAD] y domiciliado en [COMPRADOR_DOMICILIO], convienen en celebrar el siguiente contrato de compraventa:"
+    },
+    {
+      "paragraph": 7,
+      "before": "PRIMERO. Objeto. El señor xxxxxx (en adelante “el vendedor”), vende libre de todo tipo de obligaciones, gravámenes, deudas y afectaciones, a xxxxxx (en adelante “el comprador”), que en tales condiciones compra, la plena propiedad y posesión del siguiente bien: VEHICULO AUTOMOTOR empadronado y matriculado en el Departamento de MONTEVIDEO, marca xxxx, modelo xxxxx 1, tipo sedán 4 puertas, matrícula xxxxx, padrón xxxx de Montevideo, año xxx, motor N° xxxx, chasis xxxxxx, a combustible nafta",
+      "after": "PRIMERO. Objeto. [VENDEDOR_NOMBRES_APELLIDOS] (en adelante “el vendedor”) vende a [COMPRADOR_NOMBRES_APELLIDOS] (en adelante “el comprador”), quien compra, el siguiente VEHÍCULO AUTOMOTOR: departamento de empadronamiento [VEHICULO_DEPARTAMENTO], marca [VEHICULO_MARCA], modelo [VEHICULO_MODELO], tipo [VEHICULO_TIPO], matrícula [VEHICULO_MATRICULA], padrón [VEHICULO_PADRON], año [VEHICULO_ANIO], motor [VEHICULO_MOTOR], chasis [VEHICULO_CHASIS], combustible [VEHICULO_COMBUSTIBLE]. Situación de obligaciones, gravámenes, deudas y afectaciones: [PENDIENTE: corroborar antecedentes y certificados y redactar el alcance de la venta según la evidencia]."
+    },
+    {
+      "paragraph": 8,
+      "before": "SEGUNDO. Precio. El precio total de la presente compraventa es la suma de dólares estadounidenses siete mil ochocientos (USD xxxx), suma que el comprador abona en este acto al vendedor. En consecuencia, estando totalmente integrado el precio, el vendedor otorga al comprador total y eficaz carta de pago por el total del precio.",
+      "after": "SEGUNDO. Precio. El precio total de la compraventa es [PRECIO_EN_LETRAS], expresado en [MONEDA], equivalente a [PRECIO_EN_CIFRAS]. Forma de pago y constancia de recepción: [FORMA_Y_EVIDENCIA_DE_PAGO]. [PENDIENTE: verificar si corresponde carta de pago total, parcial o ninguna y redactarla según evidencia]."
+    },
+    {
+      "paragraph": 9,
+      "before": "TERCERO. Tradición. En señal de tradición, el vendedor se desprende de los derechos de propiedad y posesión que tenía sobre el vehículo, transfiriéndolos al comprador, quien toma posesión hoy siendo las 16.30 horas. ",
+      "after": "TERCERO. Tradición. [PENDIENTE: corroborar el modo y las condiciones de la tradición y redactar la cláusula correspondiente]. Entrega y posesión del vehículo: [ENTREGA_FECHA_HORA_Y_EVIDENCIA]."
+    },
+    {
+      "paragraph": 10,
+      "before": "CUARTO. Declaración. El vendedor declara bajo juramento no ser contribuyente del Banco de Previsión Social, ni de IRAE o IMEBA ante la D.G.I. ",
+      "after": "CUARTO. Declaración. [PENDIENTE: corroborar la situación de la parte vendedora ante BPS y DGI y redactar las declaraciones que correspondan al acto. No presumir que no es contribuyente de BPS, IRAE o IMEBA]."
+    },
+    {
+      "paragraph": 11,
+      "before": "QUINTO. Procedencia. El vendedor hubo el vehículo por título compraventa y modo tradición de xxxx xxxxx y xxxxxx según contrato del 11/07/2025 certificado por la Escribana xxxxx, inscripto en el Registro de la Propiedad de Montevideo sección Mobiliaria con el número xxx el xxx de julio de xxxx",
+      "after": "QUINTO. Procedencia. Título, modo y partes del antecedente: [ANTECEDENTE_TITULO_MODO_Y_PARTES]. Fecha del contrato anterior: [ANTECEDENTE_FECHA]. Intervención notarial: [ANTECEDENTE_ESCRIBANO_Y_CERTIFICACION]. Registro, sección y departamento: [ANTECEDENTE_REGISTRO_SECCION_DEPARTAMENTO]. Número y fecha de inscripción: [ANTECEDENTE_INSCRIPCION_NUMERO_Y_FECHA]. [PENDIENTE: cotejar el antecedente y su correspondencia con el vehículo y quien dispone]."
+    },
+    {
+      "paragraph": 13,
+      "before": "SEPTIMO. Solicitud de intervención notarial. Las partes solicitan al Escribano xxxxx, con domicilio en xxxxx oficina xxx de esta ciudad, teléfonos xxxxxx 5190, la certificación del otorgamiento y suscripción del presente contrato. ",
+      "after": "SÉPTIMO. Solicitud de intervención notarial. Las partes solicitan a [ESCRIBANO_NOMBRES_APELLIDOS], con domicilio profesional en [ESCRIBANO_DOMICILIO] y teléfono [ESCRIBANO_TELEFONO], [INTERVENCION_NOTARIAL_REQUERIDA]. [PENDIENTE: verificar actuación, comparecencia, identidad y requisitos de la certificación]."
+    },
+    {
+      "paragraph": 14,
+      "before": "EN SEÑAL DE CONFORMIDAD, las partes suscriben dos ejemplares de idéntico tenor en el lugar y fecha indicados.-",
+      "after": "EN SEÑAL DE CONFORMIDAD, las partes suscriben [CANTIDAD_EJEMPLARES] ejemplares de idéntico tenor en el lugar y fecha indicados. [PENDIENTE: suscripción y actuación efectiva]."
+    },
+    {
+      "paragraph": 16,
+      "before": "Vendedor:",
+      "after": "Firma de la parte vendedora: [PENDIENTE: suscripción efectiva]."
+    },
+    {
+      "paragraph": 19,
+      "before": "Comprador:",
+      "after": "Firma de la parte compradora: [PENDIENTE: suscripción efectiva]."
+    },
+    {
+      "paragraph": 21,
+      "before": "                                                                          Sigue el papel notarial     N°",
+      "after": "Referencia al papel notarial: [PAPEL_NOTARIAL_SERIE_Y_NUMERO]. [PENDIENTE: verificar papel e intervención que correspondan al acto]."
+    },
+    {
+      "paragraph": 22,
+      "before": "El modelo certifica firmas y hechos de un caso anterior; sus circunstancias no se trasladan a este acto.",
+      "after": "CERTIFICACIÓN NOTARIAL DE FIRMAS — BORRADOR",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 23,
+      "before": "Se evita afirmar que las firmas fueron puestas en presencia de quien certifica o que conoce personalmente a los otorgantes sin evidencia.",
+      "after": "[ESCRIBANO_NOMBRES_APELLIDOS], escribano/a: [PENDIENTE: redactar la certificación según la actuación efectivamente realizada, conforme al artículo 88 de la Ley 16.871. Distinguir otorgamiento y suscripción recibidos ante escribano de ratificación de documento previamente firmado; no certificar presencia, conocimiento personal ni capacidad sin corroboración].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 24,
+      "before": "Se sustituyen comparecientes, fechas, domicilios y vehículo del ejemplo por referencias comunes al contrato.",
+      "after": "Comparecientes: [VENDEDOR_NOMBRES_APELLIDOS], [VENDEDOR_DOCUMENTO_IDENTIDAD], y [COMPRADOR_NOMBRES_APELLIDOS], [COMPRADOR_DOCUMENTO_IDENTIDAD]. Identificación, capacidad, estado civil completo y representación: [EVIDENCIA_IDENTIDAD_CAPACIDAD_Y_REPRESENTACION]. Documento certificado: contrato de compraventa del vehículo padrón [VEHICULO_PADRON], departamento [VEHICULO_DEPARTAMENTO], de fecha [FECHA_OTORGAMIENTO]. [PENDIENTE: cotejar todas las referencias con el contrato y las fichas verificadas].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 25,
+      "before": "Se revisa la referencia a la cláusula de procedencia y se elimina la afirmación automática de seguro vigente con una aseguradora concreta.",
+      "after": "Antecedente: [ANTECEDENTE_TITULO_MODO_Y_PARTES]. [PENDIENTE: identificar la cláusula correcta y cotejar procedencia documental y registral; no copiar una referencia ordinal sin verificar]. Seguro obligatorio de automotores: [SOA_ASEGURADORA_POLIZA_VIGENCIA_Y_EVIDENCIA]. [PENDIENTE: verificar el régimen aplicable y la póliza antes de certificar cobertura; no presumir aseguradora ni vigencia].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 26,
+      "before": "Se eliminan lugar, fecha y actuación ya cumplida del caso anterior.",
+      "after": "A solicitud de [SOLICITANTE_Y_CALIDAD], para [DESTINO_Y_REGISTRO_COMPETENTE], en [LUGAR_CERTIFICACION], el [FECHA_CERTIFICACION]. [PENDIENTE: actuación efectiva, papel notarial, sello, signo y firma del profesional].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 27,
+      "before": "El modelo agrupa una autorización de venta y un contrato y cita el artículo 291 de la Ley 18.362.",
+      "after": "ACTA DE PROTOCOLIZACIÓN PRECEPTIVA — BORRADOR",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 28,
+      "before": "Se fundamenta la protocolización de la compraventa en el artículo 89 vigente; el artículo 291 se reserva a poderes cuando corresponda.",
+      "after": "Número [PROTOCOLIZACION_NUMERO]. En [LUGAR_PROTOCOLIZACION], el [FECHA_PROTOCOLIZACION], [ESCRIBANO_NOMBRES_APELLIDOS]: [PENDIENTE: redactar la incorporación efectiva al Registro de Protocolizaciones conforme al artículo 89 vigente de la Ley 16.871 y las formalidades notariales aplicables].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 29,
+      "before": "Se elimina la incorporación automática de una autorización de venta ajena al nuevo expediente.",
+      "after": "Documentos a incorporar: a) contrato de compraventa de fecha [FECHA_OTORGAMIENTO], relativo al vehículo padrón [VEHICULO_PADRON] de [VEHICULO_DEPARTAMENTO], en [CONTRATO_FOJAS_Y_CARILLAS]; b) su certificación notarial de firmas de fecha [FECHA_CERTIFICACION], autorizada por [ESCRIBANO_NOMBRES_APELLIDOS], en [CERTIFICACION_FOJAS_Y_PAPEL]. [PENDIENTE: describir con precisión los originales efectivamente incorporados y su orden].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 30,
+      "before": "La presencia de un poder queda condicionada a la representación real; no se exige copiarlo en toda compraventa.",
+      "after": "Representación, si existe: [PENDIENTE: comprobar si interviene apoderado; identificar poder, facultades, vigencia y protocolización previa o simultánea exigible conforme al artículo 291 de la Ley 18.362. Si no existe representación, retirar esta previsión con fundamento registrado].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 31,
+      "before": "Se eliminan números, folios y declaración de primera protocolización del ejemplo.",
+      "after": "Agregación del acta y foliatura: [ACTA_FOJAS], [TOTAL_FOJAS], desde el folio [FOLIO_INICIAL] hasta el folio [FOLIO_FINAL]. Referencia anterior: [REFERENCIA_ANTERIOR_O_PRIMERA_DEL_ANIO_CORROBORADA]. [PENDIENTE: verificar numeración correlativa, registro, año, documentos, folios y actuación efectiva; no presumir que sea la primera protocolización].",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 32,
+      "before": "Esta lista de revisión se agrega para distinguir borrador, actuación notarial y presentación registral.",
+      "after": "CONTROL DE PRESENTACIÓN REGISTRAL — NO INTEGRA EL INSTRUMENTO FIRMADO",
+      "before_is_summary": true
+    },
+    {
+      "paragraph": 33,
+      "before": "Se exige revisar el testimonio y los recaudos; no se presenta el DOCX como testimonio autorizado ni como inscripción aceptada.",
+      "after": "[PENDIENTE: expedir el testimonio de protocolización en forma legal y verificar destinatario, concordancia e integridad]. [PENDIENTE: completar minuta de automotores, antecedente, datos registrales, carátula y requisitos del canal elegido]. [PENDIENTE: registrar la calificación de DGR; la generación del DOCX y el inicio de la minuta digital no acreditan inscripción].",
+      "before_is_summary": true
+    }
+  ],
+  "notice": "Tres piezas distintas reunidas como borrador de trabajo. Las adaptaciones nuevas muestran resúmenes del modelo, sin datos del caso. No es un testimonio autorizado ni garantiza inscripción. Ver docs/compraventa-automotor.md.",
+  "source_hash_scope": "SHA-256 del manifiesto de tres fuentes; cada archivo tiene su propia huella en sources",
+  "sources": [
+    {
+      "role": "contrato",
+      "source_sha256": "35c084afee859560f689181f587ecf5802bbdb24b1cfc8ed39ab846b18ed79ff",
+      "converted_sha256": "adf9874b0ff03f648fdf7f04942ec965255b88f3e83f11af1432ce21ecd31c0c"
+    },
+    {
+      "role": "certificacion",
+      "source_sha256": "198aabc2bd34c6029f8a1a436eb08e3bce4db6eb5418ba47b05c5b05dffc9c31"
+    },
+    {
+      "role": "protocolizacion",
+      "source_sha256": "bf782a3a606a30da7b5ae11ccb9f493e67d0cf71c07e59f0c37f2059e7cddbbc",
+      "converted_sha256": "fa28ef782d5c04977181783a5613a4bd50050f3217ca8a9792f51fe6da9eb9ac"
+    }
+  ],
+  "legal_review": {
+    "checked_at": "2026-10-11",
+    "law": "Ley 16.871, artículos 25, 88 y 89 vigentes en IMPO",
+    "dgr_guidance": "Ficha oficial de trámite en gub.uy; no se consultaron resoluciones particulares del portal DGR por bloqueo de acceso",
+    "registral_acceptance_guaranteed": false
+  }
+}

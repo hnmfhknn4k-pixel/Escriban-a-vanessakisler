@@ -1,5 +1,7 @@
 # Plantilla de compraventa de automotor
 
+También está disponible **Compraventa privada de automotor, certificación y protocolización**, un borrador conjunto derivado de los tres modelos aportados. Sus tres piezas mantienen referencias comunes y campos pendientes; no constituye testimonio autorizado. Revisar `docs/compraventa-automotor.md` para el fundamento legal, instrucciones oficiales de DGR y verificaciones pendientes. Las adaptaciones nuevas muestran resúmenes sin datos del caso y exigen aceptación previa en la interfaz.
+
 Origen: `MODELO CV AUTOMOTOR.doc`, aportado por la usuaria. El original se conserva sin modificar en los adjuntos de la tarea. Se entregan por separado una conversión DOCX del original y una plantilla adaptada. El original DOC y su conversión no se incorporan al catálogo público del código: se distribuye solamente la plantilla preparada sin metadatos de autor del modelo.
 
 ## Conversión y conservación

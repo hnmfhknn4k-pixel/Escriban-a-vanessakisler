@@ -440,7 +440,7 @@ async def delete(cid:str,request:Request):
     return {'ok':True,'notice':'Expediente eliminado de la aplicación. No equivale a borrado físico de SQLite, backups o auditoría.'}
 
 @app.get('/manual.pdf')
-def manual(): return FileResponse(HERE/'docs/manual.pdf',media_type='application/pdf',filename='EscribanIA-manual-0.4.pdf')
+def manual(): return FileResponse(HERE/'docs/manual.pdf',media_type='application/pdf',filename='EscribanIA-manual-uso.pdf')
 @app.get('/demo')
 def demo(): return FileResponse(HERE/'web/demo.html')
 app.mount('/static',StaticFiles(directory=HERE/'web'),name='static')

@@ -18,7 +18,9 @@ El alta pide contraseña en terminal y entrega el secreto para un autenticador T
 
 También existe acceso con Supabase: correo habilitado, confirmación y autenticador TOTP. Requiere configurar tres variables del servidor y las opciones del proyecto; ver `docs/supabase.md`. El botón de registro se habilita cuando ese acceso está configurado. No se crea una cuenta ni se configura Supabase solo al desplegar código.
 
-Para probar sin cuenta ni autenticador, abrir `/demo` o usar **Entrar a prueba sin autenticador** en el inicio. La demostración usa exclusivamente un texto y fichas ficticios: permite comparar, aceptar/rechazar/deshacer una propuesta de mayúsculas y ver sustitución local por referencias. No admite documentos ni datos personales, no llama a las API de expedientes o a un modelo y no aprueba instrumentos. Su historial de navegador es ilustrativo y se pierde al cerrar; no equivale a auditoría. La opción **Crear usuario con Supabase** permanece visible; si falta configuración muestra el motivo y deshabilita el formulario.
+Para probar sin cuenta ni autenticador, abrir `/demo` o usar **Entrar a prueba sin autenticador**. Permite cargar DOCX o TXT UTF-8 de hasta 8 MB y validarlos localmente: texto/tablas/encabezados/pies, advertencias de elementos complejos, márgenes leídos por sección, SHA-256, campos pendientes, posibles palabras repetidas y dígito verificador de posibles cédulas. No modifica el original, no acredita identidad ni validez jurídica y no valida el formato como normativo. Las fichas ficticias del ejemplo no se aplican al archivo cargado. La revisión se descarga como TXT editable; proteger sus datos, sin presentarla como prueba de autoría/fecha. No exporta Word corregido en este modo.
+
+La biblioteca ZIP fflate 0.8.2 se incluye con licencia en `web/vendor`; no se carga desde terceros. Descompresión en worker con límites y tiempo máximo. Ni archivo ni texto se envían a API de expedientes o IA. No se usa almacenamiento del navegador; la vista se pierde al cerrar o quitar el archivo. La opción **Crear usuario con Supabase** permanece visible; si falta configuración muestra el motivo y deshabilita el formulario.
 
 ## Flujo
 
@@ -64,4 +66,4 @@ node reference-v03/checks/core.mjs
 
 Prueba de navegador opcional: `PYTHONPATH=. python3 tests/browser_smoke.py`, con Playwright, Chromium y servidor de desarrollo activo; usar solo datos ficticios y almacenamiento de pruebas en `/tmp/escribania-dev`.
 
-Ver manual PDF en `docs/manual.pdf`, fuentes en `docs/fuentes.md`, seguridad y responsabilidades en `docs/seguridad.md` y resultados reales en `docs/avances.md`. No garantiza ausencia de errores ni cumplimiento jurídico integral.
+Ver manual de uso de cuatro páginas, adaptado del v0.3 aportado, en `docs/manual.pdf` (fuente `docs/manual-uso.md` y procedencia `docs/manual-procedencia.json`), fuentes en `docs/fuentes.md`, seguridad y responsabilidades en `docs/seguridad.md` y resultados reales en `docs/avances.md`. No garantiza ausencia de errores ni cumplimiento jurídico integral.

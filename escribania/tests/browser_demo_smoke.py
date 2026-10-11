@@ -16,7 +16,7 @@ with sync_playwright() as p:
  page.get_by_role('button',name='Rechazar propuesta').click();expect(page.locator('#demo-history')).to_contain_text('rechazada')
  page.get_by_role('button',name='Reiniciar prueba').click();assert page.locator('#demo-history li').count()==1
  assert page.get_by_role('button',name='Aprobar instrumento final').is_disabled()
- assert not page.locator('input[type=file],textarea').count()
+ assert page.locator('input[type=file]').count()==1;assert not page.locator('textarea').count()
  assert not any(method!='GET' or '/api/' in url for method,url in requests)
  assert page.evaluate('() => document.documentElement.scrollWidth <= innerWidth');assert not errors,errors
  browser.close();print('Demo móvil sin autenticación: cotejo, aceptar/rechazar/deshacer, sustitución local y ausencia de llamadas API: OK')

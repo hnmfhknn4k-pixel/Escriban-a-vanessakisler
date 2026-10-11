@@ -7,7 +7,7 @@ class DemoTests(unittest.TestCase):
  def test_public_demo_does_not_authenticate(self):
   with TestClient(app.app) as c:
    r=c.get('/demo');self.assertEqual(r.status_code,200);self.assertNotIn('escribania',r.cookies)
-   self.assertIn('Solo ejemplo ficticio',r.text);self.assertIn('sin autenticador',r.text)
+   self.assertIn('Prueba local',r.text);self.assertIn('sin autenticador',r.text)
    self.assertEqual(c.get('/api/cases').status_code,401)
    self.assertEqual(c.post('/api/draft',json={}).status_code,403)
  def test_synthetic_identity_format(self):

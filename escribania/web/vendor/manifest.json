@@ -1,0 +1,9 @@
+{
+  "package": "fflate",
+  "version": "0.8.2",
+  "source": "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz",
+  "file": "fflate-0.8.2.js",
+  "file_sha256": "c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf",
+  "license_file": "fflate-LICENSE.txt",
+  "usage": "ZIP de DOCX solo en worker local; sin CDN ni envío del contenido"
+}

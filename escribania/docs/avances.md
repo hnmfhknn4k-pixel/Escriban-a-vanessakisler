@@ -10,7 +10,7 @@
 - Seudonimización local y reinserción determinista; adaptador Anthropic basado en v0.3, revisión de proveedor y envío explícito requerido; respuestas estructuradas y fragmentos literales validados, sin hechos generados ni citas inventadas aceptadas.
 - Registro cifrado con cadena HMAC, identidad de cuenta autenticada, eventos de cambios y decisiones, huellas de original/texto/final, reglas y prompt, reapertura e impugnación interna. Sin prueba de fecha, firma personal ni protección independiente contra administrador.
 - Perfil notarial único para todos los expedientes; sin medidas normativas supuestas ni edición de márgenes por usuario. Validación de impresión exigida. Consulta oficial y alcance en `fuentes.md`.
-- Manual PDF actualizado de quince páginas, reproducible desde documentación versionada.
+- Manual de uso actualizado de cuatro páginas, basado en el v0.3 aportado y con colores de la web; original y procedencia conservados.
 
 ## Validación ejecutada
 
@@ -62,3 +62,12 @@ Once pruebas adicionales con transporte simulado aprobadas (71 en total). Vista 
 Nueva ruta `/demo` y botón de entrada directo desde el inicio. Incluye comparación con fichas ficticias, propuesta determinista de mayúsculas con tildes/Ñ, aceptar/rechazar/deshacer/reiniciar y sustitución ilustrativa local. No crea cuenta ni sesión, no accede a expedientes ni permite importar documentos, no llama a un modelo ni registra hechos notariales. Historial en memoria identificado como ilustrativo, sin valor de auditoría o prueba de autoría/fecha. Se conserva autenticación reforzada para el entorno de trabajo.
 
 La sección Crear usuario con Supabase permanece visible y señala configuración pendiente si corresponde. Tres pruebas adicionales aprobadas (74 en total); prueba móvil comprueba los cambios y ausencia de llamadas API desde la demostración. Publicación de esta actualización pendiente del despliegue de la rama en Render.
+
+
+## Manual aportado y carga local de archivos
+
+Adaptado el manual v0.3 de cuatro páginas: paleta verde/crema del sitio, mismas secciones temáticas, instrucciones actualizadas de ingreso, archivos, revisión, privacidad y registros. Original conservado byte a byte con SHA-256 en el manifiesto; texto adaptado y generador PDF versionados. Este manual reemplaza el anterior en `/manual.pdf`; la documentación técnica extensa sigue disponible en el repositorio. Se inspeccionaron visualmente las cuatro páginas.
+
+La prueba sin autenticador ahora permite cargar DOCX/TXT hasta 8 MB sin subir contenido al servidor. Descompresión ZIP local en worker, fflate 0.8.2 empaquetado, límites de 40 MB descomprimidos, 16 MB XML y 2000 entradas, rechazo de duplicados, cifrado/ZIP64/entidades, y tiempo máximo. Texto principal/tablas/encabezados/pies, advertencias, márgenes leídos, SHA-256, campos, repeticiones y formato/DV de posibles cédulas. No hay cotejo de identidad con fichas reales ni validación normativa automática. Informe TXT local editable y retiro de la vista; no exporta Word corregido en la prueba.
+
+74 pruebas del servidor aprobadas. Prueba funcional móvil adicional con documentos ficticios de TXT/DOCX, datos de tablas/encabezados/pies, huellas, campos y cédulas, descarga, ZIP corrupto/duplicado/excesivo, entidades, límite de tamaño, extensión no admitida y retiro. Se comprobó ausencia de llamadas API/subidas desde la carga y validación. Actualización enviada a la rama de trabajo; su aparición en la web requiere despliegue en Render.

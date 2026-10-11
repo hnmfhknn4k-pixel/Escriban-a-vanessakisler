@@ -10,11 +10,11 @@
 - Seudonimización local y reinserción determinista; adaptador Anthropic basado en v0.3, revisión de proveedor y envío explícito requerido; respuestas estructuradas y fragmentos literales validados, sin hechos generados ni citas inventadas aceptadas.
 - Registro cifrado con cadena HMAC, identidad de cuenta autenticada, eventos de cambios y decisiones, huellas de original/texto/final, reglas y prompt, reapertura e impugnación interna. Sin prueba de fecha, firma personal ni protección independiente contra administrador.
 - Perfil notarial único para todos los expedientes; sin medidas normativas supuestas ni edición de márgenes por usuario. Validación de impresión exigida. Consulta oficial y alcance en `fuentes.md`.
-- Manual PDF actualizado de doce páginas, reproducible desde documentación versionada.
+- Manual PDF actualizado de catorce páginas, reproducible desde documentación versionada.
 
 ## Validación ejecutada
 
-60 pruebas `unittest` completadas y aprobadas con dependencias fijadas. Incluyen mayúsculas Unicode, CI válida/inválida, seudonimización y reinserción, referencias desconocidas, citas falsas, respuesta que se atribuye hechos, fragmentos inventados, discrepancias, nombre separado en runs, corrección desde ficha, cambios aceptados/rechazados/deshechos, campos pendientes, bloqueo sin perfil, cierre y reapertura con perfil de laboratorio, impresión declarada y huella, conservación Word, cifrado, permisos, alteraciones y rollback del estado, MFA y CSRF. Los valores de dimensiones del test son ficticios: nunca se instalaron como perfil legal.
+71 pruebas `unittest` completadas y aprobadas con dependencias fijadas. Incluyen mayúsculas Unicode, CI válida/inválida, seudonimización y reinserción, referencias desconocidas, citas falsas, respuesta que se atribuye hechos, fragmentos inventados, discrepancias, nombre separado en runs, corrección desde ficha, cambios aceptados/rechazados/deshechos, campos pendientes, bloqueo sin perfil, cierre y reapertura con perfil de laboratorio, impresión declarada y huella, conservación Word, cifrado, permisos, alteraciones y rollback del estado, MFA y CSRF. Los valores de dimensiones del test son ficticios: nunca se instalaron como perfil legal.
 
 ## Conjunto privado de compraventa, certificación y protocolización
 
@@ -48,3 +48,10 @@ El archivo `MODELO CV AUTOMOTOR.doc` se convirtió localmente a DOCX sin modific
 La plantilla del catálogo incluye 14 adaptaciones visibles y 49 campos/avisos pendientes distintos; reemplaza fechas, precio, circunstancias de entrega, identidades y declaraciones que no deben presumirse en otro acto. Un reconocimiento explícito precede la creación de un expediente propio y registra versión y procedencia. Se mantiene el bloqueo de aprobación por campos pendientes y por perfil normativo no validado. Los márgenes heredados 4/1/4/2 cm no se presentan como exigencia normativa.
 
 Se añadieron y aprobaron 10 pruebas de plantilla, rutas autenticadas, reconocimiento previo, descarga exacta y creación bloqueada por pendientes (57 en total). La prueba móvil/escritorio también comprobó adaptaciones visibles, habilitación tras reconocimiento, apertura del expediente y descarga DOCX. Se corrigió una advertencia de tabulación que confundía configuración de tabuladores con caracteres de tabulación; los caracteres de tabulación reales siguen generando advertencia. El manual actualizado tiene diez páginas. No se habilitó IA, no se publicó una nueva URL web ni se creó un issue de Linear.
+
+
+## Acceso con Supabase
+
+Preparados registro restringido por correos configurados en el servidor, confirmación de correo, autenticación por contraseña y TOTP, validación remota de identidad y nivel aal2, sesión HttpOnly, preautenticación de diez minutos con CSRF y límites de intentos. No se agregaron claves ni correos reales al código. Supabase solo se usa para autenticación; no se migraron expedientes ni ACL.
+
+Once pruebas adicionales con transporte simulado aprobadas (71 en total). Vista móvil de registro, enrolamiento, código, protección CSRF y acceso corroborada con respuestas simuladas, sin llamados al proveedor. Manual actualizado a catorce páginas. La configuración administrativa real de Supabase/Render y el ingreso de la usuaria están pendientes; la autorización y el enlace de un proyecto no equivalen a acceso administrativo.

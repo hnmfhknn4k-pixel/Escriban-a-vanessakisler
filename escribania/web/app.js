@@ -2,7 +2,7 @@
 const $=id=>document.getElementById(id); let csrf='',current=null,previewHash='';
 function el(tag,text='',cls=''){const n=document.createElement(tag);n.textContent=text;if(cls)n.className=cls;return n;}
 function message(text,error=false){$('message').textContent=text;$('message').className=error?'error':'';}
-async function api(path,options={}){const headers={...(options.headers||{})};if(options.method&&options.method!=='GET')headers['X-CSRF-Token']=csrf;if(options.body&&!(options.body instanceof FormData))headers['Content-Type']='application/json';const r=await fetch(path,{...options,headers});if(!r.ok){let d;try{d=await r.json();}catch{d={detail:await r.text()};}throw new Error(Array.isArray(d.detail)?d.detail.join(' · '):d.detail||'No se pudo completar la operación');}return r.headers.get('Content-Type')?.includes('application/json')?r.json():r;}
+async function api(path,options={}){const headers={...(options.headers||{})};if(options.method&&options.method!=='GET')headers['X-CSRF-Token']=headers['X-CSRF-Token']||csrf;if(options.body&&!(options.body instanceof FormData))headers['Content-Type']='application/json';const r=await fetch(path,{...options,headers});if(!r.ok){let d;try{d=await r.json();}catch{d={detail:await r.text()};}throw new Error(Array.isArray(d.detail)?d.detail.join(' · '):d.detail||'No se pudo completar la operación');}return r.headers.get('Content-Type')?.includes('application/json')?r.json():r;}
 async function perform(fn){try{message('Procesando…');await fn();message('Operación registrada.');}catch(e){message(e.message,true);}}
 const post=(path,data)=>api(path,{method:'POST',body:JSON.stringify(data)});
 const formData=form=>Object.fromEntries(new FormData(form));
@@ -28,6 +28,26 @@ function render(){const c=current;$('empty').hidden=true;$('case').hidden=false;
  for(const id of ['party-form','source-form','corroboration-form'])$(id).querySelectorAll('input,textarea,button').forEach(n=>n.disabled=c.approved);
 }
 async function entered(){const me=await api('/api/me');csrf=me.csrf;$('login').hidden=true;$('workspace').hidden=false;$('logout').hidden=false;await refresh();await loadTemplates();}
+let authCsrf='';
+async function emailAccess(signup=false){
+ const form=$('email-form');if(!form.reportValidity())return;
+ try{
+  message('Verificando acceso…');const data=await post(signup?'/api/auth/signup':'/api/auth/begin',formData(form));
+  form.elements.password.value='';
+  if(signup){message(data.message);return;}
+  authCsrf=data.csrf;$('mfa-secret').value=data.enrollment_secret||'';$('mfa-enrollment').hidden=!data.enrollment_secret;
+  form.hidden=true;$('mfa-form').hidden=false;message('Ingresá el código del autenticador.');
+ }catch(e){form.elements.password.value='';message(e.message,true);}
+}
+$('email-form').onsubmit=e=>{e.preventDefault();emailAccess();};
+$('signup-email').onclick=()=>emailAccess(true);
+$('cancel-mfa').onclick=()=>{authCsrf='';$('mfa-form').reset();$('mfa-secret').value='';$('mfa-form').hidden=true;$('email-form').hidden=false;};
+$('mfa-form').onsubmit=async e=>{
+ e.preventDefault();try{
+  const data=await api('/api/auth/finish',{method:'POST',headers:{'X-CSRF-Token':authCsrf},body:JSON.stringify(formData(e.target))});
+  csrf=data.csrf;authCsrf='';e.target.reset();$('mfa-secret').value='';await entered();message('Acceso verificado.');
+ }catch(error){e.target.elements.otp.value='';message(error.message,true);}
+};
 $('login-form').onsubmit=e=>{e.preventDefault();perform(async()=>{const data=await post('/api/login',formData(e.target));csrf=data.csrf;e.target.reset();await entered();});};
 $('logout').onclick=()=>perform(async()=>{await post('/api/logout',{});location.reload();});
 $('refresh').onclick=()=>perform(refresh);
@@ -44,7 +64,11 @@ $('share-form').onsubmit=e=>{e.preventDefault();perform(async()=>{await post('/a
 $('delete').onclick=()=>perform(async()=>{const why=await founded('Eliminar expediente: auditoría y backups no se borran con esta acción');if(!why)return;await post('/api/cases/'+current.id+'/delete',why);current=null;$('case').hidden=true;$('empty').hidden=false;await refresh();});
 $('load-audit').onclick=()=>perform(async()=>{const a=await api('/api/cases/'+current.id+'/audit');$('audit-events').replaceChildren(el('p',a.verification.events+' eventos en cadena · integridad local verificada','notice'),...a.events.map(e=>{const n=el('div','','event');n.append(el('h3',e.action),el('p',e.actor+' · hora declarada del servidor: '+new Date(e.server_time).toLocaleString('es-UY')),el('p',e.details.reason||e.details.evidence||'Evento técnico sin decisión profesional'),el('code',e.mac));return n;}));});
 $('new-draft').onclick=()=>perform(async()=>{const title=prompt('Objeto del borrador (sin datos personales). Se generan campos pendientes para revisión.');if(!title)return;const r=await post('/api/draft',{title});const url=URL.createObjectURL(await r.blob());const a=el('a');a.href=url;a.download='EscribanIA-borrador-base.docx';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
-(async()=>{try{const status=await api('/api/status');$('source-list').replaceChildren(...status.sources.map(s=>{const p=el('p');const a=el('a',s.title);a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';p.append(a);return p;}));await entered();}catch(e){if(!e.message.includes('Iniciá sesión'))message(e.message,true);}})();
+(async()=>{try{
+ if(location.hash.includes('access_token=')||location.hash.includes('error=')){history.replaceState(null,'',location.pathname);message('Volvé a ingresar con tu correo para comprobar su confirmación.');}
+ const auth=await api('/api/auth/config');$('login-form').hidden=auth.enabled;$('email-form').hidden=!auth.enabled;
+ const status=await api('/api/status');$('source-list').replaceChildren(...status.sources.map(s=>{const p=el('p');const a=el('a',s.title);a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';p.append(a);return p;}));await entered();
+ }catch(e){if(!e.message.includes('Iniciá sesión'))message(e.message,true);}})();
 
 $('ai-form').onsubmit=e=>{e.preventDefault();perform(async()=>{if(!previewHash)throw new Error('Primero revisá una previsualización actual');const result=await post('/api/cases/'+current.id+'/assist',{module:formData(e.target).module,reviewed:e.target.elements.reviewed.checked,preview_hash:previewHash,extra_terms:formData($('privacy-form')).terms.split('\n').map(x=>x.trim()).filter(Boolean)});current=result.case;render();$('ai-draft').textContent=result.draft||'Observaciones agregadas a Fundamentos. No se aplicaron cambios al documento.';});};
 

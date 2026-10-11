@@ -19,6 +19,19 @@ La [ficha oficial del trámite de inscripción de automotores](https://www.gub.u
 
 El buscador oficial de gub.uy permitió localizar el [Manual de Calificación de Automotores 2025 de DGR](https://portal.dgr.gub.uy/requisitos/Manual%20de%20Automotores%202025.pdf). Su descarga, el portal y las resoluciones particulares de DGR resultaron inaccesibles por bloqueo HTTP 403 del proxy. No se revisó el contenido del manual ni se atribuyen a DGR comentarios, resoluciones o conformidad sobre estos modelos. La ficha de trámite consultada aporta instrucciones generales, no una aprobación particular ni un criterio completo de calificación.
 
+## Carpeta para presentar en ventanilla
+
+Para esta compraventa privada de automotor con certificación de firmas y protocolización, preparar la carpeta de presentación con:
+
+- **Carátula envolvente:** con la información requerida por el artículo 2 del Decreto 58/995.
+- **Minuta de Automotores en papel:** completa y suscrita según los requisitos del trámite, con datos concordantes con el documento presentado.
+- **Documento portante:** el testimonio notarial de protocolización expedido en forma legal, que reproduzca el documento privado de compraventa, su certificación notarial de firmas y el acta de protocolización correspondientes.
+- **Otros recaudos aplicables:** antecedentes y documentación adicional que exija el supuesto concreto, verificando los requisitos registrales antes de presentar.
+
+El conjunto documental comprende, por tanto, documento privado, certificación de firmas, protocolización y testimonio notarial. El documento privado y la certificación se incorporan al Registro de Protocolizaciones junto con el acta correspondiente; los originales incorporados permanecen en ese registro. La carpeta que se lleva a DGR contiene el testimonio expedido para la presentación, además de carátula, minuta y recaudos aplicables. No se trata de retirar los originales del registro notarial ni de presentar el borrador generado por la app como testimonio autorizado.
+
+Esta explicación se refiere al canal presencial con minuta en papel. Si se utiliza la minuta digital, seguir sus instrucciones específicas de firma, ticket y presentación del documento.
+
 ## Adaptaciones del conjunto
 
 La plantilla reúne tres piezas distintas como borrador de trabajo: contrato privado, certificación y acta de protocolización. No las convierte en una escritura pública ni en un testimonio autorizado. La escribana debe completar, actuar, incorporar y expedir el testimonio que corresponda conforme al régimen aplicable. La lista de control final se identifica expresamente como ajena al instrumento firmado y debe retirarse de la versión instrumental con revisión registrada.

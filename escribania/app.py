@@ -18,6 +18,7 @@ from store import Store,password_ok,totp
 from profile import load_profile
 from ai import assist,readiness
 from templates import catalog,load_template
+import supabase_auth
 
 HERE=Path(__file__).resolve().parent
 store=Store(os.environ.get('ESCRIBANIA_DATA',str(HERE/'runtime')))
@@ -27,16 +28,18 @@ ORIGIN=os.environ.get('ESCRIBANIA_ORIGIN','http://127.0.0.1:8001').rstrip('/')
 if PRODUCTION and not ORIGIN.startswith('https://'): raise RuntimeError('Producción requiere HTTPS y ESCRIBANIA_ORIGIN')
 app=FastAPI(title='EscribanIA',docs_url=None,redoc_url=None)
 sessions={}; failures={}; used_totp={}; lock=threading.RLock()
+pending_auth={}
 request_lock=asyncio.Lock()
 SOURCES=[{'title':'Ley 18.331 — protección de datos personales','url':'https://www.impo.com.uy/bases/leyes/18331-2008'}, {'title':'Decreto 414/009 — reglamentación','url':'https://www.impo.com.uy/bases/decretos/414-2009'}, {'title':'Ley 18.600 — documento y firma electrónicos','url':'https://www.impo.com.uy/bases/leyes/18600-2009'}, {'title':'Acordada 7.533 — Reglamento Notarial; verificar modificaciones','url':'https://www.impo.com.uy/bases/acordadas-scj-originales/7533-2004'}, {'title':'URCDP — orientación oficial','url':'https://www.gub.uy/unidad-reguladora-control-datos-personales/'}]
 
 @app.middleware('http')
 async def security(request,call_next):
-    if request.method not in ('GET','HEAD','OPTIONS') and request.url.path!='/api/login':
+    public_auth={'/api/login','/api/auth/signup','/api/auth/begin'}
+    if request.method not in ('GET','HEAD','OPTIONS') and request.url.path not in public_auth:
         if request.headers.get('origin')!=ORIGIN: return Response('Origen no permitido',403)
-        session=sessions.get(request.cookies.get('escribania',''))
-        if not session or not secrets.compare_digest(request.headers.get('x-csrf-token',''),session['csrf']): return Response('CSRF o sesión inválidos',403)
-    if request.url.path=='/api/login' and request.headers.get('origin')!=ORIGIN: return Response('Origen no permitido',403)
+        session=pending_auth.get(request.cookies.get('escribania_setup','')) if request.url.path=='/api/auth/finish' else sessions.get(request.cookies.get('escribania',''))
+        if not session or session['expires']<time.time() or not secrets.compare_digest(request.headers.get('x-csrf-token',''),session['csrf']): return Response('CSRF o sesión inválidos',403)
+    if request.url.path in public_auth and request.headers.get('origin')!=ORIGIN: return Response('Origen no permitido',403)
     async with request_lock:
         response=await call_next(request)
     response.headers['Cache-Control']='no-store'
@@ -112,6 +115,58 @@ async def login(request:Request):
     sessions[token]={'user':name,'expires':now+1800,'csrf':csrf}
     response=Response(json.dumps({'user':name,'csrf':csrf}),media_type='application/json')
     response.set_cookie('escribania',token,secure=PRODUCTION,httponly=True,samesite='strict',max_age=1800)
+    return response
+
+@app.get('/api/auth/config')
+def auth_config(): return supabase_auth.readiness()
+
+def auth_attempt(request,account=''):
+    now=time.time()
+    keys=['auth-ip:'+(request.client.host if request.client else 'unknown')]
+    if account: keys.append('auth-account:'+digest(str(account).strip().casefold()))
+    for key in keys:
+        failures[key]=[t for t in failures.get(key,[]) if now-t<900]
+        if len(failures[key])>=8: raise HTTPException(429,'Demasiados intentos; esperá 15 minutos')
+    for key in keys: failures[key].append(now)
+
+@app.post('/api/auth/signup')
+async def auth_signup(request:Request):
+    data=await request.json();auth_attempt(request,data.get('email',''))
+    try: await supabase_auth.signup(str(data.get('email','')),data.get('password'),ORIGIN)
+    except supabase_auth.AuthError as e: raise HTTPException(400,str(e)) from None
+    return {'message':'Revisá tu correo para confirmar la cuenta; después ingresá con tu contraseña y activá el autenticador.'}
+
+@app.post('/api/auth/begin')
+async def auth_begin(request:Request):
+    data=await request.json();auth_attempt(request,data.get('email',''))
+    try: pending=await supabase_auth.begin(str(data.get('email','')),data.get('password'))
+    except supabase_auth.AuthError as e: raise HTTPException(401,str(e)) from None
+    now=time.time()
+    for key in list(pending_auth):
+        if pending_auth[key]['expires']<now:pending_auth.pop(key,None)
+    if len(pending_auth)>=100:raise HTTPException(429,'Esperá antes de iniciar otro acceso')
+    token=secrets.token_urlsafe(32);csrf=secrets.token_urlsafe(32)
+    secret=pending.pop('secret',None)
+    pending_auth[token]={**pending,'expires':now+600,'csrf':csrf,'attempts':0}
+    response=Response(json.dumps({'csrf':csrf,'enrollment_secret':secret}),media_type='application/json')
+    response.set_cookie('escribania_setup',token,secure=PRODUCTION,httponly=True,samesite='strict',max_age=600)
+    return response
+
+@app.post('/api/auth/finish')
+async def auth_finish(request:Request):
+    token=request.cookies.get('escribania_setup','');pending=pending_auth.get(token)
+    if not pending or pending['expires']<time.time():raise HTTPException(401,'Volvé a iniciar el acceso')
+    auth_attempt(request,pending['uid']);pending['attempts']+=1
+    if pending['attempts']>5:
+        pending_auth.pop(token,None);raise HTTPException(429,'Volvé a iniciar el acceso')
+    data=await request.json()
+    try:name=await supabase_auth.finish(pending,str(data.get('otp','')))
+    except supabase_auth.AuthError as e: raise HTTPException(401,str(e)) from None
+    pending_auth.pop(token,None)
+    session_token=secrets.token_urlsafe(32);csrf=secrets.token_urlsafe(32)
+    sessions[session_token]={'user':name,'expires':time.time()+1800,'csrf':csrf}
+    response=Response(json.dumps({'user':name,'csrf':csrf}),media_type='application/json')
+    response.delete_cookie('escribania_setup');response.set_cookie('escribania',session_token,secure=PRODUCTION,httponly=True,samesite='strict',max_age=1800)
     return response
 
 @app.get('/api/me')

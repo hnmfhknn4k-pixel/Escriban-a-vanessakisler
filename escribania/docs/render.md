@@ -6,6 +6,6 @@ En Settings del servicio, usar rama `codex/escribania-v04`, Root Directory vací
 
 El contenedor usa Python 3.12, dependencias fijadas, usuario sin privilegios y un worker. Escucha en `0.0.0.0` y el `PORT` asignado por Render; usa `RENDER_EXTERNAL_URL` como origen HTTPS de producción, salvo un origen configurado expresamente. Un dominio personalizado requiere ajustar `ESCRIBANIA_ORIGIN` al dominio efectivamente usado. Health Check Path: `/api/status`.
 
-Un despliegue exitoso permite cargar la pantalla de acceso; no crea cuentas, activa IA ni valida controles del alojamiento. La cuenta requiere alta privada con `manage.py create-user` y TOTP. No publicar credenciales ni incorporar una cuenta de prueba fija en el código.
+Un despliegue exitoso permite cargar la pantalla de acceso; no crea cuentas, activa IA ni valida controles del alojamiento. Puede usarse alta local privada con `manage.py create-user` o configurar acceso y registro restringido con Supabase, según `supabase.md`. Ambos requieren TOTP. No publicar credenciales ni incorporar una cuenta de prueba fija en el código.
 
 El almacenamiento `/app/runtime` debe conservar base y claves juntas. Sin disco persistente, un redespliegue puede perder cuentas y expedientes; usar únicamente datos ficticios mientras se define almacenamiento y operación. No contratar un plan pago automáticamente. Antes de documentos reales se requiere verificar seguridad, condiciones del proveedor, backups, conservación y demás controles descritos en el manual.

@@ -17,7 +17,7 @@ with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
     page=browser.new_page(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
     errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-    page.goto(BASE);page.get_by_label('Usuario',exact=True).fill(name);page.get_by_label('Contraseña',exact=True).fill(password);page.get_by_label('Código del autenticador').fill(totp(secret,time.time()));page.get_by_role('button',name='Ingresar con verificación reforzada').click()
+    page.goto(BASE);page.get_by_label('Usuario',exact=True).fill(name);page.locator('#login-form').get_by_label('Contraseña',exact=True).fill(password);page.locator('#login-form').get_by_label('Código del autenticador').fill(totp(secret,time.time()));page.get_by_role('button',name='Ingresar con verificación reforzada').click()
     page.locator('#workspace').wait_for(state='visible')
     page.locator('input[type=file]').set_input_files({'name':'expediente-ficticio.docx','mimeType':'application/vnd.openxmlformats-officedocument.wordprocessingml.document','buffer':out.getvalue()})
     page.get_by_role('button',name='Abrir expediente').click();page.locator('#case-title').get_by_text('expediente-ficticio.docx',exact=True).wait_for()

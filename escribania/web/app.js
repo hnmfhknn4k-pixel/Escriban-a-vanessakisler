@@ -27,7 +27,7 @@ function render(){const c=current;$('empty').hidden=true;$('case').hidden=false;
  previewHash='';$('privacy-preview').textContent='';$('privacy-state').textContent='';$('audit-events').replaceChildren();
  for(const id of ['party-form','source-form','corroboration-form'])$(id).querySelectorAll('input,textarea,button').forEach(n=>n.disabled=c.approved);
 }
-async function entered(){const me=await api('/api/me');csrf=me.csrf;$('login').hidden=true;$('workspace').hidden=false;$('logout').hidden=false;await refresh();}
+async function entered(){const me=await api('/api/me');csrf=me.csrf;$('login').hidden=true;$('workspace').hidden=false;$('logout').hidden=false;await refresh();await loadTemplates();}
 $('login-form').onsubmit=e=>{e.preventDefault();perform(async()=>{const data=await post('/api/login',formData(e.target));csrf=data.csrf;e.target.reset();await entered();});};
 $('logout').onclick=()=>perform(async()=>{await post('/api/logout',{});location.reload();});
 $('refresh').onclick=()=>perform(refresh);
@@ -59,3 +59,16 @@ function identityCorrectionEditor(segment,box,caseData){
 }
 
 $('party-form').elements.name.addEventListener('input',e=>{$('name-preview').textContent='Se registrará: '+e.target.value.trim().normalize('NFC').toLocaleUpperCase('es-UY');});
+
+async function loadTemplates(){
+ const templates=await api('/api/templates');
+ $('template-list').replaceChildren(...templates.map(t=>{
+  const panel=el('section','','panel');panel.append(el('h3',t.title),el('p','Borrador · '+t.fields.length+' campos y avisos pendientes','quiet'));
+  const adaptations=el('details'),summary=el('summary','Revisar adaptaciones del modelo');adaptations.append(summary,el('p',t.notice,'quiet'));
+  for(const change of t.changes){const diff=el('div','','diff');diff.append(el('div',change.before||'(párrafo vacío)','before'),el('div',change.after,'after'));adaptations.append(diff);}
+  panel.append(adaptations,el('p',t.margin_policy,'quiet'));
+  const label=el('label','','check'),check=el('input');check.type='checkbox';label.append(check,el('span','Revisé las adaptaciones y entiendo que requiere completar datos y revisión profesional.'));
+  const use=action('Abrir borrador de automotor',async()=>{current=await post('/api/templates/'+t.id+'/cases',{review_required_acknowledged:check.checked});render();tab('review');await refresh();},'primary');use.disabled=true;check.onchange=()=>use.disabled=!check.checked;
+  const download=el('a','Descargar plantilla Word','button');download.href='/api/templates/'+t.id+'/download';panel.append(label,use,download);return panel;
+ }));
+}

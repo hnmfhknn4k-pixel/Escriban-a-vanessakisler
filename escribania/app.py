@@ -17,6 +17,7 @@ from core import *
 from store import Store,password_ok,totp
 from profile import load_profile
 from ai import assist,readiness
+from templates import catalog,load_template
 
 HERE=Path(__file__).resolve().parent
 store=Store(os.environ.get('ESCRIBANIA_DATA',str(HERE/'runtime')))
@@ -129,12 +130,41 @@ async def create_case(request:Request,file:UploadFile=File(...)):
     name=user(request)
     if not file.filename.lower().endswith('.docx'): raise HTTPException(422,'Importá un archivo .docx')
     blob=await file.read(10*1024*1024+1)
+    return import_document(blob,file.filename,name)
+
+def import_document(blob,filename,name,template_origin=None):
     try: segments,warnings=read_docx(blob)
     except ValueError as e: raise HTTPException(422,str(e))
     cid=secrets.token_hex(12)
-    case={'id':cid,'title':file.filename,'original':base64.b64encode(blob).decode(),'original_hash':digest(blob),'text_hash':digest(analyzed_text(segments)), 'segments':segments,'warnings':warnings,'parties':[],'changes':[],'observations':[],'analysis':None,'corroboration':None,'template':None,'approved':False,'final_hash':None,'retention_until':(datetime.now(timezone.utc)+timedelta(days=30)).isoformat(),'versions':{'app':VERSION,'rules':RULES_VERSION,'rules_sha256':digest((HERE/'core.py').read_bytes()),'prompt':PROMPT_VERSION,'model':None},'sources':[]}
-    store.save(case,name,'import',{'original_sha256':case['original_hash'],'text_sha256':case['text_hash'],'warnings':warnings},create=True)
+    case={'id':cid,'title':filename,'original':base64.b64encode(blob).decode(),'original_hash':digest(blob),'text_hash':digest(analyzed_text(segments)), 'segments':segments,'warnings':warnings,'parties':[],'changes':[],'observations':[],'analysis':None,'corroboration':None,'template':None,'approved':False,'final_hash':None,'retention_until':(datetime.now(timezone.utc)+timedelta(days=30)).isoformat(),'versions':{'app':VERSION,'rules':RULES_VERSION,'rules_sha256':digest((HERE/'core.py').read_bytes()),'prompt':PROMPT_VERSION,'model':None},'sources':[]}
+    if template_origin: case['template_origin']=template_origin
+    store.save(case,name,'template_case_created' if template_origin else 'import',{'original_sha256':case['original_hash'],'text_sha256':case['text_hash'],'warnings':warnings,'template_origin':template_origin},create=True)
     return view(case)
+
+@app.get('/api/templates')
+def templates(request:Request):
+    user(request)
+    try: return catalog()
+    except ValueError as e: raise HTTPException(409,str(e))
+
+def template_data(template_id):
+    try: return load_template(template_id)
+    except KeyError: raise HTTPException(404,'Plantilla no disponible')
+    except ValueError as e: raise HTTPException(409,str(e))
+
+@app.get('/api/templates/{template_id}/download')
+def template_download(template_id:str,request:Request):
+    user(request); manifest,blob=template_data(template_id)
+    return Response(blob,media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document',headers={'Content-Disposition':'attachment; filename="EscribanIA-compraventa-automotor-borrador.docx"'})
+
+@app.post('/api/templates/{template_id}/cases')
+async def template_case(template_id:str,request:Request):
+    name=user(request); data=await request.json()
+    if data.get('review_required_acknowledged') is not True: raise HTTPException(422,'Confirmá que revisaste las adaptaciones y que usarás el documento como borrador pendiente de revisión profesional')
+    manifest,blob=template_data(template_id)
+    origin={k:manifest[k] for k in ('id','version','source_sha256','converted_sha256','template_sha256','review_required','normative_format_verified')}
+    origin['adaptations_sha256']=digest(json.dumps(manifest['changes'],ensure_ascii=False,sort_keys=True))
+    return import_document(blob,'Compraventa de automotor — borrador.docx',name,origin)
 
 @app.get('/api/cases/{cid}')
 def get_case(cid:str,request:Request): return view(case_for(cid,request))

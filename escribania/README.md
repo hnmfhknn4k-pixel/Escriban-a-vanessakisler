@@ -22,6 +22,8 @@ Importar DOCX → cotejar fichas → ver propuestas → aceptar/rechazar/deshace
 
 Los borradores base son plantillas deterministas con campos pendientes, sin cláusulas jurídicas inventadas. La consulta normativa permite registrar fuentes oficiales efectivamente consultadas por el revisor; no hay buscador jurídico automático. La viabilidad aparece como indeterminada hasta valorar antecedentes, capacidad, legitimación, representación, restricciones y reglas del acto concreto.
 
+En **Plantillas revisables** está **Compraventa de automotor**, derivada del modelo DOC aportado por la usuaria. Se muestran las 14 adaptaciones antes/después y se exige reconocer la revisión pendiente antes de crear un expediente propio. Tiene 49 campos/avisos pendientes distintos y no presume identidad, pago total, cargas, tradición ni situación tributaria. El documento original convertido se entrega por separado, sin alterarlo. Ver `docs/plantillas.md` para el alcance y las comprobaciones realizadas.
+
 Word: máximo 10 MB y 40 MB descomprimidos; original cifrado y conservado; cambios aceptados exportados como `w:del`/`w:ins`; estilos y partes no modificadas conservados. La versión aprobada conserva la evidencia de cambios y debe revisarse en Word antes de imprimir, teniendo en cuenta la vista de marcas. No todas las variantes de OOXML se editan: revisar advertencias. No se promete fidelidad visual perfecta.
 
 ## Perfil único de papel notarial

@@ -93,7 +93,8 @@ def read_docx(blob):
                 tree=ET.fromstring(raw)
                 paragraphs={p:i for i,p in enumerate(tree.iter('{'+W+'}p'))}
                 for tag in ['ins','del','fldChar','instrText','drawing','object','altChunk','txbxContent','tab','br','cr','sdt']:
-                    if tree.find('.//w:'+tag,NS) is not None: warnings.append(f'Elemento requiere revisión: {tag} en {filename}')
+                    pattern='.//w:r/w:tab' if tag=='tab' else './/w:'+tag
+                    if tree.find(pattern,NS) is not None: warnings.append(f'Elemento requiere revisión: {tag} en {filename}')
                 texts=list(tree.iter('{'+W+'}t')) + list(tree.iter('{'+W+'}delText'))
                 for j,t in enumerate(texts):
                     paragraph=next((p for p in t.iterancestors() if p.tag=='{'+W+'}p'),None)

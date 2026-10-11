@@ -1,0 +1,139 @@
+{
+  "id": "compraventa-automotor",
+  "title": "Compraventa de automotor",
+  "version": "automotor-1",
+  "filename": "automotor.docx",
+  "status": "borrador_no_validado",
+  "source_filename": "MODELO CV AUTOMOTOR.doc",
+  "source_sha256": "35c084afee859560f689181f587ecf5802bbdb24b1cfc8ed39ab846b18ed79ff",
+  "converted_sha256": "adf9874b0ff03f648fdf7f04942ec965255b88f3e83f11af1432ce21ecd31c0c",
+  "template_sha256": "099d09a2a0f06b934ec707407d669095751141f6969b8ca948a00f6766c0328d",
+  "conversion_tool": "LibreOfficeDev 26.8.0.0.alpha0",
+  "review_required": true,
+  "normative_format_verified": false,
+  "margin_policy": "Los márgenes heredados del modelo no se acreditan como normativos. El cierre usa el perfil único validado del servidor.",
+  "fields": [
+    "ANTECEDENTE_ESCRIBANO_Y_CERTIFICACION",
+    "ANTECEDENTE_FECHA",
+    "ANTECEDENTE_INSCRIPCION_NUMERO_Y_FECHA",
+    "ANTECEDENTE_REGISTRO_SECCION_DEPARTAMENTO",
+    "ANTECEDENTE_TITULO_MODO_Y_PARTES",
+    "CANTIDAD_EJEMPLARES",
+    "COMPRADOR_DOCUMENTO_IDENTIDAD",
+    "COMPRADOR_DOMICILIO",
+    "COMPRADOR_EDAD_Y_CAPACIDAD",
+    "COMPRADOR_ESTADO_CIVIL",
+    "COMPRADOR_NACIONALIDAD",
+    "COMPRADOR_NOMBRES_APELLIDOS",
+    "ENTREGA_FECHA_HORA_Y_EVIDENCIA",
+    "ESCRIBANO_DOMICILIO",
+    "ESCRIBANO_NOMBRES_APELLIDOS",
+    "ESCRIBANO_TELEFONO",
+    "FECHA_OTORGAMIENTO",
+    "FORMA_Y_EVIDENCIA_DE_PAGO",
+    "INTERVENCION_NOTARIAL_REQUERIDA",
+    "LUGAR_OTORGAMIENTO",
+    "MONEDA",
+    "PAPEL_NOTARIAL_SERIE_Y_NUMERO",
+    "PENDIENTE: corroborar antecedentes y certificados y redactar el alcance de la venta según la evidencia",
+    "PENDIENTE: corroborar el modo y las condiciones de la tradición y redactar la cláusula correspondiente",
+    "PENDIENTE: corroborar la situación de la parte vendedora ante BPS y DGI y redactar las declaraciones que correspondan al acto. No presumir que no es contribuyente de BPS, IRAE o IMEBA",
+    "PENDIENTE: cotejar el antecedente y su correspondencia con el vehículo y quien dispone",
+    "PENDIENTE: suscripción efectiva",
+    "PENDIENTE: suscripción y actuación efectiva",
+    "PENDIENTE: verificar actuación, comparecencia, identidad y requisitos de la certificación",
+    "PENDIENTE: verificar papel e intervención que correspondan al acto",
+    "PENDIENTE: verificar si corresponde carta de pago total, parcial o ninguna y redactarla según evidencia",
+    "PRECIO_EN_CIFRAS",
+    "PRECIO_EN_LETRAS",
+    "VEHICULO_ANIO",
+    "VEHICULO_CHASIS",
+    "VEHICULO_COMBUSTIBLE",
+    "VEHICULO_DEPARTAMENTO",
+    "VEHICULO_MARCA",
+    "VEHICULO_MATRICULA",
+    "VEHICULO_MODELO",
+    "VEHICULO_MOTOR",
+    "VEHICULO_PADRON",
+    "VEHICULO_TIPO",
+    "VENDEDOR_DOCUMENTO_IDENTIDAD",
+    "VENDEDOR_DOMICILIO",
+    "VENDEDOR_EDAD_Y_CAPACIDAD",
+    "VENDEDOR_ESTADO_CIVIL",
+    "VENDEDOR_NACIONALIDAD",
+    "VENDEDOR_NOMBRES_APELLIDOS"
+  ],
+  "changes": [
+    {
+      "paragraph": 0,
+      "before": "",
+      "after": "BORRADOR — PLANTILLA PENDIENTE DE REVISIÓN PROFESIONAL. Completar únicamente con datos y antecedentes corroborados; no constituye instrumento aprobado."
+    },
+    {
+      "paragraph": 3,
+      "before": "En la ciudad de Montevideo, el día 19 de setiembre del año 2025, entre:",
+      "after": "En [LUGAR_OTORGAMIENTO], el [FECHA_OTORGAMIENTO], entre:"
+    },
+    {
+      "paragraph": 5,
+      "before": "POR UNA PARTE: El señor xxxxx, uruguayo, mayor de edad, soltero, titular de la cédula de identidad número xxxxx y domiciliado en xxxxx de la ciudad de Montevideo, y\t\t        ",
+      "after": "POR UNA PARTE: [VENDEDOR_NOMBRES_APELLIDOS], [VENDEDOR_NACIONALIDAD], [VENDEDOR_EDAD_Y_CAPACIDAD], [VENDEDOR_ESTADO_CIVIL], titular de [VENDEDOR_DOCUMENTO_IDENTIDAD] y domiciliado en [VENDEDOR_DOMICILIO], y"
+    },
+    {
+      "paragraph": 6,
+      "before": "POR OTRA PARTE: El señor xxxxxx, uruguayo, mayor de edad, titular de la cédula de identidad número xxxxxx, soltero y domiciliado en la xxxxxxxxde la ciudad de Montevideo convienen en celebrar el siguiente contrato de compraventa:",
+      "after": "POR OTRA PARTE: [COMPRADOR_NOMBRES_APELLIDOS], [COMPRADOR_NACIONALIDAD], [COMPRADOR_EDAD_Y_CAPACIDAD], [COMPRADOR_ESTADO_CIVIL], titular de [COMPRADOR_DOCUMENTO_IDENTIDAD] y domiciliado en [COMPRADOR_DOMICILIO], convienen en celebrar el siguiente contrato de compraventa:"
+    },
+    {
+      "paragraph": 7,
+      "before": "PRIMERO. Objeto. El señor xxxxxx (en adelante “el vendedor”), vende libre de todo tipo de obligaciones, gravámenes, deudas y afectaciones, a xxxxxx (en adelante “el comprador”), que en tales condiciones compra, la plena propiedad y posesión del siguiente bien: VEHICULO AUTOMOTOR empadronado y matriculado en el Departamento de MONTEVIDEO, marca xxxx, modelo xxxxx 1, tipo sedán 4 puertas, matrícula xxxxx, padrón xxxx de Montevideo, año xxx, motor N° xxxx, chasis xxxxxx, a combustible nafta",
+      "after": "PRIMERO. Objeto. [VENDEDOR_NOMBRES_APELLIDOS] (en adelante “el vendedor”) vende a [COMPRADOR_NOMBRES_APELLIDOS] (en adelante “el comprador”), quien compra, el siguiente VEHÍCULO AUTOMOTOR: departamento de empadronamiento [VEHICULO_DEPARTAMENTO], marca [VEHICULO_MARCA], modelo [VEHICULO_MODELO], tipo [VEHICULO_TIPO], matrícula [VEHICULO_MATRICULA], padrón [VEHICULO_PADRON], año [VEHICULO_ANIO], motor [VEHICULO_MOTOR], chasis [VEHICULO_CHASIS], combustible [VEHICULO_COMBUSTIBLE]. Situación de obligaciones, gravámenes, deudas y afectaciones: [PENDIENTE: corroborar antecedentes y certificados y redactar el alcance de la venta según la evidencia]."
+    },
+    {
+      "paragraph": 8,
+      "before": "SEGUNDO. Precio. El precio total de la presente compraventa es la suma de dólares estadounidenses siete mil ochocientos (USD xxxx), suma que el comprador abona en este acto al vendedor. En consecuencia, estando totalmente integrado el precio, el vendedor otorga al comprador total y eficaz carta de pago por el total del precio.",
+      "after": "SEGUNDO. Precio. El precio total de la compraventa es [PRECIO_EN_LETRAS], expresado en [MONEDA], equivalente a [PRECIO_EN_CIFRAS]. Forma de pago y constancia de recepción: [FORMA_Y_EVIDENCIA_DE_PAGO]. [PENDIENTE: verificar si corresponde carta de pago total, parcial o ninguna y redactarla según evidencia]."
+    },
+    {
+      "paragraph": 9,
+      "before": "TERCERO. Tradición. En señal de tradición, el vendedor se desprende de los derechos de propiedad y posesión que tenía sobre el vehículo, transfiriéndolos al comprador, quien toma posesión hoy siendo las 16.30 horas. ",
+      "after": "TERCERO. Tradición. [PENDIENTE: corroborar el modo y las condiciones de la tradición y redactar la cláusula correspondiente]. Entrega y posesión del vehículo: [ENTREGA_FECHA_HORA_Y_EVIDENCIA]."
+    },
+    {
+      "paragraph": 10,
+      "before": "CUARTO. Declaración. El vendedor declara bajo juramento no ser contribuyente del Banco de Previsión Social, ni de IRAE o IMEBA ante la D.G.I. ",
+      "after": "CUARTO. Declaración. [PENDIENTE: corroborar la situación de la parte vendedora ante BPS y DGI y redactar las declaraciones que correspondan al acto. No presumir que no es contribuyente de BPS, IRAE o IMEBA]."
+    },
+    {
+      "paragraph": 11,
+      "before": "QUINTO. Procedencia. El vendedor hubo el vehículo por título compraventa y modo tradición de xxxx xxxxx y xxxxxx según contrato del 11/07/2025 certificado por la Escribana xxxxx, inscripto en el Registro de la Propiedad de Montevideo sección Mobiliaria con el número xxx el xxx de julio de xxxx",
+      "after": "QUINTO. Procedencia. Título, modo y partes del antecedente: [ANTECEDENTE_TITULO_MODO_Y_PARTES]. Fecha del contrato anterior: [ANTECEDENTE_FECHA]. Intervención notarial: [ANTECEDENTE_ESCRIBANO_Y_CERTIFICACION]. Registro, sección y departamento: [ANTECEDENTE_REGISTRO_SECCION_DEPARTAMENTO]. Número y fecha de inscripción: [ANTECEDENTE_INSCRIPCION_NUMERO_Y_FECHA]. [PENDIENTE: cotejar el antecedente y su correspondencia con el vehículo y quien dispone]."
+    },
+    {
+      "paragraph": 13,
+      "before": "SEPTIMO. Solicitud de intervención notarial. Las partes solicitan al Escribano xxxxx, con domicilio en xxxxx oficina xxx de esta ciudad, teléfonos xxxxxx 5190, la certificación del otorgamiento y suscripción del presente contrato. ",
+      "after": "SÉPTIMO. Solicitud de intervención notarial. Las partes solicitan a [ESCRIBANO_NOMBRES_APELLIDOS], con domicilio profesional en [ESCRIBANO_DOMICILIO] y teléfono [ESCRIBANO_TELEFONO], [INTERVENCION_NOTARIAL_REQUERIDA]. [PENDIENTE: verificar actuación, comparecencia, identidad y requisitos de la certificación]."
+    },
+    {
+      "paragraph": 14,
+      "before": "EN SEÑAL DE CONFORMIDAD, las partes suscriben dos ejemplares de idéntico tenor en el lugar y fecha indicados.-",
+      "after": "EN SEÑAL DE CONFORMIDAD, las partes suscriben [CANTIDAD_EJEMPLARES] ejemplares de idéntico tenor en el lugar y fecha indicados. [PENDIENTE: suscripción y actuación efectiva]."
+    },
+    {
+      "paragraph": 16,
+      "before": "Vendedor:",
+      "after": "Firma de la parte vendedora: [PENDIENTE: suscripción efectiva]."
+    },
+    {
+      "paragraph": 19,
+      "before": "Comprador:",
+      "after": "Firma de la parte compradora: [PENDIENTE: suscripción efectiva]."
+    },
+    {
+      "paragraph": 21,
+      "before": "                                                                          Sigue el papel notarial     N°",
+      "after": "Referencia al papel notarial: [PAPEL_NOTARIAL_SERIE_Y_NUMERO]. [PENDIENTE: verificar papel e intervención que correspondan al acto]."
+    }
+  ],
+  "notice": "Conservar original y cotejar contenido, antecedentes, tributación, identidad, pago, tradición, certificación y formato impreso. No acredita validez jurídica."
+}

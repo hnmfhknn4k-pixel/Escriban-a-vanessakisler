@@ -10,11 +10,11 @@
 - Seudonimización local y reinserción determinista; adaptador Anthropic basado en v0.3, revisión de proveedor y envío explícito requerido; respuestas estructuradas y fragmentos literales validados, sin hechos generados ni citas inventadas aceptadas.
 - Registro cifrado con cadena HMAC, identidad de cuenta autenticada, eventos de cambios y decisiones, huellas de original/texto/final, reglas y prompt, reapertura e impugnación interna. Sin prueba de fecha, firma personal ni protección independiente contra administrador.
 - Perfil notarial único para todos los expedientes; sin medidas normativas supuestas ni edición de márgenes por usuario. Validación de impresión exigida. Consulta oficial y alcance en `fuentes.md`.
-- Manual PDF actualizado de siete páginas, reproducible desde documentación versionada.
+- Manual PDF actualizado de diez páginas, reproducible desde documentación versionada.
 
 ## Validación ejecutada
 
-47 pruebas `unittest` completadas y aprobadas en un venv limpio con dependencias fijadas. Incluyen mayúsculas Unicode, CI válida/inválida, seudonimización y reinserción, referencias desconocidas, citas falsas, respuesta que se atribuye hechos, fragmentos inventados, discrepancias, nombre separado en runs, corrección desde ficha, cambios aceptados/rechazados/deshechos, campos pendientes, bloqueo sin perfil, cierre y reapertura con perfil de laboratorio, impresión declarada y huella, conservación Word, cifrado, permisos, alteraciones y rollback del estado, MFA y CSRF. Los valores de dimensiones del test son ficticios: nunca se instalaron como perfil legal.
+57 pruebas `unittest` completadas y aprobadas en un venv limpio con dependencias fijadas. Incluyen mayúsculas Unicode, CI válida/inválida, seudonimización y reinserción, referencias desconocidas, citas falsas, respuesta que se atribuye hechos, fragmentos inventados, discrepancias, nombre separado en runs, corrección desde ficha, cambios aceptados/rechazados/deshechos, campos pendientes, bloqueo sin perfil, cierre y reapertura con perfil de laboratorio, impresión declarada y huella, conservación Word, cifrado, permisos, alteraciones y rollback del estado, MFA y CSRF. Los valores de dimensiones del test son ficticios: nunca se instalaron como perfil legal.
 
 Pasaron los controles históricos v0.3 de texto y extracción ZIP y `node --check web/app.js`. Instalación repetible validada; versiones directas y transitivas fijadas en `requirements.lock`.
 
@@ -31,3 +31,12 @@ Prueba funcional con Chromium y viewport móvil 390×844 y escritorio: login con
 - GitHub: lectura y simulación de escritura aceptadas. GitHub API/GraphQL respondió Forbidden, por lo que no se pudo abrir un PR con `gh`; la rama `codex/escribania-v04` se envió efectivamente mediante Git y se comprobó el seguimiento remoto. No se afirma creación ni publicación web a partir de acceso de lectura.
 
 Configuración cloud guardada: instalación con lock, pruebas e instrucciones de arranque; requerimientos de secreto `ANTHROPIC_API_KEY` y variable `ANTHROPIC_MODEL`; destinos oficiales IMPO/URCDP y `api.anthropic.com`. Guardar el borrador no configura los valores, no habilita la IA y no publica la app.
+
+
+## Integración del modelo de automotor
+
+El archivo `MODELO CV AUTOMOTOR.doc` se convirtió localmente a DOCX sin modificar el original. Coincidencia textual comprobada contra exportación directa del DOC a TXT, normalizando espacios y saltos. Se conserva la copia convertida por separado de la plantilla preparada; ninguna de esas comprobaciones certifica maquetación idéntica o validez jurídica.
+
+La plantilla del catálogo incluye 14 adaptaciones visibles y 49 campos/avisos pendientes distintos; reemplaza fechas, precio, circunstancias de entrega, identidades y declaraciones que no deben presumirse en otro acto. Un reconocimiento explícito precede la creación de un expediente propio y registra versión y procedencia. Se mantiene el bloqueo de aprobación por campos pendientes y por perfil normativo no validado. Los márgenes heredados 4/1/4/2 cm no se presentan como exigencia normativa.
+
+Se añadieron y aprobaron 10 pruebas de plantilla, rutas autenticadas, reconocimiento previo, descarga exacta y creación bloqueada por pendientes (57 en total). La prueba móvil/escritorio también comprobó adaptaciones visibles, habilitación tras reconocimiento, apertura del expediente y descarga DOCX. Se corrigió una advertencia de tabulación que confundía configuración de tabuladores con caracteres de tabulación; los caracteres de tabulación reales siguen generando advertencia. El manual actualizado tiene diez páginas. No se habilitó IA, no se publicó una nueva URL web ni se creó un issue de Linear.

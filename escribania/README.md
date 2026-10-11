@@ -16,7 +16,9 @@ python3 -m venv .venv
 
 El alta pide contraseña en terminal y entrega el secreto para un autenticador TOTP (30 segundos, seis dígitos). Ese secreto es privado: no subirlo a Git ni compartirlo por chat. La clave de cifrado y la base se generan en `runtime/`, ignorado por Git; `ESCRIBANIA_DATA` permite otra ruta. Si se usan rutas distintas, configurarlas tanto en `manage.py` como en el servidor. Cada tarea cloud ya está aislada: usar el checkout existente, sin crear worktrees salvo petición expresa.
 
-También existe acceso con Supabase: correo habilitado, confirmación y autenticador TOTP. Requiere configurar tres variables del servidor y las opciones del proyecto; ver `docs/supabase.md`. El botón de registro aparece cuando ese acceso está configurado. No se crea una cuenta ni se configura Supabase solo al desplegar código.
+También existe acceso con Supabase: correo habilitado, confirmación y autenticador TOTP. Requiere configurar tres variables del servidor y las opciones del proyecto; ver `docs/supabase.md`. El botón de registro se habilita cuando ese acceso está configurado. No se crea una cuenta ni se configura Supabase solo al desplegar código.
+
+Para probar sin cuenta ni autenticador, abrir `/demo` o usar **Entrar a prueba sin autenticador** en el inicio. La demostración usa exclusivamente un texto y fichas ficticios: permite comparar, aceptar/rechazar/deshacer una propuesta de mayúsculas y ver sustitución local por referencias. No admite documentos ni datos personales, no llama a las API de expedientes o a un modelo y no aprueba instrumentos. Su historial de navegador es ilustrativo y se pierde al cerrar; no equivale a auditoría. La opción **Crear usuario con Supabase** permanece visible; si falta configuración muestra el motivo y deshabilita el formulario.
 
 ## Flujo
 

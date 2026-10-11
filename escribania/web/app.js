@@ -66,7 +66,7 @@ $('load-audit').onclick=()=>perform(async()=>{const a=await api('/api/cases/'+cu
 $('new-draft').onclick=()=>perform(async()=>{const title=prompt('Objeto del borrador (sin datos personales). Se generan campos pendientes para revisión.');if(!title)return;const r=await post('/api/draft',{title});const url=URL.createObjectURL(await r.blob());const a=el('a');a.href=url;a.download='EscribanIA-borrador-base.docx';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
 (async()=>{try{
  if(location.hash.includes('access_token=')||location.hash.includes('error=')){history.replaceState(null,'',location.pathname);message('Volvé a ingresar con tu correo para comprobar su confirmación.');}
- const auth=await api('/api/auth/config');$('login-form').hidden=auth.enabled;$('email-form').hidden=!auth.enabled;
+ const auth=await api('/api/auth/config');$('login-form').hidden=auth.enabled;$('email-form').hidden=false;$('email-config-state').hidden=auth.enabled;for(const control of $('email-form').elements)control.disabled=!auth.enabled;
  const status=await api('/api/status');$('source-list').replaceChildren(...status.sources.map(s=>{const p=el('p');const a=el('a',s.title);a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';p.append(a);return p;}));await entered();
  }catch(e){if(!e.message.includes('Iniciá sesión'))message(e.message,true);}})();
 

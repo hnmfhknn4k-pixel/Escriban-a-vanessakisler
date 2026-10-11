@@ -2,6 +2,8 @@
 
 La app permite crear una cuenta habilitada, confirmar el correo, iniciar con contraseña y completar TOTP antes de abrir expedientes. Supabase gestiona la autenticación; los expedientes y el registro cifrados permanecen en el servidor de EscribanIA. No se migró la base a Supabase ni se configuraron tablas, Storage o RLS allí.
 
+En el inicio, **Entrar a prueba sin autenticador** abre una demostración pública con datos ficticios y sin acceso a expedientes, documentos del usuario ni IA externa. **Crear usuario con Supabase** lleva al formulario de cuenta; si no está configurado, el formulario permanece visible con aviso y controles deshabilitados. La demostración no crea una sesión ni una cuenta y no sustituye la autenticación del entorno de trabajo.
+
 ## Configuración del servidor
 
 En Render → servicio → Environment, agregar `SUPABASE_URL` (HTTPS del proyecto), `SUPABASE_PUBLISHABLE_KEY` (clave pública que comienza con sb_publishable_) y `ESCRIBANIA_ALLOWED_EMAILS` (correos habilitados separados por comas). Guardar y redesplegar la rama `codex/escribania-v04`. Ninguno de estos valores se incorpora al repositorio ni se entrega al navegador. No se requiere service_role ni clave secreta de Supabase para el flujo implementado.

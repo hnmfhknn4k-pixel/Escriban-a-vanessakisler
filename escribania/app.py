@@ -441,6 +441,8 @@ async def delete(cid:str,request:Request):
 
 @app.get('/manual.pdf')
 def manual(): return FileResponse(HERE/'docs/manual.pdf',media_type='application/pdf',filename='EscribanIA-manual-0.4.pdf')
+@app.get('/demo')
+def demo(): return FileResponse(HERE/'web/demo.html')
 app.mount('/static',StaticFiles(directory=HERE/'web'),name='static')
 @app.get('/')
 def index(): return FileResponse(HERE/'web/index.html')

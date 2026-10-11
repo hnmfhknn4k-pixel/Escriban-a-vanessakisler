@@ -1,0 +1,2666 @@
+Acordada Suprema Corte de Justicia N° 7533
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TVGV8WS');
+pre {				
+			background-color: white;
+			border: none;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+			word-break: keep-all;
+			-ms-word-break: keep-all;			
+			font-family: "Courier New", Courier, monospace !important;
+			padding-left:0px;
+		}
+				
+		h4 pre {
+			font-weight: bold;
+			color: #40749d!important;
+			font-family: Arial, Helvetica, sans-serif!important;
+		}
+				
+		table.tabla_en_texto { 
+			border-collapse: collapse;
+			background-color: #FFFFFF;
+		}
+
+		table.tabla_en_texto td {
+			border: solid; 
+			border-color: #313d43;
+			white-space: pre-wrap;
+		}
+				
+		table.tabla_en_texto td pre { 
+			padding: 2px 2px 2px 2px;
+			margin: 0!important;
+			word-wrap: break-word;
+			white-space: pre-wrap;
+			width: auto!important;
+		}
+
+		ul#resultado_publicacion, #contenido ul.resultado_datos {
+			padding: 0!important;
+			display: block!important;
+			margin: 10px auto 0;
+		}
+				
+		ul#resultado_publicacion li.rtitulo {
+			font-weight: bold!important;
+			color: #425159;
+			padding: 0 0 7px 0;
+		}
+				
+		ul#resultado_publicacion li {
+			padding: 0 0 0 20px;
+		}
+
+		li, ul.resultado_datos li {
+			list-style: none!important;
+			list-style-image: none!important;
+			margin: 0!important;
+			padding: 0!important;
+			font-size: 13px!important;
+			line-height: 16px!important;
+			color: #60757e!important;
+		}
+					
+		hr, hr.resumen {
+			border-top: 1px #adc3d3 dotted!important;
+			border-left: none;
+			border-bottom: none;
+			display: block;
+			margin: 10px 0 10px 0;
+		}
+				
+		pre.italica {
+			font-style: italic!important;
+		}
+				
+		.oculto {
+			background: #e5edee;
+			padding: 7px;
+			color: #25272c;
+		}
+				
+		h3.resultado, h3.resultado pre {
+			font-weight: bold;
+			color: #40749d!important;
+			font-family: Arial, Helvetica, sans-serif!important;
+		}
+Volver
+Acordada Suprema Corte de Justicia
+N° 7533
+APROBACION DE REGLAMENTO NOTARIAL
+Documento original
+Ver Imagen del D.O.
+Fecha de Publicación: 03/11/2004
+Página: 175-A
+Carilla: 13
+SUPREMA CORTE DE JUSTICIA
+Acordada 7.533
+
+Apruébase el nuevo Reglamento Notarial y derógase la Acordada 4.716.
+(2.098*R)
+
+En Montevideo, a los veintidós días del mes de octubre de dos mil cuatro, 
+estando en audiencia la Suprema Corte de Justicia, integrada por los 
+señores Ministros doctores don Leslie Van Rompaey Servillo - Presidente -,
+don Roberto Parga Lista, don Daniel Gutiérrez Proto, don Hipólito
+Rodríguez Caorsi y don Pablo Troise Rossi con la asistencia de su 
+Secretaria Letrada doctora Martha B. Chao de Inchausti,
+
+                                  DIJO:                                   
+                                                                          
+I) que ante a la necesidad de actualizar el Reglamento Notarial, aprobado 
+por Acordada n° 4716 de 10 de febrero de 1971, se designó una comisión 
+con ese cometido, integrada por técnicos del Poder Judicial y un delegado 
+de la Asociación de Escribanos del Uruguay;
+
+II) que dicha comisión cumplió su cometido, elevando el proyecto de 
+reglamento que contempla las observaciones y sugerencias oportunamente 
+formuladas;
+
+ATENTO: a lo expuesto;
+
+                       LA SUPREMA CORTE DE JUSTICIA                       
+                                 RESUELVE
+1°.- Apruébase el nuevo Reglamento Notarial, el que a continuación se 
+transcribe:
+
+                                "TITULO I                                 
+                        DE LOS ESCRIBANOS PUBLICOS                        
+                                                                          
+                                CAPITULO I                                
+                   DE LA INVESTIDURA PARA EL EJERCICIO                    
+                          DE LA FUNCION NOTARIAL                          
+                                                                          
+                                Sección I                                 
+                                Requisitos                                
+                                                                          
+Art. 1.- Corresponde a la Suprema Corte de Justicia conferir la 
+investidura para el ejercicio de la función notarial.
+
+Art. 2.- Para ser Escribano Público y ejercer la profesión, se requiere:
+a) suficiencia técnica;
+b) veintitrés años cumplidos de edad;
+c) honradez y buenas costumbres;
+d) no estar afectado por las incapacidades e incompatibilidades 
+   mencionadas en los artículos 17, 18 y 24 de esta reglamentación y las
+   que se establecieren en el futuro;
+e) si se trata de un extranjero deberá acreditar, además, que tiene 
+   residencia en el país, durante tres años si es casado y durante cuatro
+   si es soltero.
+
+Art. 3.- La suficiencia técnica se acreditará mediante exhibición de 
+título expedido, revalidado o admitido por la Universidad de la 
+República, o expedido por Instituciones Universitarias autorizadas.
+
+Art. 4.- La edad se comprobará con el testimonio de la respectiva partida 
+de nacimiento, sin perjuicio de los demás medios supletorios de 
+justificación admitidos por Derecho, ante la imposibilidad absoluta de la 
+exhibición de aquel testimonio.
+
+Art. 5.- La honradez y buenas costumbres se acreditarán mediante el 
+certificado de buena conducta expedido por el Ministerio del Interior y 
+la planilla de antecedentes penales del Instituto Técnico Forense.
+
+Art. 6.- La residencia sólo podrá acreditarse: 
+a) mediante exhibición de la carta de ciudadanía expedida conforme al 
+   artículo 75 de la Constitución vigente y siempre que la ciudadanía
+   legal que la carta acredite no haya sido anulada, suspendida o perdida;
+b) mediante instrumentos públicos, o privados de fecha comprobada.
+
+                                Sección II                                
+                         Investidura y Publicidad                         
+                                                                          
+Art. 7.- Reunidos los requisitos a que se refieren los artículos 
+anteriores, el aspirante podrá presentarse a la Suprema Corte de 
+Justicia, solicitando la investidura de Escribano Público.
+
+Art. 8.- La solicitud, que deberá formularse por escrito, irá 
+acompañada:
+a) del respectivo título universitario expedido, revalidado o 
+   admitido de acuerdo con el artículo 3º;
+b) del testimonio de la partida de nacimiento o comprobantes de la 
+   justificación supletoria;
+c) de la cédula de identidad y credencial cívica;
+d) del comprobante de solicitud del certificado de buena conducta 
+   ante el Ministerio del Interior;
+e) si el solicitante es extranjero, de los documentos que justifican 
+   su residencia;
+f) de una foto carné.
+
+Art. 9.- Presentada la solicitud de investidura, la Suprema Corte de 
+Justicia solicitará al Instituto Técnico Forense la planilla de 
+antecedentes penales del postulante, la que se adjuntará con el 
+certificado de buena conducta requerido, al expediente respectivo.
+Si no hubiera observaciones, previa audiencia del Fiscal de Corte y 
+Procurador General de la Nación, la Suprema Corte de Justicia resolverá.
+Si surgieran observaciones, intervendrá previamente la Inspección General 
+de Registros Notariales.
+
+Art. 10.- Si se acuerda la investidura solicitada, la Suprema Corte de 
+Justicia señalará el día y la hora en que el aspirante deberá prestar, 
+ante ella, juramento de "desempeñar bien y fielmente el cargo, de 
+respetar y cumplir la Constitución y las leyes y jamás desmerecer de la 
+confianza debida al carácter de esa profesión".
+En el acto de investidura, se tomará dicho juramento con el ritual que 
+determine la Suprema Corte de Justicia.
+
+Art. 11.- Prestado el juramento, el nuevo Escribano registrará en el 
+libro de Registro de Firmas de Escribanos, el signo, firma y rúbrica 
+autógrafos que usará en sus actos de tal, quedando autorizado desde ese 
+momento para ejercer la profesión en todo el territorio de la República. 
+
+Art. 12.- Si en prevención de cualquier adulteración o falsificación
+hubiere resuelto el Escribano emplear alguna seña particular, la revelará 
+bajo su firma a la Suprema Corte de Justicia, debiendo ésta asentarla en 
+un libro especial que llevará al efecto y que custodiará bajo estricta 
+vigilancia, junto con la nota que contenga la revelación.
+
+Art. 13.- La disposición que antecede es aplicable a todos los Escribanos 
+que ya están en funciones, y, por tanto, todos aquellos que resuelvan 
+usar señas particulares quedan obligados a la manifestación reservada a 
+que se refiere el artículo 12.
+
+Art. 14.- Ningún Escribano podrá cambiar signo, firma, rúbrica ni seña, 
+sin previa autorización de la Suprema Corte de Justicia, debiendo 
+consignar los nuevos a efectos de su registro o reserva, según 
+corresponda, de conformidad con lo dispuesto en los artículos 11 y 12.
+El cambio de signo, firma o rúbrica deberá ser comunicado por la Suprema 
+Corte de Justicia a la Inspección General de Registros Notariales.
+
+Art. 15.- Los Escribanos, en el momento de quedar investidos para ejercer 
+su profesión, deben comunicar por escrito a la Suprema Corte de Justicia 
+el lugar donde la ejercerán habitual y principalmente, así como el lugar 
+donde le habilitarán sus cuadernos de Protocolo.
+
+Art. 16.- Cumplido que sea lo dispuesto en los artículos 11, 12 y 15, la 
+Suprema Corte de Justicia deberá:
+a) inscribir el título en el registro Matrícula de Escribanos;
+b) expedir el carné de Escribano;
+c) publicar por una sola vez el aviso de la investidura en el Diario 
+   Oficial y adjuntar al expediente el ejemplar que acredite esa 
+   publicación;
+d) comunicar la nueva investidura, a la Corte Electoral, Caja Notarial de
+   Seguridad Social, Asociación de Escribanos del Uruguay, Dirección
+   General de Registros e Inspección General de Registros Notariales; la
+   comunicación a esta última se realizará acompañada del documento que
+   contenga signo, firma y rúbrica registrados del Escribano, indicándose
+   además el lugar donde se le habilitarán sus cuadernos de Protocolo;
+e) incorporar a su página Web nombre y domicilio profesional del nuevo
+   Escribano;
+f) si el Escribano ha declarado que solicitará habilitación de su
+   Protocolo y ejercerá habitual y principalmente su profesión en
+   determinado departamento del Interior del país, se comunicará este
+   hecho al Juez o Jueces Letrados de Primera Instancia de ese
+   departamento, con competencia civil.
+
+                               CAPITULO II                                
+  DE LAS INCAPACIDADES, SUSPENSIONES, INCOMPATIBILIDADES E INHIBICIONES   
+                                                                          
+Art. 17.- No pueden optar a la investidura:
+a) los ciegos, aún cuando sepan leer y escribir por sistema especial;
+b) los sordomudos, aunque puedan comunicarse mediante lenguaje de señas;
+c) los que se hallen procesados o hubiesen sido condenados por delito 
+   doloso o ultraintencional, si la Suprema Corte de Justicia, Tribunal
+   del proceso o de la sentencia, resolvieren que aquél o ésta obstan al 
+   ejercicio de la profesión;
+d) los que hubieren sido convictos de dar testimonio falso, por escrito o
+   de palabra;
+e) los Escribanos a quienes se pruebe que procuran obtener la investidura
+   en virtud de justificativos falsos.
+
+Art. 18.- Las personas que pretendan la investidura de Escribano Público 
+y se encuentren procesadas o hubieren sido condenadas con motivo de 
+delitos dolosos o ultraintencionales, podrán comparecer previamente ante 
+el Juez del proceso o de la sentencia, para que resuelva si aquél o ésta 
+obstan al ejercicio de la profesión.
+Las que tengan proceso o condena por delito culpable, no están impedidas 
+para optar a la profesión de Escribano.
+
+Art. 19.- Decretado el procesamiento de un Escribano por delito doloso o 
+ultraintencional, el Juez de la causa podrá, además, dictar la suspensión 
+del procesado en el ejercicio de su profesión, si el acto ilícito se 
+hubiere ejecutado con abuso de ésta o comprometiere la fe pública de que 
+está investido el agente.
+La suspensión podrá ordenarse o levantarse en cualquier estado de los 
+procedimientos.
+
+Art. 20.- Los Escribanos serán suspendidos en la profesión desde que, en 
+razón de delitos cometidos en su ejercicio, hayan sido condenados a 
+suspensión o prisión temporal mientras dure una u otra.
+
+Art. 21.- Aún cuando no se decrete la suspensión, queda prohibido a los 
+Escribanos, mientras se encuentren encarcelados, ejercer cualquier acto 
+de su profesión, salvo los que sean de estricta y necesaria consecuencia 
+de instrumentos autorizados anteriormente.
+
+Art. 22.- Sin perjuicio de lo que disponen los artículos 19 y 20, la 
+Suprema Corte de Justicia, en ejercicio de la potestad de 
+superintendencia y en defensa de la confianza debida al Notariado, podrá 
+desinvestir al Escribano procesado o condenado por delitos dolosos o 
+ultraintencionales, cuando a su juicio el hecho ilícito obste al 
+desempeño de la profesión, pudiendo en tal caso reservar las actuaciones 
+hasta el pronunciamiento de la justicia penal, momento en el cual podrá 
+revisarse la sanción disciplinaria aplicada, tomándose en consideración 
+el tiempo de ésta ya transcurrido.
+
+Art. 23.- El Escribano a quien se pruebe haber obtenido su habilitación o 
+rehabilitación en virtud de justificativos falsos, incurrirá en 
+incapacidad legal perpetua para el ejercicio profesional.
+
+Art. 24.- Es absolutamente incompatible el ejercicio simultáneo de la 
+profesión de Escribano Público con:
+a) Ser miembro del Clero.
+b) Tener estado militar -personal militar, reservistas incorporados a 
+   las Fuerzas Armadas y ciudadanos movilizados, mientras dure la 
+   movilización-. El personal civil, aún equiparado, no queda comprendido
+   en esta incompatibilidad.
+c) Ser beneficiario del subsidio por enfermedad o de jubilación abonados
+   por la Caja Notarial de Seguridad Social.
+d) Desempeñar cargos de Magistrados Judiciales y del Ministerio Público y
+   Fiscal.
+e) Desempeñar cargos en la Administración Pública con régimen de
+   dedicación total.
+
+Art. 25.- Existen inhibiciones en los siguientes casos:
+a) Por razón de coexistencia de funciones públicas, los Escribanos que
+   fueren Presidente de la República, Ministros de Estado, Senadores,
+   Representantes, miembros de los Directorios de Entes Autónomos o 
+   Servicios Descentralizados o del Tribunal de Cuentas, están inhibidos
+   de la función notarial en la medida prevista en la Constitución vigente
+   (arts. 122, 125, 171, 178, 200 y 208). Asimismo, a los Escribanos que 
+   fueren empleados de despachos y oficinas internas de la Suprema Corte
+   de Justicia, Tribunales y Juzgados, les está prohibido tramitar o
+   intervenir en asuntos judiciales, en la medida prevista en el artículo
+   252 de la Constitución.
+b) Por razón de familia y parentesco, los Escribanos no podrán intervenir
+   en forma alguna en actos ni contratos en que sean otorgantes, por
+   derecho propio o en representación de terceros, su cónyuge y parientes
+   dentro del cuarto grado de consanguinidad o segundo de afinidad
+   y demás miembros de su familia (v.g. hijos adoptivos, padres
+   adoptantes). La inhibición de que trata este literal no alcanza a los
+   actos en que intervengan personas casadas con el cuñado o cuñada del
+   Escribano, salvo los actos en que estas personas estuvieren
+   interesadas (v.g. adquisición de bienes a título oneroso durante la
+   vigencia de la sociedad conyugal).
+c) Por razón del contenido, y con excepción de los actos referidos a la
+   custodia de documentos confiados por las partes al Escribano y los
+   actos secretos o reservados en que éste desconoce la voluntad del 
+   otorgante, los Escribanos no podrán autorizar escrituras públicas,
+   actas, certificados o traslados, relacionados con ellos, sus cónyuges,
+   sus parientes dentro del cuarto grado de consanguinidad o segundo de
+   afinidad y demás miembros de su familia, ni en los que tengan interés
+   personas privadas, de quienes ellos o sus cónyuges dependan a sueldo o
+   con quienes tengan sociedad.
+   Quedan también comprendidos en esta inhibición los testamentos 
+   solemnes abiertos que contengan disposiciones en su favor, de su
+   cónyuge, de cualquiera de sus parientes dentro del cuarto grado, demás
+   miembros de su familia o de sus dependientes asalariados. 
+d) Por razón de buen orden administrativo, los Escribanos que fueren 
+   Intendentes o miembros de las Juntas Departamentales o Locales, no
+   podrán autorizar documento notarial alguno en cuyo contenido el
+   organismo en el que desempeñan funciones tuviere algún interés o ellos
+   hubieren participado en la sustanciación del expediente respectivo.
+
+                               CAPITULO III                               
+                           DE LA DESINVESTIDURA                           
+                                                                          
+Art. 26.- El Escribano será desinvestido en los siguientes casos:
+a) por incapacidad sobreviniente (artículo 17);
+b) por razón de las incompatibilidades a que alude el artículo 24;
+c) por renuncia voluntaria al ejercicio de la profesión;
+d) por el goce de jubilación otorgada por la Caja Notarial de Seguridad
+   Social;
+e) por haberle sido impuesta sanción disciplinaria de desinvestidura 
+   permanente o temporaria (artículo 275).
+
+Art. 27.- En los casos previstos en el artículo anterior, la 
+desinvestidura será decretada por la Suprema Corte de Justicia, sin 
+perjuicio de lo que establecen los artículos 19, 20 y 28.
+
+Art. 28.- Los Jueces en lo Penal, en los juicios a que se refieren los 
+artículos 19 y 20 de esta reglamentación, comunicarán de inmediato a la 
+Suprema Corte de Justicia las sentencias definitivas o interlocutorias, 
+ejecutoriadas, que importen suspensión en el ejercicio de la profesión de 
+Escribano Público.
+Igual comunicación se cursará cuando se dispusiere por los Jueces 
+competentes, el encarcelamiento o la excarcelación de Escribanos.
+
+Art. 29.- Decretada la desinvestidura y notificada al Escribano, éste 
+queda privado del desempeño de la función notarial y le está 
+absolutamente prohibido realizar cualquier acto que implique ejercicio 
+profesional, bajo pena de incurrir en el delito de usurpación de 
+funciones y demás responsabilidades aplicables.
+
+Art. 30.- Una vez decretadas las desinvestiduras y las suspensiones en el 
+ejercicio de la profesión de Escribano impuestas por sentencias 
+definitivas o interlocutorias, ejecutoriadas, la Suprema Corte de 
+Justicia:
+a) las comunicará a la Corte Electoral, Caja Notarial de Seguridad 
+   Social, Asociación de Escribanos del Uruguay, Dirección General de 
+   Registros, Inspección General de Registros Notariales, Tribunales y 
+   Juzgados Letrados de Primera Instancia; 
+b) las publicará por una sola vez en el Diario Oficial, agregándose el
+   ejemplar al expediente del Escribano;
+c) incorporará la resolución a la página Web del Poder Judicial.
+En las comunicaciones y publicaciones que efectúe la Suprema Corte de 
+Justicia, dando noticia de la desinvestidura o suspensión, expresará 
+sucintamente las causas que le dieron origen.
+
+Art. 31.- Las desinvestiduras decretadas conforme al artículo 26 de esta 
+reglamentación cesarán:
+a) las previstas en los literales a) y b), una vez que desaparezcan 
+   las causas que determinaron la desinvestidura;
+b) las previstas en los literales c) y d), cuando el Escribano 
+   resuelva reintegrarse al ejercicio profesional o renuncie al goce de la
+   pasividad;
+c) la temporaria prevista en el literal e), una vez transcurrido el 
+   tiempo por el cual fue desinvestido, que se contará desde el día de la 
+   notificación de la resolución respectiva.
+En todos los casos, deberá solicitarse la rehabilitación para el 
+ejercicio profesional.
+
+                               CAPITULO IV                                
+                     DE LA REHABILITACION PROFESIONAL                     
+                                                                          
+Art. 32.- La rehabilitación para el ejercicio profesional deberá ser 
+solicitada a la Suprema Corte de Justicia, quien la concederá o denegará, 
+apreciando en cada caso los motivos de la desinvestidura temporaria y las 
+razones en que se funda el pedido, debidamente acreditadas.
+Sin perjuicio de lo antes expresado, cuando la suspensión en el ejercicio 
+profesional haya sido decretada por el Juez de la causa, el reintegro se 
+solicitará también a éste, quien lo comunicará de inmediato a la Suprema 
+Corte de Justicia.
+
+Art. 33.- El pedido de rehabilitación deberá acompañarse con el 
+comprobante de la solicitud del certificado de buena conducta expedido 
+por el Ministerio del Interior. La Suprema Corte de Justicia recabará del 
+Instituto Técnico Forense la planilla de antecedentes penales del 
+peticionante.  
+
+Art. 34.- La rehabilitación resuelta por la Suprema Corte de Justicia 
+será comunicada y publicada en la forma prevista en el artículo 30 de 
+esta reglamentación, adjuntando al expediente del Escribano rehabilitado 
+el ejemplar que acredite la publicación.
+Si la solicitud de rehabilitación fuere denegada, se pondrá constancia de 
+ello en el expediente del Escribano solicitante.
+
+                                CAPITULO V                                
+             DE LA ELECCION DEL ESCRIBANO POR LOS REQUIRENTES             
+                                                                          
+Art. 35.- Los requirentes son libres de hacer elección del Escribano, 
+salvo los casos en que las leyes o reglamentaciones disponen que el acto 
+sea autorizado por uno determinado.
+En los actos jurídicos bilaterales, corresponde la elección a la parte a 
+quien se constituye título de dominio o de acreedor, a quien se dan 
+seguridades reales o personales, a la que asume la calidad de arrendador 
+de bienes corporales o de servicios, o de arrendatario de obra, o va a 
+resultar liberado de obligaciones en virtud del acto a autorizarse.
+Cuando se trate de operaciones en las cuales sean acreedoras 
+instituciones financieras o bancarias, las partes podrán convenir que el 
+autorizante sea designado por el deudor, sin perjuicio del derecho de 
+dichas instituciones a hacerse asesorar por el Escribano de su elección.
+
+Art. 36.- Si por la naturaleza del acto la elección no pudiere efectuarse 
+aplicando las reglas contenidas en el artículo anterior, ella se 
+efectuará por la mayoría de partes interesadas siempre que representen la 
+mayoría de intereses.
+Cuando las mayorías mencionadas no pueden lograrse, el Escribano 
+autorizante deberá ser elegido de conformidad por las partes interesadas, 
+sin perjuicio de que los otorgantes se hagan asesorar por el Escribano de 
+su elección.
+
+                                TITULO II                                 
+                            DEL PAPEL NOTARIAL                            
+                                                                          
+Art. 37.- Los Escribanos en todos los actos relativos al ejercicio de la 
+función notarial, deberán utilizar papel notarial de actuación.
+El papel notarial se ajustará a las características determinadas por la 
+Suprema Corte de Justicia y siempre contendrá los nombres y apellidos del 
+Escribano y su número de afiliación a la Caja Notarial de Seguridad 
+Social.
+
+Art. 38.- En las oficinas autorizadas a llevar Registros Notariales, en 
+el papel notarial se sustituirán los datos relativos al Escribano por la 
+denominación de la oficina.
+
+Art. 39.- Dicho papel notarial podrá ser rayado o liso. 
+El rayado, contendrá márgenes y líneas. 
+En el liso, deberán respetarse los márgenes establecidos para el rayado. 
+
+En ambos tipos de papel no se podrán escriturar más de 25 líneas por 
+carilla ni más de 55 letras o caracteres por línea, debiendo mediar entre 
+línea y línea un espacio no menor a 8 milímetros.
+
+Art. 40.- El papel notarial sólo podrá ser suministrado a los Escribanos 
+que se encuentren habilitados para el ejercicio de la profesión y a las 
+oficinas autorizadas a llevar Registros Notariales, quienes solamente 
+podrán utilizar en los documentos el papel que contenga los nombres y 
+apellidos del autorizante o la denominación de la oficina, en su caso.
+
+Art. 41.- La Caja Notarial de Seguridad Social tiene la administración, 
+impresión y distribución del referido papel notarial.
+
+Art. 42.- El precio de venta de dicho papel, que será vertido como 
+reembolso al patrimonio de la Caja Notarial de Seguridad Social, no podrá 
+superar los costos que se deriven de la adquisición, impresión, 
+distribución y administración, para lo cual la referida Caja dará cuenta 
+a la Suprema Corte de Justicia, periódicamente, del monto a que se 
+sujetará la venta.
+
+Art. 43.- Los Escribanos y las Oficinas del Poder Judicial, no admitirán 
+documentos que, debiendo estar redactados en papel notarial no lo estén, 
+no cumplan con lo dispuesto en los artículos 39 y 40 o de los cuales no 
+resulte el monto del montepío notarial correspondiente y su pago.
+
+                                TITULO III                                
+                       DE LOS REGISTROS NOTARIALES                        
+                                                                          
+Art. 44.- Los Escribanos llevarán dos Registros: el Protocolo y el 
+Registro de Protocolizaciones.
+Ningún Escribano podrá autorizar escrituras o protocolizaciones en otros 
+Registros que no sean aquellos que están a su cargo.
+
+                                CAPITULO I                                
+                              DEL PROTOCOLO                               
+                                                                          
+Art. 45.- Llámase Protocolo al Registro en que los Escribanos y demás 
+funcionarios autorizados al efecto asientan, por el orden de sus 
+respectivas fechas, las escrituras públicas que se hayan de otorgar ante 
+ellos.
+En dicho Registro sólo pueden extenderse escrituras públicas.
+
+                                Sección I                                 
+                         Estructura del Protocolo                         
+                                                                          
+Art. 46.- El Protocolo se formará con cuadernos de papel notarial de diez 
+hojas cada uno, ya sea liso o rayado, debiéndose continuar durante todo 
+el año con el mismo tipo de papel con el cual se inició el Registro.
+
+Art. 47.- Las hojas de cada cuaderno se numerarán correlativamente, 
+comenzando cada año por el folio uno.
+La numeración impresa de las hojas del papel notarial deberá ser 
+correlativa, debiendo coincidir el primer folio con la cifra final uno de 
+la numeración del papel utilizado, y así sucesivamente.
+La foliatura debe ser puesta con guarismos en forma mecanografiada o con 
+sello numerador, en la parte superior derecha de cada hoja, dentro de los 
+márgenes del papel respectivo.
+
+Art. 48.- Cada cuaderno de Protocolo se colocará dentro de tapas que se 
+sujetarán con grapas.
+El engrapado deberá distar un centímetro del lomo de la tapa.
+La portada deberá contener:
+a) nombres y apellidos del Escribano o denominación de la oficina que 
+   lleva el Protocolo, según proceda;
+b) número de cuaderno y folios que contiene;
+c) año al que corresponde;
+d) domicilio del Escribano o sede de la oficina, con indicación de calle,
+   número, teléfono, localidad o ciudad y departamento;
+e) teléfono celular, fax y dirección de correo electrónico del Escribano o
+   de la oficina, si los tuvieren.
+
+Art. 49.- El Protocolo se llevará únicamente por el sistema 
+mecanografiado y deberá escriturarse por cualquier medio mecánico o 
+digital indeleble de impresión. 
+
+Art. 50.- Todos los años se procederá a la apertura del Protocolo, al 
+comienzo de la primera hoja del primer cuaderno.
+La apertura, que se hará en forma mecanografiada, contendrá en el orden 
+en que se enumeran, los siguientes elementos:
+a) el año a que corresponde el Protocolo, que podrá ser puesto en 
+   letras o en guarismos;
+b) los nombres y apellidos registrados del Escribano que lo lleva o 
+   el señalamiento preciso de la oficina, en su caso;
+c) el signo, firma y rúbrica autógrafos del Escribano a quien corresponde
+   el Protocolo o está encargado de llevarlo en la oficina de que se
+   trate.
+
+Art. 51.- Terminado el año, el Escribano cerrará el Protocolo extendiendo 
+un certificado de clausura en forma mecanografiada, en la primera hoja 
+siguiente a la última escritura, o en una hoja de papel notarial del 
+mismo tipo que se empleó en el Protocolo, si no hubiere suficiente papel 
+sobrante.
+El certificado contendrá, necesariamente, las siguientes indicaciones:
+a) la cantidad de escrituras extendidas en el Protocolo, especificando
+   cuántas de ellas fueron autorizadas y cuántas y cuáles quedaron sin
+   efecto;
+b) la cantidad de escrituras erradas, con señalamiento preciso de los
+   folios en que están contenidas;
+c) el lugar, día, mes y año en que se autoriza el certificado, que deberá
+   ser el 31 de diciembre del año respectivo o el 1º de enero siguiente o,
+   en su caso, el día del cese en el ejercicio profesional;
+d) el signo, firma y rúbrica autógrafos del Escribano a quien corresponde
+   el Protocolo o está encargado de llevarlo en la oficina respectiva.
+
+Art. 52.- Cualquier alteración en el Protocolo, sea en el modo de colocar 
+las hojas, sea en el número de ellas, sea en la forma de encuadernarlo, 
+trae consigo la presunción de fraude contra el Escribano a quien 
+corresponde o está encargado de llevarlo en el caso de las oficinas y la 
+suspensión en el ejercicio profesional por dos, tres o más años, según la 
+gravedad del caso; pero si el fraude presumido por la ley se probase, 
+procederá la desinvestidura permanente, sin perjuicio de las penas 
+correspondientes al delito y de la obligación de indemnizar.
+
+                                Sección II                                
+                       Forma de llevar el Protocolo                       
+                                                                          
+Art. 53.- Las matrices de escrituras públicas se extenderán con limpieza 
+y prolijidad, sin blancos y evitando en lo posible hacer testados, 
+interlineados ni enmiendas, prohibiéndose el uso de líquido corrector de 
+cualquier clase. Si hubiere que hacer correcciones al texto, éstas se 
+salvarán con toda claridad, antes de las firmas.
+
+Art. 54.- Para el mecanografiado deberá utilizarse máquina de escribir o 
+impresora de ordenador, con tipo de letra adecuado, debiendo tener los 
+caracteres por lo menos dos milímetros de altura.
+
+Art. 55.- La cinta o la tinta que se utilice será negra, no copiativa y 
+deberá dejar una impresión nítida indeleble.
+
+Art. 56.- La impresión de las matrices deberá ser directa. Prohíbese el 
+uso de papeles o telas carbónicas y el uso de máquinas de escribir o 
+impresoras que no reúnan las condiciones expresadas.
+
+Art. 57.- La Inspección General de Registros Notariales o el Juzgado 
+Letrado de Primera Instancia con competencia civil del lugar donde el 
+Escribano presenta los cuadernos de Protocolo para su habilitación, 
+podrán prohibir el uso de máquinas de escribir o impresoras que no reúnan 
+las condiciones expresadas en los precedentes artículos, dando cuenta 
+inmediata a la Suprema Corte de Justicia.
+
+Art. 58.- En virtud de lo dispuesto en el artículo 49 de esta 
+reglamentación, el Escribano sólo podrá manuscribir en la escritura si 
+fuera necesario agregar al texto de ésta cláusulas aditivas o 
+interlineados, hacer enmiendas, o testados, los que deberá salvar en 
+forma, de acuerdo con el artículo 53. 
+En este caso, así como para la suscripción y autorización de todos los 
+documentos notariales, deberá utilizarse tinta negra de buena calidad, 
+quedando prohibido el uso de tinta sólida o en pasta.
+Para el texto manuscrito, deberá utilizarse letra clara y de regular 
+tamaño de manera que pueda leerse sin dificultad.
+
+                               Sección III                                
+                       Habilitación del Protocolo                         
+                                                                          
+Art. 59.- Los Escribanos que han manifestado ejercer habitual y 
+principalmente su profesión en el departamento de Montevideo, deberán 
+habilitar su Protocolo en la Suprema Corte de Justicia.
+
+Art. 60.- Los Escribanos que han manifestado ejercer habitual y 
+principalmente su profesión en alguno de los demás departamentos del 
+país, solicitarán a su elección que se le habiliten los cuadernos en la 
+Suprema Corte de Justicia o en el Juzgado Letrado de Primera Instancia 
+con competencia civil del lugar donde corrientemente ejercen la 
+profesión.
+
+Art. 61.- En el departamento de Montevideo, la habilitación se practicará 
+en la Inspección General de Registros Notariales por el Director, el 
+Sub-Inspector, los Asesores, los Actuarios o Actuarios Adjuntos y demás 
+Escribanos que, cumpliendo funciones en dicha oficina, hayan sido 
+autorizados por la Suprema Corte de Justicia a tales efectos.
+
+Art. 62.- La habilitación en los otros departamentos de la República, la 
+practicarán los Jueces Letrados de Primera Instancia en materia civil, 
+que tengan competencia territorial en el lugar donde el Escribano ejerce 
+habitual y principalmente la profesión.
+En caso de existir más de un Juzgado con competencia civil, la 
+habilitación se hará en forma alternada, por orden ascendente, un año en 
+cada Juzgado, a partir del 1º de enero de cada año.
+Los Juzgados competentes deberán remitir entre el 1º y 10 de cada mes, a 
+la Inspección General de Registros Notariales, las solicitudes de 
+habilitación de Protocolo que hayan recibido en el mes inmediato 
+anterior.
+
+Art. 63.- Es obligatorio continuar habilitando el Protocolo en la oficina 
+por la que se ha optado, hasta tanto la Suprema Corte de Justicia 
+autorice el cambio que se solicite. Todo cambio se gestionará por escrito 
+fundado y de su admisión o rechazo se dejará constancia en el expediente 
+del Escribano.
+Si se autorizara el cambio, la Suprema Corte de Justicia deberá 
+comunicarlo a la Inspección General de Registros Notariales, a la 
+autoridad que habilitaba el Protocolo y a la que lo habilitará a partir 
+de dicha resolución.
+
+Art. 64.- Todo Escribano u oficina autorizada para llevar Protocolo podrá 
+solicitar, por la primera vez en cada año, que se le sellen y habiliten 
+hasta seis cuadernos.
+Esta primera habilitación podrá pedirse para un menor número de cuadernos 
+y completarse después, en una o varias oportunidades, hasta alcanzar el 
+de seis cuadernos como máximo.
+
+Art. 65.- La solicitud a que se refiere el artículo anterior deberá 
+formularse:
+a) en el departamento de Montevideo, verbalmente, a la Inspección 
+   General de Registros Notariales;
+b) en los restantes departamentos, mediante formulario confeccionado 
+   al efecto, dirigido al Juez Letrado de Primera Instancia con
+   competencia civil del departamento o de la ciudad que sea asiento de
+   esta judicatura, resolviéndose de mandato verbal, sin más trámite.
+
+Art. 66.- El Director de la Inspección General de Registros Notariales y 
+demás funcionarios legalmente autorizados de la Suprema Corte de Justicia 
+y los Escribanos Actuarios o Adjuntos de los Juzgados Letrados de Primera 
+Instancia del Interior de la República, establecerán en la primera hoja 
+de cada cuaderno de Protocolo habilitado, por sello fechador simple, el 
+día, mes y año en que se efectúa la habilitación, así como el sello con 
+el nombre de la oficina o Juzgado que habilitó.
+Todas las hojas de cada cuaderno serán rubricadas por el funcionario 
+interviniente.
+
+Art. 67.- Salvo casos urgentes a juicio del funcionario encargado de la 
+rúbrica, los nuevos cuadernos presentados serán habilitados el día 
+siguiente al de su presentación.
+
+Art. 68.- Al solicitar la habilitación de los primeros cuadernos cada 
+año, no es necesario presentar los no revisados del año inmediato 
+anterior.
+El número de cuadernos para habilitar no podrá exceder de seis cada vez.
+
+Art. 69.- Después de habilitados los primeros seis cuadernos de cada año, 
+los Escribanos o las oficinas autorizadas que los habiliten en la 
+Inspección General de Registros Notariales, podrán hacer habilitar nuevos 
+cuadernos, sometiendo a visita los que hayan utilizado, en la siguiente 
+forma:
+a) la cantidad de cuadernos no revisados presentados a la visita será 
+   igual a la de cuadernos entregados para habilitar, salvo en el caso de
+   no tener tantos cuadernos para visitar;
+b) el Escribano podrá siempre retener, para una visita ulterior, los dos
+   últimos cuadernos habilitados.
+
+Art. 70.- Los Escribanos que hayan optado por la habilitación por el Juez 
+Letrado de Primera Instancia del lugar donde ejercen habitual y 
+principalmente la profesión:
+a) dentro de los treinta días siguientes al primer semestre del año, 
+   deberán presentar a la visita ante la Inspección General de Registros 
+   Notariales los cuadernos utilizados en ese período, con excepción de
+   los tres últimos, previa intervención de la Caja Notarial de Seguridad 
+   Social;
+b) a efectos de solicitar nueva habilitación, exhibirán al Juzgado 
+   competente, la constancia de ingreso en la Caja Notarial de Seguridad 
+   Social de los cuadernos a que hace referencia el literal anterior;
+c) pasados sesenta días de vencido el primer semestre, deberán exhibir
+   ante el Juzgado competente, constancia expedida por la Inspección
+   General de Registros Notariales de haber efectuado la visita
+   respectiva; de lo contrario, el Juez suspenderá la habilitación de
+   nuevos cuadernos de Protocolo, hasta que se subsane la omisión.
+
+Art. 71.- La visita de los Protocolos está a cargo exclusivo de la 
+Inspección General de Registros Notariales, que la cumplirá por 
+intermedio de los funcionarios que se mencionan en el artículo 61, en la 
+forma que expresan los artículos 257 y siguientes.
+
+Art. 72.- Los cuadernos que se presenten a visita deberán encontrarse en 
+las siguientes condiciones:
+a) estar completamente llenos de escrituras; si hubiere escrituras 
+   aún no firmadas, éstas deberán contener la fecha en que fueron 
+   extendidas, y, una vez suscritas y autorizadas o dejadas sin efecto, se
+   presentarán nuevamente a la visita;
+b) llevar adheridos los comprobantes de depósito de aportes de montepío
+   notarial que acrediten el pago de las cotizaciones correspondientes.
+
+                                Sección IV                                
+                Inutilización del Papel Notarial sobrante                 
+                                                                          
+Art. 73.- El papel notarial rubricado que resulte sobrante al final de 
+cada año, será presentado para su inutilización a la Inspección General 
+de Registros Notariales en oportunidad de la visita.
+La inutilización se efectuará con sellos de goma que contendrán la 
+leyenda que la Suprema Corte de Justicia determine.
+
+                                Sección V                                 
+                         Indice y encuadernación                          
+                                                                          
+Art. 74.- Al final del último tomo del Protocolo de cada año, el 
+Escribano a quien corresponde o está autorizado para llevarlo en el caso 
+de las oficinas, agregará el correspondiente índice alfabético en papel 
+de tamaño igual al de los cuadernos.
+
+Art. 75.- El índice, que será mecanografiado, debe referirse a todas las 
+escrituras extendidas en el Protocolo y se hará por orden alfabético 
+según el primer apellido de cada uno de los otorgantes, expresando:
+a) los apellidos y nombres de los otorgantes;
+b) el número y fecha de la escritura;
+c) la denominación del acto o contrato;
+d) los folios en que se encuentra la escritura;
+e) si el acto ha quedado sin efecto.
+
+Art. 76.- Una vez revisados los últimos cuadernos e inutilizado el papel 
+notarial sobrante, los Escribanos y oficinas autorizadas a llevar 
+Protocolo deberán encuadernar este Registro por orden correlativo de 
+foliatura.
+
+Art. 77.- La encuadernación deberá ser resistente al uso continuado y 
+llevará en el lomo la denominación respectiva, el nombre del Escribano u 
+oficina y el año a que corresponde el Protocolo.
+
+Art. 78.- La encuadernación del Protocolo de cada año, deberá quedar 
+terminada antes del 31 de octubre del año inmediato siguiente y no podrá 
+contener más de trescientos folios por tomo.
+
+Art. 79.- Cuando el Protocolo tuviera más de trescientos folios, será 
+encuadernado en dos o más tomos, poniéndose en el lomo, además de las 
+leyendas prescriptas en el artículo 77, el número del tomo.
+
+Art. 80.- La encuadernación de dos o más años consecutivos de Registros 
+en un único volumen, sólo podrá ser autorizada por la Inspección General 
+de Registros Notariales, siempre que el número total de folios de mérito 
+para ello.
+
+Art. 81.- Queda prohibido habilitar cuadernos a los Escribanos y oficinas 
+autorizadas que no justifiquen haber cumplido lo dispuesto en el artículo 
+78.
+
+                               CAPITULO II                                
+                    DEL REGISTRO DE PROTOCOLIZACIONES                     
+                                                                          
+Art. 82.- Protocolizar es el acto jurídico de agregar documentos y actas 
+al Registro de Protocolizaciones, con las formalidades que se expresan en 
+los artículos 90 y siguientes.
+
+Art. 83.- Llámase Registro de Protocolizaciones al formado por los 
+documentos, actas notariales y actas especiales de intervenciones 
+extrarregistrales, agregados durante el año civil por el Escribano que lo 
+lleva, en virtud de mandato de la ley o reglamento, resolución de 
+autoridad judicial o administrativa o solicitud de parte interesada, con 
+fines generales de conservación, reproducción y fecha cierta -salvo que 
+los documentos incorporados ya la tuvieran.
+
+Art. 84.- El Registro de Protocolizaciones se llevará y controlará en la 
+misma forma que el Protocolo, con excepción de las formalidades no 
+compatibles con su naturaleza y composición.
+
+                                Sección I                                 
+                       Clases de Protocolizaciones                        
+                                                                          
+Art. 85.- Las protocolizaciones pueden ser: preceptivas -es decir, 
+ordenadas por la ley, decreto o reglamento-, por resolución judicial o 
+administrativa, o voluntarias -esto es, a solicitud de los interesados. 
+
+Art. 86.- Deben protocolizarse por mandato de la ley, decreto o 
+reglamento, los siguientes documentos y actas:
+a) los testamentos menos solemnes, en los casos establecidos en los 
+   artículos 812, 815, 819 y 829 del Código Civil;
+b) el duplicado de la partición judicial y un testimonio del auto de su
+   aprobación;
+c) los documentos relativos a los salvamentos marítimos con la declaración
+   del capitán o agente de la empresa que ha salvado el buque;
+d) el testamento abierto de la persona que no conozca el castellano, pero
+   que se exprese claramente en otro idioma y lo escriba;
+e) el testamento cerrado, después de realizada su apertura y las
+   diligencias judiciales cumplidas con ese fin;
+f) las actas y diligencias de protesto;
+g) el concordato privado y las diligencias de notificación a los
+   acreedores que no lo hubieren suscrito;
+h) los certificados del Registro de la Propiedad Sección Inmobiliaria y
+   del Registro Nacional de Actos Personales Sección Interdicciones que se
+   obtuvieren para la autorización de las escrituras judiciales que se 
+   otorguen de oficio por los Jueces;
+i) las actas notariales, cualquiera sea su naturaleza, excepto aquéllas
+   que por su carácter no pueden agregarse al Registro de
+   Protocolizaciones (v.g. la cubierta de testamento cerrado);
+j) los poderes otorgados en el extranjero, previa o simultáneamente a 
+   su utilización en el país (artículo 39.2 del Código General del Proceso
+   y Decreto Nº 175/92 del 5 de mayo de 1992); 
+k) los documentos públicos o privados provenientes del extranjero que 
+   se refieran a bienes inmuebles ubicados en el país y que tengan que 
+   presentarse a registrar;
+l) las promesas de enajenación de inmuebles a plazos, sus cesiones, 
+   modificaciones y rescisiones otorgadas en documento privado, a efectos
+   de su inscripción;
+m) los actos y negocios jurídicos que se presenten a inscribir en el 
+   Registro Nacional de Comercio;
+n) la nómina y descripción de los créditos trasmitidos al patrimonio 
+   fiduciario en los fideicomisos financieros que se refieran a derechos
+   de crédito, con la especificación de las garantías hipotecarias,
+   prendarias y/o personales que les acceden, cuando se otorgan en
+   documento privado, a efectos de su inscripción; 
+o) los demás documentos cuya agregación al Registro de Protocolizaciones
+   estuviere ordenada por las leyes, decretos o reglamentos.
+
+Art. 87.- Las protocolizaciones expresadas en el artículo anterior se 
+realizarán:
+a) en el Registro de Protocolizaciones del Juzgado que intervino en 
+   las diligencias respectivas, cuando se trate de los casos contemplados
+   en los literales a) y b),  
+b) en el Registro de Protocolizaciones de la Escribanía de Marina en el
+   caso del literal c),
+c) en el Registro del Escribano que el interesado designare, en los casos
+   de los demás literales.
+
+Art. 88.- Los Jueces y las autoridades administrativas, en sus 
+respectivas competencias, podrán decretar la protocolización, cuando lo 
+reputen conveniente, a los fines expresados en el artículo 83.
+
+Art. 89.- Las protocolizaciones voluntarias deben solicitarse en 
+escritura pública o acta notarial, por las personas que declaren tener 
+interés en ellas.
+
+                                Sección II                                
+               Formación del Registro de Protocolizaciones                
+                                                                          
+Art. 90.- El Registro de Protocolizaciones se formará:
+a) con los documentos públicos o privados que se agreguen, según los 
+   artículos precedentes;
+b) con las actas notariales en las que se consignen la solicitud del 
+   interesado, las diligencias practicadas y la incorporación al Registro.
+
+Art. 91.- No deben protocolizarse los documentos:
+a) en los cuales se consignen hechos o actos que tengan causa u 
+   objeto ilícito, salvo que así lo ordenen los jueces o cuando los que 
+   soliciten la protocolización no sean sus otorgantes y exista interés, a
+   juicio del Escribano, en la agregación de dichos documentos;
+b) que por su naturaleza y dimensiones no puedan materialmente
+   incorporarse al Registro;
+c) que estén impregnados de materias que puedan perjudicar los demás 
+   instrumentos del Registro, a menos que se adopten precauciones para 
+   evitar el perjuicio;
+d) provenientes del extranjero, sin que hayan sido legalizados y
+   traducidos, si corresponde.
+
+Art. 92.- Para protocolizar documentos no redactados en castellano, sin 
+perjuicio de las excepciones dispuestas por ley, es necesario que sean 
+previamente traducidos a este idioma por un traductor público nacional y, 
+si no lo hubiere, por dos intérpretes, que comparecerán ante el Escribano 
+en el acto de solicitarse la protocolización del documento y firmarán el 
+acta respectiva, responsabilizándose de la traducción.  
+
+Art. 93.- Cuando el documento redactado en otro idioma viene acompañado 
+de su traducción al español realizada en el país de origen, un traductor 
+público nacional certificará la correspondencia de la traducción con el 
+original, expidiendo un certificado de concordancia, el que junto con el 
+documento y su traducción se incorporarán al Registro de 
+Protocolizaciones.
+
+Art. 94.- Cada protocolización puede comprender uno o más documentos. 
+Estos serán identificados en la escritura o acta de solicitud, 
+indicándose:
+a) su carácter de públicos o privados, el lugar donde se otorgaron o 
+   de donde proceden y su fecha; 
+b) referencias precisas a dichos documentos; se recomienda 
+   transcribirlos si su estado actual o deterioro progresivo aconsejaren 
+   tomar esta precaución;
+c) toda otra circunstancia de interés, a juicio del Escribano.
+
+Art. 95.- El Registro de Protocolizaciones se iniciará cada año con la 
+primera protocolización que se realice.
+Las protocolizaciones se efectuarán por orden correlativo de fechas, se 
+iniciarán con los documentos que se incorporen al Registro, cuando los 
+hubiere, seguidos de las actas de solicitud y de diligencias, en su caso, 
+y las de agregación, que deberán extenderse con las formalidades 
+expresadas en los artículos correspondientes del Capítulo II del Título 
+IV de esta reglamentación.
+
+Art. 96.- Todas las hojas de cada protocolización, serán numeradas 
+correlativamente. La numeración del Registro comenzará en el folio uno, 
+se continuará de una protocolización a la inmediata siguiente y así 
+sucesivamente, hasta el cierre al fin del año.
+La foliatura se realizará en la forma prevista en el inciso final del 
+artículo 47.
+
+Art. 97.- Terminado el año, el Escribano a quien corresponde o está 
+encargado de llevarlo en las oficinas autorizadas, cerrará el Registro de 
+Protocolizaciones, extendiendo un certificado de clausura en forma 
+mecanografiada, a continuación de la última acta, y si no hubiere espacio 
+suficiente, en una hoja de papel notarial.
+El certificado contendrá, necesariamente las indicaciones siguientes:
+a) la cantidad de protocolizaciones realizadas durante el año y los 
+   folios que ocupan;
+b) el lugar, día, mes y año en que se autoriza el certificado, que 
+   deberá ser el 31 de diciembre del año respectivo o el 1º de enero del
+   año siguiente o, en su caso, el día de cese en el ejercicio
+   profesional;
+c) el signo, firma y rúbrica autógrafos del Escribano a quien corresponde
+   el Registro o está encargado de llevarlo.
+
+Art. 98.- Si durante el año, el Escribano o la oficina no hubieren 
+realizado ninguna protocolización, el Notario expedirá un certificado que 
+así lo acredite, en papel notarial y en forma mecanografiada, que se 
+encuadernará con el Protocolo del mismo año.
+
+                               Sección III                                
+                         Indice y Encuadernación                          
+                                                                          
+Art. 99.- Al final del Registro de Protocolizaciones de cada año, el 
+Escribano a quien corresponde o está autorizado a llevarlo, agregará el 
+respectivo índice alfabético, en la forma expresada en el artículo 74.
+
+Art. 100.- El índice deberá comprender todas las protocolizaciones 
+realizadas durante el año -incluyendo las de las actas especiales de 
+intervenciones extrarregistrales- y se hará por orden alfabético según el 
+primer apellido de los requirentes o interesados, expresando:
+a) los apellidos y nombres de las personas que solicitaron la 
+   protocolización o tenían interés en ella;
+b) el número y fecha de la protocolización;
+c) la mención sucinta de los documentos que comprende;
+d) los folios que ocupa.
+Cuando la protocolización se pida por dos o más interesados, se hará en 
+el índice una mención por cada apellido patronímico distinto.
+
+Art. 101.- Los Escribanos u oficinas autorizadas deberán encuadernar
+anualmente el Registro de Protocolizaciones en un solo volumen con el
+Protocolo del mismo año o en forma separada, teniéndose presente lo
+dispuesto por el artículo 78.
+En todo lo demás, regirá lo dispuesto para la encuadernación del 
+Protocolo en los artículos 76 a 81, en lo que fueren aplicables.
+
+                                Sección IV                                
+                      Desglose de Protocolizaciones                       
+
+Art. 102.- No podrá desglosarse lo protocolizado sin previo mandato de la
+Suprema Corte de Justicia en casos de evidente necesidad, error o 
+incorporación indebida de documentos.
+
+Art. 103.- La petición deberá hacerse por los interesados, en escrito 
+fundado, ante la Suprema Corte de Justicia; se sustanciará con vista al 
+Escribano en cuyo Registro se encuentre el documento y con audiencia del 
+señor Fiscal de Corte y Procurador General de la Nación . 
+Si se autorizara el desglose, la Suprema Corte de Justicia entregará un 
+testimonio de la resolución al Escribano encargado del Registro.
+
+Art. 104.- Decretado el desglose, se procederá en la siguiente forma:
+a) se extraerá el documento y en su lugar se dejará testimonio por 
+   exhibición de él, expedido por cualquiera de los procedimientos que 
+   indica el artículo 242;
+b) se agregará el testimonio de la resolución de la Suprema Corte de 
+   Justicia que dispuso el desglose;
+c) el Escribano encargado del Registro, labrará y agregará a éste un 
+   acta en la que se referencie el desglose efectuado, sin modificar la 
+   foliatura del Registro;
+d) de inmediato, se reencuadernará el Registro y se le someterá a la 
+   visita de los funcionarios competentes, a fin de comprobar el exacto 
+   cumplimiento de las formalidades indicadas en este artículo.
+
+Art. 105.- Los desembolsos que origine el desglose serán pagados por el 
+peticionante, salvo que la incorporación al Registro se hubiere realizado 
+por error manifiesto del Escribano autorizante.
+
+                               CAPITULO III                               
+                     RESERVA, CONSERVACION Y ARCHIVO                      
+                       DE LOS REGISTROS NOTARIALES                        
+                                                                          
+Art. 106.- Los Registros Notariales son, en general, reservados. Sólo 
+tienen derecho a su examen:
+a) los miembros del Poder Judicial, en cumplimiento de resoluciones 
+   ejecutoriadas o en virtud de las visitas e inspecciones preceptivas;
+b) las partes, sus causahabientes y apoderados con facultades para ello;
+c) los funcionarios autorizados por la Caja Notarial de Seguridad Social,
+   para la debida comprobación del pago de los montepíos.
+
+Art. 107.- La exhibición la hará el propio Escribano o persona por él 
+autorizada y abarcará únicamente los actos o partes pertinentes de 
+ellos.
+
+Art. 108.- Las demás personas podrán pedir la exhibición y su concesión 
+queda librada al racional y prudente arbitrio del Escribano.
+
+Art. 109.- Cuando fuere rehusada la exhibición pedida, el solicitante 
+podrá promover recurso de queja ante la Suprema Corte de Justicia, el que 
+será resuelto con audiencia del Escribano y con previo informe de la 
+Inspección General de Registros Notariales y dictamen del señor Fiscal de 
+Corte y Procurador General de la Nación.
+
+Art. 110.- Es deber de los Escribanos tomar todas las providencias 
+necesarias para la conservación e integridad de los Registros, mientras 
+permanezcan en su poder.
+En cuanto a los daños y perjuicios a los interesados, hay presunción de 
+culpa de parte del Escribano en toda pérdida o falta de integridad de sus 
+Registros.
+
+Art. 111.- En caso de pérdida, destrucción, sustracción o inutilización 
+total o parcial de los Registros, el Escribano, a la mayor brevedad, 
+pondrá los hechos en conocimiento de la Suprema Corte de Justicia y ésta, 
+adoptará las providencias que considere del caso, sin perjuicio de los 
+demás procedimientos judiciales ordinarios.
+
+Art. 112.- Los archivos de Registros Notariales estarán bajo la 
+superintendencia de la Suprema Corte de Justicia, la que reglamentará su 
+organización y funcionamiento.
+Los Escribanos que lleven Registros Notariales podrán retenerlos mientras 
+ejerzan la profesión.
+
+Art. 113.- Los archivos departamentales y locales de Registros Notariales 
+se radicarán en la sede de los Juzgados Letrados de Primera Instancia del 
+departamento respectivo, con competencia civil, bajo la guarda del 
+Actuario o del Actuario Adjunto.
+
+Art. 114.- En las localidades donde exista más de un Juzgado con 
+competencia civil, y para el caso que ninguno de ellos tuviera capacidad 
+locativa, el depósito de los Registros Notariales se efectuará en otra 
+sede judicial de similar categoría y de cualquier materia.
+
+Art. 115.- En los casos en que no existiere sede judicial de cualquier 
+materia con capacidad locativa para el archivo de los Registros 
+Notariales y sólo respecto a Escribanos que se jubilen, el Juzgado 
+Letrado de Primera Instancia con competencia civil podrá nombrar 
+depositario de los archivos notariales al Escribano jubilado, con la 
+obligación de entregar a la Sede los tomos de los cuales se solicitaren 
+copias o testimonios, cuando ésta lo requiera.
+La Sede deberá actuar con criterio restrictivo y la resolución que se 
+dicte deberá establecer el carácter absolutamente transitorio de ese 
+depósito hasta tanto se solucionen los problemas locativos que la 
+motivaron. A tales efectos se deberá llevar un registro de todos los 
+casos en que se adopte esta resolución excepcional.
+
+Art. 116.- En Montevideo, el archivo se radicará donde indique la Suprema 
+Corte de Justicia, bajo la guarda de la Inspección General de Registros 
+Notariales.
+
+Art. 117.- Deberán ser entregados para su archivo los Registros de los 
+Escribanos:
+a) fallecidos;
+b) desinvestidos por incapacidad sobreviniente, por renuncia voluntaria al
+   ejercicio de la profesión, en razón de las incompatibilidades a que
+   alude el artículo 24 o por vía de sanción disciplinaria;
+c) suspendidos en el ejercicio profesional por más de seis meses por la
+   Judicatura Penal;
+d) ausentes del territorio nacional que hayan establecido su domicilio en
+   el extranjero, y
+e) los de aquéllos cuyo paradero se ignora.
+Lo dispuesto en este artículo, no obsta a que los Escribanos puedan 
+solicitar la devolución de sus Registros, una vez que hayan desaparecido 
+las causas que motivaron el archivo.
+
+Art. 118.- Los Escribanos podrán entregar, en cualquier momento con 
+destino al archivo, los Registros Notariales encuadernados 
+correspondientes a años ya vencidos.
+Dicha entrega, que queda condicionada a la disponibilidad de espacio en 
+el archivo, no obsta a las gestiones que puedan realizar para su 
+devolución.
+
+Art. 119.- En los casos previstos en el artículo 117, la entrega deberá 
+efectuarse dentro de los treinta días siguientes al hecho que la motiva, 
+salvo que la Justicia haya fijado un plazo menor.
+Están obligados a realizarla los propios Escribanos, sus familiares o 
+cualquier persona en cuyo poder se encuentren los Registros.
+Esta obligación comprende todos los Registros que el Escribano hubiere 
+formado durante su actividad profesional.
+
+Art. 120.- Recibida la comunicación de la Caja Notarial de Seguridad 
+Social que da conocimiento a la Suprema Corte de Justicia de haber 
+acordado una jubilación o pensión, ésta prevendrá a las oficinas que se 
+mencionan en el artículo 121, a fin de que vigilen el cumplimiento de lo 
+dispuesto en el artículo 119.
+En caso de incumplimiento, la Suprema Corte de Justicia o el Juzgado a 
+cuyo cargo se encuentre el archivo de los Registros Notariales, dictará 
+las providencias necesarias para hacer efectivo el depósito de los 
+Registros de los Escribanos que hubieren cesado en el ejercicio de la 
+función notarial.
+La Inspección General de Registros Notariales tomará iniciativa en todos 
+los casos en que tenga noticia del incumplimiento de lo dispuesto por los 
+artículos 117, 119 y 121.
+
+Art. 121.- La entrega y el archivo de la totalidad de los Registros 
+Notariales deberá realizarse en el lugar donde el Escribano ejerció 
+efectiva y principalmente su profesión:
+a) en el departamento de Montevideo, en la Inspección General de Registros
+   Notariales de la Suprema Corte de Justicia;
+b) en los demás departamentos, en las oficinas de los Juzgados Letrados
+   de Primera Instancia con competencia civil, de la ciudad en que
+   éstos están asentados, teniendo en cuenta la competencia territorial de
+   dichos Juzgados.
+En caso de duda se estará a la data de las escrituras y protocolizaciones 
+autorizadas por el Escribano.
+
+Art. 122.- Cuando la Inspección General de Registros Notariales o los 
+Juzgados Letrados de Primera Instancia competentes reciban Registros 
+Notariales, comprobarán si se han entregado todos los que correspondían y 
+si dichos Registros se encuentran en debido estado de integridad.
+La Inspección General de Registros Notariales examinará, además, los 
+Registros que no hubieren sido objeto de visita, disponiendo lo necesario 
+para su clausura y archivo. De todo dejará constancia en actas y dará 
+oportuna cuenta a la Suprema Corte de Justicia, la que ordenará se 
+extiendan las anotaciones pertinentes en el expediente del Escribano.
+
+                                TITULO IV                                 
+                      DE LOS INSTRUMENTOS NOTARIALES                      
+                                                                          
+                                CAPITULO I                                
+                           ESCRITURAS PUBLICAS                            
+                                                                          
+Art. 123.- Escritura pública es el instrumento público que registra un 
+negocio jurídico, ha sido extendido en el Protocolo según las formas 
+requeridas y autorizado por Escribano.
+
+Art. 124.- Las escrituras públicas se escribirán en idioma castellano y 
+deben redactarse con estilo claro y preciso.
+En cuanto sea posible, se las dividirá en tantas partes como 
+estipulaciones o menciones distintas las constituyan, encerrando en cada 
+cláusula sólo una de aquéllas.
+
+Art. 125.- Cuando se empleen expresiones en otro idioma, se pondrá a 
+continuación, entre paréntesis, su versión castellana, excepto las 
+palabras técnicas latinas de uso jurídico y los nombres de personas y 
+lugares, así como los de contratos cuya denominación corriente no esté en 
+castellano.
+
+Art. 126.- Las escrituras deben extenderse sin abreviaturas ni iniciales, 
+pudiendo las fechas y cantidades expresarse en letras o en números, con 
+las excepciones que se expresarán, las que deben necesariamente indicarse 
+en letras:
+a) la fecha en que se extiende la propia escritura, como también la de su 
+   autorización en caso de diferir de aquélla;
+b) el precio o monto de la prestación principal, en su caso;
+c) el número de padrón, sección judicial y superficie de los inmuebles 
+   objeto de las escrituras;
+d) lo que sea solicitado por alguno de los otorgantes.
+
+Art. 127.- Toda escritura pública será precedida del membrete, puesto en 
+extenso o en recuadro, que contendrá: el número correlativo de orden, en 
+cifras, la determinación del nombre del acto, y a falta de denominación 
+específica, el genérico y los nombres y apellidos de los otorgantes.
+Cuando los actos fuesen varios, bastará con designar uno de ellos 
+agregándole "y otro" o "y otros" (ejemplo: compraventa y arrendamiento,  
+podrá ponerse "compraventa y otro").
+Si los otorgantes fuesen dos o más por alguna o ambas partes, bastará con 
+designar uno de ellos, agregándole "y otro" o "y otros" (ejemplo: a) N.N. 
+y otro con H.H. y otros); b) N.N. y otros a H.H.)
+
+Art. 128.- El membrete de las escrituras públicas deberá comenzar 
+necesariamente en el primer renglón del anverso del papel notarial en el 
+que corresponda extenderla, excepto la primera escritura de cada año que 
+comenzará a continuación de la apertura del Protocolo.
+
+Art. 129.- Las escrituras erradas podrán no tener membrete, y en caso de 
+tenerlo, su numeración se repetirá en la escritura inmediata siguiente.
+Las escrituras sin efecto deben tener membrete y su numeración no se 
+repetirá en la inmediata siguiente.
+
+Art. 130.- En toda escritura pública, deberá establecerse:
+a) El lugar, la fecha y el registro en que se actúa.
+b) Los nombres y apellidos de los otorgantes y de todo otro sujeto
+   auxiliar interviniente, cuando corresponda su utilización. Si los
+   nombres y apellidos usados por dichas personas difieren de los que
+   resultan de sus documentos oficiales de identidad, se hará expresa
+   mención de esta circunstancia, indicándose la forma de designación tal
+   como figura en los documentos aludidos y la que usan en la vida de
+   relación. No se entenderá que existe diferencia, cuando la persona
+   usa alguno de sus nombres y apellidos o las iniciales de ellos.
+c) En cuanto a los otorgantes, además: nacionalidad, estado civil, 
+   mayoría o minoría de edad -debiendo consignarse en este último caso la 
+   edad precisa del menor- domicilio, número de cédula de identidad o, si
+   se tratare de otorgantes extranjeros, otro documento oficial 
+   identificatorio; el número de inscripción en el Registro Unico de 
+   Contribuyentes de la Dirección General Impositiva, cuando corresponda.
+d) Si el otorgante fuese casado, viudo o divorciado: en qué nupcias y 
+   el nombre y apellido del cónyuge actual, premuerto o divorciado.
+Cuando el otorgante actúe en representación legal o voluntaria, se 
+consignarán los datos expresados en los literales precedentes, respecto 
+del representante y del representado, pudiendo exceptuarse, en cuanto al 
+primero, la nacionalidad y el estado civil, salvo que este último dato 
+resultara relevante para el acto de que se trate (v.g: representación en 
+ejercicio de la patria potestad) 
+Respecto de los sujetos auxiliares, cuando corresponda su utilización, 
+deberá consignarse además de lo establecido en el literal b), la cédula 
+de identidad o, tratándose de extranjeros, otro documento oficial 
+identificatorio, y el domicilio de todos ellos.
+
+Art. 131.- Los elementos de individualización de los otorgantes y demás 
+sujetos intervinientes, se reputarán referidos a las declaraciones que 
+éstos hayan hecho al Escribano y de su veracidad sólo ellos son 
+responsables.
+
+Art. 132.- Al final de cada escritura y antes de las firmas, deberá 
+establecerse la referencia a la anterior, en la siguiente forma:
+a) Cuando se trate de la primera escritura del año, expresando que 
+   "no tiene referencia por ser la primera que se extiende en el actual 
+   Protocolo".
+b) Cuando se trate de las escrituras posteriores -y aún cuando la 
+   anterior quede sin efecto- expresando: "Esta escritura sigue 
+   inmediatamente a la número (tal) de (categorización), extendida el
+   (día y mes), al folio (tal)". Si la escritura referida ocupa más de un
+   folio, se indicarán el folio donde comienza y aquél donde termina, es
+   decir en el cual se encuentra la autorización o la expresión sin
+   efecto, en su caso.
+
+Cuando una escritura quede errada, la referencia en la siguiente, se hará 
+a la extendida con anterioridad a la errada, expresando: "Esta escritura 
+sigue a la número (tal) de (categorización), extendida el (día y mes), 
+del folio (tal al cual), habiendo quedado errada parte de (otra u otras), 
+contenidas del folio (tal al cual)" (folios entre los cuales comienzan y 
+terminan).
+
+Art. 133.- Si una escritura no se concluyera, se le inutilizará con la 
+palabra "errada" que el Escribano manuscribirá y rubricará, pero no 
+firmará.
+Mientras una escritura no haya sido autorizada por el Escribano -y aún 
+cuando la hubieren firmado las partes y demás sujetos auxiliares- podrá 
+dejársela sin efecto. En este caso se pondrá en el lugar reservado a la 
+firma del autorizante, la expresión "sin efecto", que el Escribano 
+escribirá de mano propia y rubricará pero no firmará.
+
+Art. 134.- No obstante estar completamente concluida la redacción de una 
+escritura, pero antes de que se la haya comenzado a firmar, es permitido 
+a los otorgantes y al Escribano, consignar cualquier cláusula aditiva, 
+modificativa o interpretativa, o el lugar o la fecha en que se otorga y 
+firma, si no hubiera sido posible hacerlo en los que fue extendida 
+(artículo 160).
+
+Art. 135.- Si autorizada, dejada sin efecto o errada una escritura, 
+quedare espacio sobrante en la foja, el Escribano lo inutilizará 
+estampando una nota que signará y firmará, debiendo comenzar la escritura 
+que le sigue en el anverso de la hoja inmediata posterior.
+En la nota deberá expresarse el lugar y fecha y señalarse con precisión 
+el espacio que se inutiliza.
+Dicha nota podrá extenderse en forma mecanografiada, manuscrita o 
+utilizando sello de goma.
+
+                                Sección I                                 
+                             De los testigos                              
+                                                                          
+Art. 136.- Los testigos en las escrituras públicas, pueden ser de 
+conocimiento o instrumentales. 
+
+Art. 137.- Son testigos de conocimiento los que se limitan a abonar la 
+identidad de alguno, varios o todos los otorgantes.
+
+Art. 138.- Son testigos instrumentales aquéllos que, sin compartir la fe 
+del acto y a efectos de tomar conocimiento de los hechos pasados ante 
+ellos, se enteran del contenido de la escritura.
+Art. 139.- Todo testigo puede ser, a la vez, instrumental y de 
+conocimiento y debe firmar la escritura, alcanzando con que lo haga una 
+sola vez.
+
+                                Sección II                                
+                       Identidad de los Otorgantes                        
+                                                                          
+Art. 140.- Si el Escribano conoce a los otorgantes, dará fe de ello en la 
+escritura; en su defecto, se cerciorará de la identidad de ellos mediante 
+la declaración de dos testigos que los conozcan.
+Los testigos que abonen la identidad de los otorgantes deben ser 
+conocidos del Escribano y éste consignará en la escritura, además de las 
+enunciaciones del literal b) y del inciso final del artículo 130: 
+a) que ellos manifestaron conocer a los otorgantes;
+b) que el Escribano conoce a los referidos testigos.
+
+Art. 141.- No pueden ser testigos de conocimiento:
+a) los que no saben o no pueden firmar o suscriben con caracteres 
+   distintos a los del alfabeto latino;
+b) los que aún no han cumplido veintiún años;
+c) los ciegos;
+d) los que no gozan del libre uso de la razón.
+
+Art. 142.- La elección de los testigos de conocimiento es privativa del 
+autorizante.
+
+Art. 143.- Son aplicables a los testigos de conocimiento las 
+disposiciones de los artículos 147, 148 y 149.
+
+                               Sección III                                
+                         Testigos instrumentales                          
+                                                                          
+Art. 144.- En las escrituras públicas sólo se requieren testigos 
+instrumentales, en los siguientes casos:
+1) Testamentos solemnes abiertos;
+2) Si alguno de los otorgantes:
+a) no sabe o no puede firmar,
+b) padece de ceguera absoluta, transitoria o permanente,
+c) sabe y puede firmar con los signos de escritura de su idioma pero 
+   no sabe hacerlo con los del alfabeto latino;
+3) Cuando alguno de los otorgantes lo requiera;
+4) Toda vez que el Escribano lo estime conveniente.
+En estos casos, la escritura se otorgará ante dos testigos instrumentales 
+idóneos, salvo en los testamentos, para los que se estará a lo que 
+disponen los artículos 793, 809 y concordantes del  Código Civil.
+
+Art. 145.- No son idóneos y por lo tanto no pueden ser testigos 
+instrumentales en las escrituras públicas, salvo lo que se dispone en 
+materia de testamentos:
+a) los que no saben o no pueden firmar o suscriben con caracteres 
+   distintos a los del alfabeto latino;
+b) los que aún no han cumplido veintiún años;
+c) los ciegos;
+d) los sordos; 
+e) los que no gozan del libre uso de la razón;
+f) el cónyuge del autorizante y sus parientes dentro del cuarto grado 
+   de consanguinidad o segundo de afinidad;
+g) los socios, los amanuenses y los empleados dependientes del 
+   Escribano, siempre que presten sus servicios mediante retribuciones 
+   abonadas por éste;
+h) los que no conocen el idioma castellano; no obstante, en el caso del
+   artículo 159, bastará que los testigos conozcan alguno de los idiomas
+   en el cual se lea la escritura.
+
+Art. 146.- La elección de los testigos instrumentales la realizarán los 
+otorgantes, con anuencia del Escribano y, en defecto de acuerdo entre 
+éstos, será hecha por el autorizante.
+
+Art. 147.- Es indiferente que firme mayor número de testigos que el 
+fijado en la ley, en los casos en que son necesarios.
+
+Art. 148.- La idoneidad del testigo se juzgará con referencia al momento 
+en que se autorizó la escritura.
+
+Art. 149.- La admisión culpable por el Escribano de testigos sin 
+idoneidad, lo hará pasible de responsabilidad.
+
+                                Sección IV                                
+                          Lectura y Otorgamiento                          
+
+Art. 150.- Son inhábiles, en general, para otorgar escrituras públicas, 
+los impedidos transitoria o permanentemente de controlar su voluntad 
+manifestada y constatada por la lectura oída o  personal directa o 
+trasmitida mediante lengua de señas uruguaya.
+
+Art. 151.- Toda escritura pública deberá ser leída y otorgada de 
+conformidad con las reglas que se enuncian a continuación. Para los 
+testamentos solemnes abiertos, se aplicarán las reglas establecidas en el 
+Código Civil.
+
+Art. 152.- Extendida la escritura, el autorizante dará lectura de ella en 
+voz inteligible a los otorgantes, en presencia de los testigos y demás 
+sujetos auxiliares intervinientes, conforme a lo que disponen las leyes y 
+este reglamento.
+La lectura por el Escribano es indelegable e irrenunciable, no será 
+sustituida por ninguna otra que corresponda hacer y se efectuará siempre 
+en primer término.
+Terminada la lectura o lecturas, el Escribano recabará el asentimiento de 
+los otorgantes.
+De la lectura y el otorgamiento, se dejará constancia en la escritura.
+
+Art. 153.- El otorgante que padece sordera absoluta y sabe leer, leerá él 
+mismo en alta voz el instrumento.
+En la escritura, el otorgante declarará ser sordo y se dejará constancia 
+de la doble lectura.
+
+Art. 154.- Si alguno de los otorgantes es absolutamente sordo y no sabe 
+leer, pero conoce la lengua de señas uruguaya, deberá ser asistido por un 
+intérprete de dicha lengua, quien le trasmitirá el contenido del 
+instrumento.
+En la escritura, el otorgante declarará ser sordo, que conoce la lengua 
+de señas uruguaya, y solicitará al intérprete que le trasmita el 
+contenido de aquélla, dejándose constancia de dicha trasmisión.
+
+Art. 155.- El otorgante mudo, transitorio o permanente, pero que conserva 
+el sentido del oído, prestará su asentimiento por escrito, por señas o 
+valiéndose de terceras personas.
+En la escritura el otorgante manifestará sus datos individualizantes por 
+escrito o valiéndose de terceras personas y, de la manera indicada 
+precedentemente o aún por señas, declarará el impedimento que lo aqueja, 
+dejándose constancia de la forma especial adoptada por éste para expresar 
+su otorgamiento. 
+
+Art. 156.- El otorgante sordomudo que sabe leer y puede escribir, leerá 
+para sí la escritura y prestará su asentimiento por escrito, por señas o 
+valiéndose de terceras personas.
+En la escritura manifestará sus datos individualizantes por escrito o 
+valiéndose de terceras personas y de la  manera indicada precedentemente 
+o aún por señas, declarará el impedimento que lo aqueja y saber leer y se 
+dejará constancia de la doble lectura y de la forma especial de 
+otorgamiento adoptada.
+
+Art. 157.- El otorgante sordomudo que no sabe leer pero puede darse a 
+entender mediante la lengua de señas uruguaya, deberá ser asistido por un 
+intérprete de dicha lengua, quien le trasmitirá el contenido del 
+instrumento, y prestará su asentimiento por señas o por intermedio del 
+intérprete.
+En la escritura, el otorgante, por medio del intérprete, manifestará sus 
+datos individualizantes, declarará ser sordomudo, que conoce la lengua de 
+señas uruguaya, y solicitará a dicho intérprete que le trasmita el 
+contenido del documento, dejándose constancia de dicha trasmisión y de la 
+forma especial de otorgamiento adoptada.
+
+Art. 158.- En las situaciones en que corresponda la intervención de un 
+intérprete de lengua de señas uruguaya, éste deberá acreditarse como tal 
+en la forma dispuesta por la normativa vigente. Podrá prescindirse del 
+intérprete cuando el Escribano autorizante posea dicha acreditación.
+
+Art. 159.- Cuando el otorgante no conoce el idioma castellano, debe ser 
+asistido por un intérprete, quien le leerá la escritura en el idioma que 
+aquél expresare hablar y entender y por medio del cual prestará su 
+asentimiento. 
+En la escritura, el otorgante, por medio del intérprete, manifestará sus 
+datos individualizantes, declarará no conocer el idioma castellano pero 
+sí su propio idioma, solicitará a dicho intérprete que le lea la 
+escritura en el idioma que conoce y se dejará constancia de la doble 
+lectura y de la forma especial de otorgamiento adoptada.
+Se prescindirá del intérprete cuando el Escribano conozca el idioma del 
+otorgante, debiendo, después de la lectura en castellano, leer la 
+escritura también en el referido idioma, de todo lo cual se hará 
+mención.
+
+Art. 160.- Las cláusulas aditivas se deben leer y otorgar con las mismas 
+formalidades indicadas en los artículos que anteceden, dejándose 
+constancia de ello en la escritura.
+
+Art. 161.- En los casos en que corresponda la intervención de un 
+intérprete, el otorgante que lo designa será responsable por su 
+idoneidad.
+
+                                Sección V                                 
+                           Firma y Autorización                           
+                                                                          
+Art. 162.- Leída y otorgada la escritura, será firmada a continuación por 
+los otorgantes y demás sujetos auxiliares intervinientes y autorizada por 
+el Escribano, quien deberá firmar en último lugar.
+
+Art. 163.- Los otorgantes y demás sujetos auxiliares, firmarán sólo con 
+iniciales, o con el apellido o apellidos que usen, o con grafías 
+ilegibles, si es que así lo hacen habitualmente.
+El Escribano autorizará la escritura con su signo, firma y rúbrica 
+registrados ante la Suprema Corte de Justicia.
+
+Art. 164.- Por el otorgante ciego y por el que declare no saber o no 
+poder firmar, lo hará a su ruego cualquiera de los testigos u otra 
+persona que sepa escribir.
+En la escritura, el otorgante declarará su impedimento y formulará el 
+ruego correspondiente, dejándose constancia de la forma especial de 
+suscripción adoptada.
+
+Art. 165.- Cuando el otorgante sabe y puede firmar con otros signos de 
+escritura, pero declara que no sabe hacerlo con los del alfabeto latino, 
+firmará la escritura en la forma que sabe hacerlo y, además, suscribirá a 
+su ruego uno de los testigos u otra persona que sepa escribir.
+En la escritura, el otorgante declarará el modo en que suscribe y 
+formulará el ruego, dejándose constancia de la forma especial de 
+suscripción adoptada.
+
+Art. 166.- No obstante lo establecido en los artículos anteriores, los 
+otorgantes ciegos, aquellos que no saben o no pueden firmar, o no firman 
+con caracteres latinos, podrán solicitar que en el lugar reservado para 
+las firmas, se les permita colocar la impresión digito-pulgar de su mano 
+derecha o de su mano izquierda, o en su defecto la de otro dedo. En 
+ausencia de tal solicitud, el Escribano podrá exigir se estampe la 
+referida impresión.
+La impresión digital se hará con tinta negra apropiada.
+En la escritura, se consignará la solicitud o el consentimiento, 
+dejándose constancia de la forma especial de suscripción adoptada y, en 
+su caso, de haberse estampado la huella digital.
+
+Art. 167.- El firmante a ruego podrá firmar, al mismo tiempo, por más de 
+un otorgante y será suficiente que lo haga una sola vez.
+
+Art. 168.- La lectura, el otorgamiento y la firma se realizarán, en 
+principio, en un solo acto. 
+Cuando ello no fuera posible, si el Escribano lo reputa fundado o 
+prudente, tratándose de escrituras con pluralidad de otorgantes, podrá 
+dividir el acto, recibiendo los asentimientos y las firmas en distintos 
+momentos y lugares, siempre que lo realice dentro del mismo día, 
+dejándose constancia de ello en la escritura.
+
+Art. 169.- Si después de haberse autorizado la escritura, se borrasen las 
+firmas por cualquier accidente, o se notare que alguno de los firmantes 
+empleó media firma, debiendo ser entera, omitió letras o se equivocó al 
+poner su nombre, en el mismo acto volverá el Escribano a recabar todas 
+las firmas, autorizando nuevamente la escritura. 
+Si los hechos a que se refiere el inciso anterior se produjeran antes de 
+que la escritura hubiera sido autorizada, bastará con que vuelva a 
+firmarla aquél cuya firma se borró, aparece incompleta o con errores.
+En la copia, se transcribirán todas las firmas que aparecen en la 
+matriz.
+
+                               CAPITULO II                                
+                             ACTAS NOTARIALES                             
+                                                                          
+Art. 170.- Acta notarial es el instrumento público que registra hechos, 
+circunstancias, cosas y declaraciones que el Escribano presencia, 
+comprueba o recibe, así como sus propias actuaciones.
+Se recomienda que, en lo posible, no se incluyan negocios jurídicos en 
+las actas notariales.
+
+                                Sección I                                 
+                                Formalismo                                
+                                                                          
+Art. 171.- Las actas notariales se extenderán y autorizarán con el 
+formalismo establecido para las escrituras públicas, en lo que fuere 
+compatible con dichas actas, sin perjuicio de las modificaciones que se 
+indican en los artículos siguientes y se protocolizarán al finalizar la 
+actuación.
+
+Art. 172.- Deben extenderse en papel notarial, liso o rayado, pudiendo 
+cambiarse el tipo de papel dentro del año y aún dentro de una misma 
+actuación.
+Las actas notariales que correspondan a una misma actuación, se 
+extenderán por orden cronológico, seguirán al documento que se 
+protocoliza, cuando lo hubiere, y entre si mismas mantendrán una adecuada 
+continuidad. 
+
+Art. 173.- Las actas se extenderán únicamente por el sistema 
+mecanografiado, pudiendo escriturarse por cualquier medio mecánico o 
+digital de impresión, con excepción de las actas de diligencias, las que 
+podrán extenderse en forma manuscrita. 
+
+Art. 174.- Cuando las actas se extiendan en forma manuscrita, sólo podrá 
+utilizarse papel notarial rayado, deberá emplearse tinta negra de buena 
+calidad, prohibiéndose el uso de tinta sólida o en pasta, y la letra que 
+se utilice deberá ser clara y de regular tamaño, de manera que pueda 
+leerse sin dificultad.
+
+Art. 175.- Es aplicable a las actas notariales lo dispuesto en los 
+artículos 53 a 57.
+
+Art. 176.- En la formulación de las actas notariales no se requiere 
+unidad de acto ni de contexto, pudiendo ser extendidas en el momento del 
+acto o inmediatamente después. En este último caso se distinguirá en el 
+acta el momento de la diligencia de aquél de su extensión.
+Al comienzo de cualquier diligencia el Escribano deberá presentarse, 
+hacer conocer su condición de tal y explicar al requerido el motivo de 
+aquélla. Si a su criterio y por motivos fundados, tal presentación 
+frustrara o pudiera frustrar su intervención, deberá hacerlo en cualquier 
+momento antes de su finalización. De todo ello se dejará constancia en el 
+acta.
+No se aplicará a las actas notariales lo dispuesto en los artículos 132 y 
+133.
+ 
+Art. 177.- Cuando el Escribano conozca a los requirentes, así lo 
+consignará en el acta; aquél a quien no conociera, deberá acreditarle su 
+identidad mediante la cédula de identidad o, si fuere extranjero, con 
+otro documento oficial identificatorio, de todo lo cual se dejará 
+constancia.
+Cuando el Escribano no conozca a los requirentes, sólo será preceptiva la 
+utilización de testigos de conocimiento en los casos en que la ley lo 
+exigiere.
+Podrá prescindirse de toda identificación de las personas requeridas o 
+que atiendan al Escribano y que le sean desconocidas, cuando se realicen 
+diligencias como las de notificaciones, intimaciones, etc.
+
+Art. 178.- En las actas no es necesaria la intervención de testigos 
+instrumentales, salvo en los casos siguientes:
+a) cuando el declarante no sabe o no puede firmar, firma con 
+   caracteres no latinos o es ciego;
+b) cuando la persona requerida para notificarle o intimarle algo no 
+   es encontrada en el domicilio o sitio indicado y se practica la 
+   diligencia con otra persona;
+c) cuando el requirente lo solicita;
+d) toda vez que el Escribano lo repute conveniente;
+e) en las demás situaciones en las cuales la ley lo exija.
+
+Art. 179.- Las personas que aparecen suscribiendo los documentos privados 
+cuya protocolización solicitan, podrán, en esa oportunidad, ratificar el 
+contenido y reconocer sus firmas.
+En tal caso, el Escribano dará fe del conocimiento de los otorgantes o se 
+asegurará de su identidad en la forma que expresa el artículo 177 de este 
+Reglamento.
+
+Art. 180.- En materia de testamentos y protestos, se observarán las 
+formalidades establecidas por la legislación especial aplicable.
+
+                                Sección II                                
+                          Actas de comprobación                           
+                                                                          
+Art. 181.- Los Escribanos autorizarán las actas notariales en las que se 
+consignen los hechos y  circunstancias que presencien y las cosas que 
+comprueben.
+
+Art. 182.- El Escribano requerido para presenciar o comprobar hechos, 
+circunstancias o cosas, deberá hacerse asistir por peritos, cuando la 
+comprobación requiera conocimientos especializados que excedan a los 
+suyos propios.
+Se recogerán las declaraciones y juicios que formulen bajo su 
+responsabilidad dichos peritos, debiendo suscribir el acta respectiva. 
+
+                               Sección III                                
+                    Actas de notificación e intimación                    
+                                                                          
+Art. 183.- Las notificaciones e intimaciones se harán a la persona y en 
+el domicilio o sitio designado por el requirente.
+
+Art. 184.- Si la persona a quien se solicita para notificarlo o intimarle 
+algo no fuere encontrada en el domicilio o sitio indicado por el 
+requirente, se practicará la diligencia con cualquier persona mayor de 
+edad que atendiere al Escribano. Si ésta se negare a dar su nombre, a 
+indicar su estado o su relación con el requerido, así se hará constar.
+En el primer supuesto, la persona con quien se cumple la diligencia será 
+invitada a firmarla. Si se negare a ello, bastará la mención del 
+Escribano.
+
+Art. 185.- El Escribano deberá consignar en el acta la declaración o 
+contestación que le formulara la persona requerida o con la que se 
+practica la diligencia, siempre que fuere hecha en términos respetuosos.
+
+Art. 186.- Cuando la persona requerida para notificarle o intimarle algo 
+no es encontrada en el sitio indicado y el Escribano practica la 
+diligencia con otra persona, deberá actuar con testigos instrumentales 
+idóneos, quienes firmarán la diligencia. No será necesaria su 
+intervención en las situaciones previstas en los artículos 192 y 193 de 
+esta reglamentación.
+
+Art. 187.- Cuando el Escribano no encontrare a persona alguna en el 
+domicilio o sitio indicado por el requirente y, por tal motivo no le 
+fuere posible cumplir la diligencia encomendada, lo hará constar en el 
+acta que levante al efecto, no siendo necesaria en tal caso la 
+intervención de testigos instrumentales.
+
+                                Sección IV                                
+        Actas notariales de notificación de actuaciones judiciales        
+                                                                          
+Art. 188.- Las notificaciones de las actuaciones judiciales a que hace 
+referencia la sección III del Título VI del Código General del Proceso, 
+podrán realizarse por Escribano Público designado por la parte, siendo 
+éste responsable de la diligencia.
+
+Art. 189.- A solicitud de parte, el Tribunal podrá disponer que así se 
+practique en el domicilio constituido en autos, la notificación de todas 
+las actufrrftv
+<
+aciones que recaigan en los autos o individualmente de 
+cada una de ellas.
+
+Art. 190.- Cuando del mismo escrito en que se pide la autorización del 
+Tribunal resultara la designación del Escribano y la aceptación por éste, 
+podrá prescindirse del acta notarial de solicitud de intervención 
+profesional.
+
+Art. 191.- Al practicar la diligencia de notificación, el Escribano 
+entregará testimonio por exhibición de la actuación judicial notificada y 
+las copias y documentos que correspondieren, agregados en el expediente.
+
+Art. 192.- La diligencia deberá cumplirse dentro del horario de 7 a 20 
+horas, cualquier día de la semana, respetando los plazos establecidos en 
+el artículo 197 y, en principio, con la misma persona que debe ser 
+notificada. 
+Si no se encontrare al interesado, la diligencia podrá practicarse con su
+cónyuge, hijos mayores de edad, persona de servicio o habitante de la
+casa.
+
+Art. 193.- Si la diligencia no pudiera realizarse con las personas 
+indicadas en el artículo anterior, corresponderá que el Escribano deje 
+cedulón en lugar visible.
+Dicho cedulón estará constituido por el testimonio por exhibición 
+referido en el artículo 191, en el que se agregará constancia detallada 
+del lugar, fecha y hora en que tal diligencia se cumple.
+
+Art. 194.- En ningún caso será necesaria la intervención de testigos 
+instrumentales.
+
+Art. 195.- Las notificaciones a las personas jurídicas se harán a nombre 
+de éstas en la persona de sus representantes, sin necesidad de 
+individualizarlos.
+
+Art. 196.- Cumplida la notificación, el Escribano protocolizará las actas 
+y expedirá testimonio de protocolización para agregar a los autos.
+
+Art. 197.- El Escribano dispondrá de un plazo de dos a cinco días 
+hábiles, según se trate de notificación dentro del departamento o fuera 
+de él, respectivamente, para realizar la diligencia y entregar al 
+Tribunal el testimonio de la protocolización.
+Los plazos indicados se computarán a partir del día hábil inmediato 
+siguiente a la fecha de la resolución o actuación, o a la fecha en que 
+éstas se hallaren disponibles.
+Si el día que concurre el Escribano la actuación no estuviere disponible, 
+podrá solicitar que la oficina actuaria le expida constancia de ello. 
+
+Art. 198.- Transcurridos los plazos establecidos en el artículo anterior 
+sin que se agregue el testimonio, el Actuario o Secretario dará cuenta al 
+Tribunal, quien dispondrá sin más trámite otra forma de notificación.
+
+Art. 199.- Si, por cualquier circunstancia, el Escribano no pudiera 
+realizar la diligencia encomendada, lo hará saber al Tribunal de 
+inmediato, explicando circunstanciadamente los motivos.
+
+Art. 200.- Los Magistrados, Secretarios o Actuarios, en su caso, llevarán 
+un contralor de las notificaciones, ejerciendo una activa vigilancia en 
+cuanto a su cumplimiento en forma y plazo.
+
+Art. 201.- Los Magistrados deberán poner en conocimiento de la Suprema 
+Corte de Justicia las irregularidades que constataren en el cumplimiento 
+de las notificaciones efectuadas notarialmente.
+
+                                Sección V                                 
+                          Actas de declaración                            
+                                                                          
+Art. 202.- Las actas notariales de declaración podrán referirse a hechos 
+propios del declarante o de terceros y deberán formularse de manera 
+articulada, con claridad y precisión.
+
+Art. 203.- Los declarantes deberán ser interrogados por separado, 
+labrándose un acta por cada uno, debiendo el Escribano formular cada 
+pregunta al tenor del interrogatorio que resulte del acta de solicitud y 
+que le fuera propuesto por el requirente, consignando a continuación la 
+respuesta correspondiente, aplicándose en cuanto fueran compatibles las 
+disposiciones contenidas en los artículos 155, 157, 161.1, 161.2 y 161.4 
+del Código General del Proceso. 
+
+                                Sección VI                                
+          Actas de Relación de Intervenciones Extrarregistrales           
+                                                                          
+Art. 204.- Las actas notariales de relación de intervenciones 
+extrarregistrales tienen por objeto registrar datos de la actuación 
+notarial en los siguientes casos:
+a) expedición de testimonios notariales por exhibición;
+b) actas de testamento cerrado, extendidas y autorizadas en la 
+   cubierta de esta forma testamentaria;
+c) certificados notariales, cualquiera sea su naturaleza.
+Los documentos antes referidos, autorizados por el Escribano, con 
+excepción de aquéllos destinados a ser presentados o registrados ante 
+cualquier oficina pública, serán anotados cronológicamente cada mes, en 
+dichas actas.
+
+Art. 205.- Exceptúanse de la obligación de ser relacionadas en el acta 
+referida las intervenciones extrarregistrales que practica el Escribano 
+como funcionario de la Administración Pública nacional, municipal, Entes 
+Autónomos, Servicios Descentralizados, Poder Judicial, Tribunal de lo 
+Contencioso Administrativo, Corte Electoral, y Tribunal de Cuentas.
+
+Art. 206.- Las actas notariales de relación de intervenciones 
+extrarregistrales, contendrán:
+1) La indicación de su especie en esta forma: "Acta de relación de 
+   las intervenciones extrarregistrales correspondientes al mes de ... de 
+   (año al cual corresponde)".
+2) El lugar y la fecha en que se extiende.
+3) La individualización de cada una de las actuaciones en la 
+   siguiente forma:
+a) Número de la intervención. La numeración es anual: se iniciará con 
+   el número uno y continuará correlativamente de un acta a la siguiente 
+   hasta el fin del año.
+b) Determinación del documento autorizado: v.g. certificado notarial, 
+   testimonio por exhibición, etc. Cuando una actuación notarial comprenda
+   simultáneamente dos o más ejemplares de un mismo documento, bastará con
+   que se exprese la cantidad de ejemplares.
+c) Materia o contenido del documento autorizado, indicado en forma 
+   genérica: v.g. certificación de firmas, calidad de propietario, etc.
+d) Nombres y apellidos del requirente o requirentes.
+e) Lugar y fecha de expedición de cada documento notarial.
+f) Serie y número del papel notarial utilizado.
+4) El cierre, con expresa indicación del número total de las 
+   intervenciones de relación obligatoria realizadas durante el mes.
+5) El signo, firma y rúbrica del Escribano.
+
+Art. 207.- Las actas a que se refieren los artículos anteriores, se 
+protocolizarán dentro de los tres días inmediatos siguientes al 
+vencimiento de cada mes, salvo la correspondiente al mes de diciembre, 
+que se agregará al Registro el día 31 de dicho mes.
+El acta de protocolización se extenderá en la forma que expresa el 
+artículo 209.
+
+Art. 208.- La omisión de incluir algún documento en el acta, la falta de 
+protocolización de ésta o la alteración de los datos que debe contener, 
+se sancionarán, según las circunstancias, conforme a lo dispuesto en el 
+artículo 275.
+
+                               Sección VII                                
+                         Actas de Protocolización                         
+                                                                          
+Art. 209.- El acta de protocolización contendrá:
+a) El membrete, con especificación del número correlativo puesto en 
+   cifras, la designación genérica de los documentos agregados y los
+   nombres y apellidos de los requirentes o interesados. Si éstos fueren
+   dos o más, podrá ponerse el nombre de uno cualquiera de ellos y la
+   expresión "y otro" o "y otros".
+b) El lugar y la fecha en que se realiza la protocolización.
+c) Su carácter: si fuere preceptiva, haciendo referencia a la 
+   disposición legal o reglamentaria que la ordena; si fuere judicial o 
+   administrativa, indicando la resolución que la dispone y el expediente 
+   donde fue dictada; si fuere voluntaria, haciendo constar la solicitud
+   del interesado.
+d) La enumeración de los documentos y actas que se incorporan al Registro,
+   expresando los elementos del artículo 94 si no fueron consignados en el
+   acta de solicitud.
+e) Los folios que ocupa la protocolización.
+f) La referencia a la anterior. Ella deberá establecerse al final de cada
+   acta de protocolización y antes de la firma del Escribano, en la
+   siguiente forma: 
+   I) cuando se trate de la primera protocolización agregada en el año, 
+   expresando que no tiene referencia por ser la primera incorporación que
+   se realiza en el Registro de Protocolizaciones;
+   II) cuando se trate de posteriores incorporaciones, expresando que
+   dicha agregación sigue inmediatamente a la verificada con el número (se
+   repite el del acta anterior); indicación genérica de los documentos y
+   actas agregados; la fecha (día y mes) en que fue realizada; nombres de
+   los interesados o requirentes, y si fue de mandato judicial,
+   designación del juez proveyente y fecha del decreto; del folio tal al
+   cual (folios entre los cuales comienza y termina).
+g) El signo, firma y rúbrica del Escribano autorizante.
+
+Art. 210.- En el caso de incorporación de documentos, pueden consignarse 
+en una sola acta la solicitud o requerimiento y la protocolización 
+propiamente dicha, con el contenido y formalidades indicados en los 
+artículos precedentes.
+
+                               CAPITULO III                               
+                            TRASLADOS y NOTAS                             
+                                                                          
+                                Sección I                                 
+                I) Copias y Testimonios de protocolización                
+                                                                          
+Art. 211.- Copia es el instrumento público notarial derivado, traslado 
+íntegro y literal de una escritura pública, a la que subroga en su valor 
+jurídico y que habilita a la persona para quien se expide, a ejercer los 
+derechos que le correspondan, resultantes del documento reproducido.
+
+Art. 212.- Testimonio de protocolización es el instrumento público 
+notarial derivado, traslado íntegro y literal de los documentos y actas 
+incorporados al Registro de Protocolizaciones, que representa 
+auténticamente los documentos reproducidos.
+
+Art. 213.- Los Escribanos expedirán a los otorgantes o requirentes, 
+cualquiera sea la naturaleza del acto, copia de las escrituras 
+autorizadas o testimonio de las protocolizaciones efectuadas.
+
+Art. 214.- Es competente para expedir primeras copias de escritura:
+a) el Escribano autorizante de la matriz, cuando está en ejercicio de 
+   la función notarial;
+b) el Escribano que se desempeñe como tal en las oficinas encargadas 
+   de la custodia de los Registros Notariales, previo mandato judicial, de
+   conformidad con lo dispuesto en el artículo 216.
+
+Art. 215.- Es competente para expedir primeros o ulteriores testimonios 
+de protocolización:
+a) el Escribano autorizante de la protocolización, cuando está en 
+   ejercicio de la función notarial;
+b) el Escribano que se desempeñe como tal en las oficinas encargadas 
+   de la custodia de los Registros Notariales, previo mandato judicial, de
+   conformidad con lo dispuesto en el artículo 216.
+
+Art. 216.- Los encargados de los depósitos y archivos de Registros 
+Notariales, no podrán expedir primeras copias o primeros o ulteriores 
+testimonios de protocolización, de las escrituras y documentos y actas 
+contenidos en dichos Registros, sin previo mandato judicial.
+Cuando los Registros Notariales estén depositados o archivados en la 
+Inspección General de Registros Notariales, la autorización judicial 
+necesaria será solicitada por escrito, directamente a la Suprema Corte de 
+Justicia.
+Cuando los Registros Notariales estén depositados o archivados en un 
+Juzgado de un departamento del Interior del país, dicha autorización 
+judicial será solicitada por escrito ante el Juzgado Letrado de Primera 
+Instancia sede del archivo correspondiente.
+
+Art. 217.- Las copias y testimonios que deben expedirse, son los 
+requeridos para la inscripción en los Registros indicados por la ley, y 
+deben expedirse para la parte a la que beneficia la inscripción.
+La expedición se realizará dentro del tercer día a partir de la 
+autorización de la escritura o de la protocolización.
+El cumplimiento de la obligación de expedir primera copia o testimonio a 
+que se refiere el presente artículo, no está supeditado ni al pedido de 
+las partes, ni al hecho de que no le entreguen al Escribano el dinero 
+para gastos, ni al impago de los honorarios.
+En todo tiempo, la otra u otras partes otorgantes, pueden solicitar 
+primera copia de la escritura o primer testimonio de la protocolización.
+
+Art. 218.- De los testamentos solemnes abiertos, el Escribano sólo podrá 
+expedir copia para el testador. Una vez que se haya justificado el deceso 
+del testador o la presunción de muerte causada por su ausencia, podrán 
+obtener una primera copia el cónyuge, los herederos, los legatarios, los 
+albaceas y los tutores y curadores testamentarios,.
+
+Art. 219.- Los Escribanos darán copia en papel simple al Ministerio 
+Fiscal, de los actos de última voluntad que hayan autorizado, siempre que 
+pueda tener interés el Fisco, tan pronto tengan noticia de la muerte del 
+testador.
+
+Art. 220.- Se expedirá una sola copia de las escrituras autorizadas, a 
+cada una de las partes contratantes que la soliciten, ya sea que esas 
+partes estén constituídas por una o varias personas.
+Si alguna de las partes contratantes estuviere integrada por más de una 
+persona, cada integrante podrá solicitar se expidan tantas copias cuantas 
+sean las personas de esa parte. 
+
+Art. 221.- De las escrituras de partición, el Escribano sólo deberá 
+expedir copia para cada uno de los adjudicatarios y no en consideración a 
+los bienes adjudicados.
+
+Art. 222.- Cuando en una escritura se adquieran por una misma persona 
+varios inmuebles, se podrá solicitar se expidan tantas copias cuantos 
+sean los inmuebles adquiridos.
+De no mediar tal solicitud, el Escribano expedirá una sola copia, la que 
+servirá de título para todos los inmuebles adquiridos. 
+
+Art. 223.- Si en una escritura se gravan con hipoteca varios inmuebles 
+ubicados en diferentes departamentos o que correspondan a diferentes 
+sedes registrales, se podrá solicitar por los interesados se les expida 
+una copia en función de cada Registro donde deban inscribirse las 
+hipotecas.
+De no mediar tal solicitud, el Escribano expedirá una sola copia, la que 
+se inscribirá en todos los Registros que correspondan.
+
+Art. 224.- Cuando se otorguen varios contratos en una misma escritura, se 
+podrá solicitar se expida a cada parte contratante una copia por cada 
+contrato.
+De no mediar tal solicitud, el Escribano expedirá una sola copia por 
+todos los contratos otorgados.
+
+Art. 225.- Las primeras copias o los primeros testimonios de 
+protocolización comprenderán, además del contenido íntegro y literal de 
+las matrices, la nota de suscripción o refrendata, que deberá expresar: 
+a) la indicación de la calidad de primera copia o primer testimonio y 
+   de su compulsa con la matriz; 
+b) el nombre de la parte o persona para quien se da y, además, a qué 
+   inmueble servirá de título, a qué Registro está destinado, o por qué 
+   contrato se expide, cuando corresponda, de acuerdo con lo dispuesto en 
+   los artículos 220 a 224;
+c) el mandato judicial, cuando sea pertinente, haciendo referencia al 
+   expediente en que fue dictado y, en su caso, al mandato de la Suprema 
+   Corte de Justicia, o el número y la fecha de la resolución y el Juzgado
+   competente;
+d) el lugar y la fecha de expedición de la copia o testimonio;
+e) el signo, firma, rúbrica y sello del Escribano.
+
+Art. 226.- Los Escribanos no pueden expedir para la misma parte o 
+persona, segunda o ulterior copia de las escrituras, sin previo mandato 
+judicial.
+
+Art. 227.- Es competente para expedir segundas o ulteriores copias de 
+escritura:
+a) el Escribano autorizante de la matriz, cuando está en ejercicio de 
+   la función notarial;
+b) el Escribano que se desempeñe como tal en las oficinas encargadas 
+   de la custodia de los Registros Notariales.
+
+Art. 228.- Corresponde la expedición de segunda o ulterior copia cuando 
+se trate de un acto o negocio jurídico que debe inscribirse en algún 
+Registro Público y haya pérdida, sustracción o extravío del instrumento 
+que lo contiene, antes de su inscripción. En los demás casos, se aplicará 
+ lo dispuesto en los artículos 245 a 247 de este Reglamento.
+
+Art. 229.- La solicitud de expedición de segundas o ulteriores copias se 
+presentará ante los Jueces Letrados de Primera Instancia y sólo se 
+accederá a ella cuando se justifique, por vía de información y una vez 
+oído el Ministerio Público, el hecho alegado al efecto y la no existencia 
+de inscripción en el Registro del acto o contrato que contiene.
+
+Art. 230.- La segunda o ulterior copia comprenderá, además del contenido 
+íntegro y literal de la matriz, la nota de suscripción o refrendata, que 
+deberá expresar: 
+a) la indicación de la calidad de segunda o ulterior copia y de su 
+   compulsa con la matriz;
+b) el nombre de la parte o persona para quien se da, y además, a qué 
+   inmueble servirá de título, a qué Registro está destinada, o por qué 
+   contrato se expide, cuando corresponda, según como se hubiera expedido
+   la copia perdida, sustraída o extraviada;
+c) el mandato judicial, haciendo referencia al expediente, número y fecha
+   de la resolución y Juzgado competente;
+d) el lugar y la fecha de su expedición;
+e) la o las notas marginales de las copias que se hubieran expedido de esa
+   matriz;
+f) el signo, firma, rúbrica y sello del Escribano.
+
+Art. 231.- El segundo o ulterior testimonio de protocolización 
+comprenderá, además del contenido íntegro y literal de la matriz, la nota 
+de suscripción o refrendata, que deberá expresar:
+a) la indicación de la calidad de segundo o ulterior testimonio y de 
+   su compulsa con la matriz;
+b) el nombre de la persona para quien se expide;
+c) el mandato judicial, cuando corresponda, haciendo referencia al 
+   expediente en que fue dictado, y, en su caso, al mandato de la Suprema 
+   Corte de Justicia, o el número y la fecha de la resolución y el Juzgado
+   competente;
+d) el lugar y la fecha de su expedición;
+e) la o las notas marginales de los testimonios que se hubieren expedido
+   de la matriz correspondiente;
+f) el signo, firma, rúbrica y sello del Escribano.
+
+Art. 232.- El Escribano debe compulsar personalmente la copia o el 
+testimonio con el original y, si resultaren errores, los salvará a 
+continuación de la nota de suscripción y antes de la autorización, en la 
+forma prevista en el artículo 53.
+No se mencionarán en la copia o el testimonio las correcciones de texto 
+debidamente salvadas que haya en el original, extendiéndose la copia o el 
+testimonio como si en el texto de la matriz no se hubiese padecido error 
+alguno al escribirlo. 
+
+Art. 233.- Las copias y testimonios deberán ser expedidos en papel 
+notarial por cualquier medio mecánico o digital de impresión o 
+reproducción.
+
+                           II) Notas Marginales                           
+
+Art. 234.- Los Escribanos deben poner nota de las copias y los 
+testimonios de protocolización, en el momento que los expidan.
+También deben poner nota marginal de los testimonios por exhibición que 
+se expidan al amparo de lo dispuesto en la Ley Nº 16.266 de 15 de junio 
+de 1992, en la forma prevista en el artículo 247 de este Reglamento.
+Estas notas podrán escriturarse en forma manuscrita, mecanografiada por 
+cualquier medio mecánico o digital de impresión, o utilizando sello de 
+goma.
+
+Art. 235.- La nota debe ser puesta al margen de la escritura matriz o de 
+la protocolización a que corresponde la copia o el testimonio; no ha de 
+cubrir rúbricas y ha de conservar el margen necesario, de manera que su 
+lectura sea posible aún después de encuadernado el Registro.
+
+Art. 236.- Cuando al margen del documento matriz no hubiere espacio 
+suficiente para la conclusión de la nota, se la continuará en el margen 
+del documento inmediato siguiente. 
+Si la nota correspondiere a la última escritura o protocolización del año 
+y faltare espacio para extenderla íntegramente, se la concluirá al margen 
+de la primera hoja del Registro de dicho año.
+
+Art. 237.- Las notas deberán contener:
+a) el señalamiento del lugar y la fecha en que fue expedida la copia o
+   el testimonio;
+b) la indicación de si la copia o el testimonio tienen carácter de primero
+   o posterior;
+c) el número de escritura o protocolización a que corresponde;
+d) el nombre de la parte o persona para quien se dio el traslado y 
+   además, a qué inmueble servirá de título, a qué Registro está
+   destinado, o por qué contrato se expidió, cuando así proceda;
+e) referencia al expediente en que fue dictado el mandato judicial y, 
+   en su caso, al mandamiento de la Suprema Corte de Justicia o número y 
+   fecha de la resolución y Juzgado competente, si la copia o el
+   testimonio se expidieron en virtud de dichos mandamientos;
+f) el número y la serie del papel notarial en que fue expedido el
+   traslado;
+g) salvados con toda claridad y antes de la firma, los testados,
+   interlineados y enmiendas que el Escribano haya debido hacer para
+   subsanar algún error u omisión de la nota;
+h) la firma o media firma del autorizante.
+
+Art. 238.- Si no se concluye una nota empezada se le pondrá la expresión 
+"errada", que rubricará pero no firmará el Escribano.
+Si una nota ya autorizada hubiere sido puesta en forma incompleta o por 
+error, el autorizante podrá completarla o dejarla sin efecto mediante una 
+nueva nota. Esta deberá indicar, con precisión, la nota que complementa o 
+deja sin efecto.
+
+             III) Anotaciones en la documentación antecedente             
+                                                                          
+Art. 239.- Cuando el Escribano autorice instrumentos que contengan actos 
+por los cuales se trasmitan, declaren, afecten, modifiquen o extingan 
+derechos resultantes de otros documentos que constituyan el antecedente 
+inmediato de su actual intervención, pondrá en éstos nota que contendrá:
+a) el lugar y la fecha de la anotación;
+b) el lugar y la fecha del instrumento autorizado;
+c) la categorización del acto (v.g. compraventa, adjudicación, 
+   hipoteca, carta de pago, cancelación, etc.);
+d) los nombres y apellidos de la persona a quien se trasmiten los 
+   derechos, en cuyo favor se constituye el gravamen, o que queda liberada
+   de obligaciones;
+e) la firma o media firma y sello del Escribano.
+
+Art. 240.- Similar anotación a la referida en el artículo precedente se 
+pondrá en el documento antecedente, cuando se trasmita por el modo 
+sucesión el dominio de bienes inmuebles, establecimientos comerciales o 
+vehículos automotores, o créditos o derechos relativos a éstos, 
+indicándose los nombres y apellidos del causante, el Juzgado y la ficha 
+del trámite respectivo, el número y la fecha del auto de declaratoria de 
+herederos, con mención de los nombres de éstos y del cónyuge supérstite, 
+si lo hubiera, así como de los derechos de éste (gananciales, porción 
+conyugal, herencia, derechos establecidos por la Ley Nº 16.881) y los 
+nombres y apellidos de otros beneficiarios, si correspondiera. 
+
+                                Sección II                                
+                        Testimonios por Exhibición                        
+                                                                          
+Art. 241.- El testimonio por exhibición es el instrumento público, 
+traslado de uno o varios documentos públicos o privados, que acredita la 
+existencia, naturaleza y contenido del documento reproducido, sin que 
+ello implique subrogarlo en su valor y efectos.
+
+Art. 242.- Los testimonios por exhibición deberán ser expedidos en todas 
+sus hojas en papel notarial, por cualquier medio mecánico o digital 
+indeleble de impresión o reproducción.
+
+Art. 243.- El testimonio notarial por exhibición, comprenderá:
+I) el contenido literal del documento que se testimonia, que podrá ser 
+parcial cuando a juicio del Escribano la parte no transcripta no altere o 
+modifique el sentido de la parte reproducida;
+II) la refrendata o "concuerda", que expresará:
+a) la naturaleza del o de los documentos transcriptos, esto es, si se 
+   trata de documento público o privado, original o reproducción;
+b) el hecho de haber tenido a la vista el Escribano el o los 
+   documentos que reproduce y haber realizado personalmente su cotejo con
+   el testimonio a fin de comprobar su fidelidad, y el lugar donde los ha 
+   examinado, en su caso, así como la no variación del sentido en el caso 
+   señalado en el apartado I) del presente; 
+c) el nombre de la persona que lo ha solicitado;
+d) el mandato judicial, cuando corresponda, haciendo referencia al 
+   expediente en que fue dictado, y, en su caso, al mandato de la Suprema 
+   Corte de Justicia, o el número y la fecha de la resolución y el Juzgado
+   competente;
+e) el lugar donde se presentará el testimonio;
+f) el lugar y la fecha de expedición;
+g) el signo, firma, rúbrica y sello del  Escribano autorizante.
+Es aplicable a los testimonios por exhibición lo dispuesto en el artículo 
+232.
+
+Art. 244.- Los encargados de los depósitos y archivos de Registros 
+Notariales no podrán expedir testimonio por exhibición de las escrituras 
+públicas, documentos y actas contenidos en dichos Registros, sin previo 
+mandato judicial.
+La autorización deberá ser solicitada en la forma prevista en el artículo 
+216 de esta reglamentación.
+ 
+                               Sección III                                
+                 estimonios por Exhibición Ley Nº 16.266                  
+                                                                          
+Art. 245.- Cuando haya pérdida, sustracción o extravío de un instrumento 
+que contiene un acto o negocio jurídico inscripto, o cuando no 
+corresponde su inscripción, el Escribano autorizante o que está encargado 
+de llevar el Protocolo en el caso de las oficinas habilitadas para ello, 
+o, previo mandato judicial, aquél a cuyo cargo se encuentra el referido 
+Registro depositado o archivado, pueden expedir testimonio por exhibición 
+de la matriz al amparo de lo dispuesto en la Ley Nº 16.266 de 15 de junio 
+de 1992, con el mismo valor que el original, subrogándolo en su valor y 
+efectos.
+El mandato judicial deber ser solicitado en la forma prevista en el 
+artículo 216 de esta reglamentación.
+
+Art. 246.- El testimonio por exhibición comprenderá, en este caso:
+I)   el contenido íntegro y literal de la matriz;
+II) la refrendata o "concuerda", que expresará:
+a) la naturaleza de público y original del documento transcripto 
+   (escritura pública);
+b) el hecho de haber tenido a la vista la escritura que reproduce y 
+   haber realizado personalmente el cotejo del testimonio con ella, a fin
+   de comprobar su fidelidad;
+c) el nombre de la parte o persona para quien se da y, además, a qué 
+   inmueble servirá de título, a qué Registro está destinado, o por qué 
+   contrato se expide, cuando corresponda, según como hubiere sido
+   expedida la copia respectiva;
+d) el mandato judicial, cuando proceda, haciendo referencia al 
+   expediente en que fue dictado y, en su caso, al mandato de la Suprema 
+   Corte de Justicia, o el número y la fecha de la resolución y el Juzgado
+   competente;
+e) la mención de expedir el testimonio al amparo de lo dispuesto en 
+   la Ley Nº 16.266;
+f) el lugar y la fecha de su expedición;
+g) el  signo, firma, rúbrica y sello del  Escribano autorizante.
+
+Art. 247.- Los Escribanos deben poner al margen de la escritura matriz, 
+nota del testimonio por exhibición que expidan al amparo de lo dispuesto 
+por la Ley Nº 16.266, en el momento de efectuar tal expedición.
+Dicha nota deberá contener:
+a) el señalamiento del lugar y la fecha en que fue expedido el 
+   testimonio;
+b) la mención de haber sido expedido al amparo de lo dispuesto por la 
+   Ley Nº 16.266;
+c) la indicación del número de escritura a que corresponda;
+d) el nombre de la parte o persona para quien se dio el testimonio, y 
+   además, a qué inmueble sirve de título, a qué Registro está destinado,
+   o por qué contrato se expidió, según corresponda.
+e) el número y la serie del papel notarial en que fue expedido el
+   traslado;
+f) salvados con toda claridad y antes de la firma, los testados, 
+   interlineados y enmiendas que el Escribano haya debido hacer para 
+   subsanar algún error u omisión de la nota;
+g) la firma o media firma del autorizante.
+Es de aplicación a estas notas lo dispuesto en los artículos 234 a 236 y 
+238 de esta Reglamentación.
+
+                               CAPITULO IV                                
+                               CERTIFICADOS                               
+                                                                          
+Art. 248.- Certificado notarial es el instrumento público original 
+autorizado por Escribano,  con el objeto de:
+a) acreditar la existencia de situaciones jurídicas, actos o hechos, 
+   conocidos ciertamente por el autorizante, o que le justifican mediante 
+   documentos públicos o privados que le exhiban o compulse;
+b) autenticar simultáneamente el otorgamiento y firma de documentos 
+   privados suscritos en su presencia;
+c) autenticar la ratificación del contenido y el reconocimiento de firmas
+   de documentos privados suscritos con anterioridad.
+Los certificados se expedirán en forma mecanografiada por cualquier medio 
+mecánico o digital indeleble de impresión. 
+
+Art. 249.- En los casos que expresa el artículo 248 literal a), el 
+Escribano deberá necesariamente hacer una relación clara y precisa de los 
+siguientes elementos:
+a) el acto o hecho objeto del certificado;
+b) el documento público o privado del cual resulta el acto o hecho 
+   certificado, lugar y fecha, naturaleza y caracteres;
+c) la exhibición de dichos documentos o la compulsa personal, indicando,
+   en este caso, el Registro o lugar donde los ha examinado.
+Cuando el acto o hecho objeto del certificado sea de conocimiento 
+personal del autorizante, lo hará constar así, asumiendo la 
+responsabilidad de su existencia y fidelidad.
+
+Art. 250.- En el caso del artículo 248 literal b), el Escribano 
+certificará simultáneamente el otorgamiento y la autenticidad de las 
+firmas, debiendo cumplir los siguientes requisitos:
+a) los otorgantes que requieren la certificación se individualizarán 
+   conforme a lo dispuesto en el artículo 130;
+b) se identificarán por conocimiento personal o, en su defecto, 
+   mediante la cédula de identidad y, si fuere extranjero, con otro 
+   documento oficial identificatorio; en las situaciones en que la ley
+   así lo exigiera, si el Escribano no los conoce, deberá recurrir a
+   testigos de conocimiento, quienes, previa lectura que aquél les haga,
+   suscribirán el certificado; 
+c) el Escribano les leerá el documento y recabará su otorgamiento, 
+   aplicando, en lo procedente, lo dispuesto en los artículos 150 y 
+   siguientes;
+d) los otorgantes suscribirán el documento que se certifica, siendo 
+   aplicable lo establecido en los artículos 162 y siguientes de esta 
+   reglamentación, cuando corresponda.
+
+Art. 251.- En el caso del artículo 248 literal c), el Escribano podrá 
+actuar por certificación, ajustándose a estos requisitos: 
+a) los otorgantes del documento se individualizarán conforme a lo 
+   dispuesto en el artículo 130 y declararán el lugar y la fecha en que 
+   aquél fue otorgado y suscrito;
+b) salvo que para situaciones concretas la ley dispusiera otra cosa, 
+   se identificarán por conocimiento personal o, en su defecto mediante la
+   cédula de identidad y, si se tratare de otorgantes extranjeros, con
+   otro documento oficial identificatorio;
+c) el Escribano leerá el documento a los otorgantes y éstos deberán 
+   ratificar su contenido y reconocer como propias las firmas puestas en
+   él;
+d) previa lectura del certificado, los otorgantes y los testigos de 
+   conocimiento, en su caso, lo suscribirán y el Escribano lo autorizará.
+Rige, en lo que sea pertinente, lo dispuesto en los artículos 150 y 
+siguientes y 162 y siguientes de este Reglamento. 
+
+Art. 252.- Cuando se requiera la certificación del otorgamiento y las 
+firmas de un documento otorgado y suscrito en presencia del Escribano, en 
+el cual alguno de los otorgantes no supiera o no pudiera firmar, deberán 
+intervenir dos testigos instrumentales que suscribirán el documento.
+En el documento, el otorgante declarará su impedimento y solicitará que 
+uno de los dos testigos que se requieren firme a su ruego, conforme a lo 
+dispuesto en el artículo 1585 del Código Civil.
+El otorgante podrá ofrecer colocar al pie del documento, en el espacio 
+reservado a las firmas, la impresión digital del pulgar de la mano 
+derecha y, en su defecto, el de la mano izquierda o la de otro dedo, 
+requisito que también podrá exigir el Escribano.
+El autorizante, además de lo dispuesto en el artículo 250, certificará el 
+cumplimiento de los requisitos establecidos en el presente.
+
+Art. 253.- Se prohibe certificar firmas de personas que no hayan 
+requerido expresamente esa intervención notarial, debiendo resultar el 
+requerimiento del documento o mencionarse en la certificación.
+
+Art. 254.- Los testigos y demás sujetos auxiliares intervinientes en los 
+documentos cuyo otorgamiento y suscripción se certifica, se 
+individualizarán conforme lo dispuesto en el artículo 130 literal b) e 
+inciso final.
+En cuanto a la idoneidad de los testigos, se estará a lo dispuesto en los 
+artículos 141 y 145.
+
+Art. 255.- Todo certificado notarial contendrá:
+a) los nombres y apellidos de la persona que ha solicitado su 
+   expedición, conforme se especifica en los artículos precedentes, cuando
+   estos datos no resulten ya de la modalidad de la certificación;
+b) los requisitos, datos y comprobaciones que se establecen en los 
+   artículos que anteceden, de manera que muestre claramente su 
+   cumplimiento;
+c) las menciones que las leyes y reglamentos exijan, según el 
+   carácter de la intervención;
+d) el destinatario;
+e) el lugar y la fecha de su expedición;
+f) el signo, firma, rúbrica y sello del Escribano autorizante.
+
+                                 TITULO V                                 
+               SUPERINTENDENCIA Y DISCIPLINA DEL NOTARIADO                
+                                                                          
+Art. 256.- Corresponde privativamente a la Suprema Corte de Justicia, la 
+superintendencia del Notariado mediante el ejercicio de las potestades de 
+control, disciplinaria y de reglamentación de la función notarial.
+
+                                CAPITULO I                                
+                    VISITA DE LOS REGISTROS NOTARIALES                    
+                                                                          
+Art. 257.- La visita de los Registros Notariales está centralizada en la 
+Inspección General de Registros Notariales de la Suprema Corte de 
+Justicia.
+
+Art. 258.- Esta visita comprende al Protocolo y al Registro de 
+Protocolizaciones, a medida que se van formando y una vez encuadernados.
+La visita de los Registros Notariales en formación se efectuará previa 
+intervención de la Caja Notarial de Seguridad Social, a efectos de que 
+verifique el pago de las cotizaciones exigidas por la ley.
+
+Art. 259.- Los Escribanos que habilitan sus Protocolos en la Inspección 
+General de Registros Notariales, al solicitar la habilitación de nuevos 
+cuadernos, deberán someter a la visita:
+a) los cuadernos anteriores no visitados, conforme a lo dispuesto en 
+   el artículo 69;
+b) las protocolizaciones efectuadas desde la última visita inmediata 
+   anterior.
+En el transcurso del mes de enero presentarán, a los mismos efectos, los 
+cuadernos y protocolizaciones del año inmediato anterior, aún no 
+encuadernados, que no hubieren sido objeto de revisación.
+
+Art. 260.- Los Escribanos que habilitan sus Protocolos en el Juzgado 
+Letrado de Primera Instancia del lugar donde ejercen efectivamente la 
+profesión, están obligados, dentro de los treinta días siguientes al 
+primer semestre del año, a someter a la visita ante la Inspección General 
+de Registros Notariales, los cuadernos utilizados en aquel lapso, con 
+excepción de los tres últimos y las protocolizaciones realizadas hasta el 
+30 de junio inclusive.
+La Inspección citada expedirá una constancia de dicha presentación, la 
+que será exhibida al Juez Letrado de Primera Instancia del departamento, 
+que rubrica los Protocolos del Escribano, a los efectos previstos en el 
+artículo 70.
+
+Art. 261.- Cualquiera sea el lugar donde ejerzan la profesión, los 
+Escribanos están obligados a presentar, antes del 31 de octubre de cada 
+año, a la Inspección General de Registros Notariales, para su visita 
+final, los Registros que hubieren llevado el año inmediato anterior, 
+debidamente encuadernados (artículo 78).
+
+Art. 262.- La Inspección General de Registros Notariales podrá, en 
+cualquier momento, sin expresión de causa, exigir la presentación de todo 
+o parte de los Registros Notariales.
+
+Art. 263.- Las visitas serán realizadas por los funcionarios competentes 
+de la Inspección General de Registros Notariales de la Suprema Corte de 
+Justicia (artículos 61 y 71), todo sin perjuicio de lo dispuesto en el 
+artículo 70.
+
+Art. 264.- Los funcionarios encargados de las visitas, acreditarán la 
+revisación realizada mediante una constancia, para la que podrá 
+utilizarse sello de goma, y que deberá contener:
+a) la expresión "VISITADO";
+b) el día, mes y año;
+c) la firma o media firma autógrafa del funcionario que realizó la visita.
+
+Art. 265.- La revisación abarca la totalidad de los aspectos de los 
+instrumentos sometidos a ella. 
+La Inspección General de Registros Notariales dará cuenta a la Suprema 
+Corte de Justicia de las irregularidades detectadas en oportunidad de las 
+visitas.
+
+Art. 266.- La Suprema Corte de Justicia puede decretar, en todo tiempo, 
+inspecciones generales o parciales de los Registros Notariales, las que 
+se practicarán por alguno de sus miembros o por los funcionarios 
+encargados de las visitas.
+Realizadas las inspecciones, la Suprema Corte de Justicia adoptará las 
+medidas que crea del caso.
+
+                               CAPITULO II                                
+                    DE LA DISCIPLINA DE LOS ESCRIBANOS                    
+                                                                          
+Art. 267.- Los Escribanos deben actuar con total acatamiento a las leyes 
+y reglamentos que regulan el ejercicio de la función notarial y a los 
+principios establecidos para mantener la disciplina interna de la 
+profesión y la confianza debida a la función pública que desempeñan.
+
+Art. 268.- En el ejercicio de la función notarial, quedan sujetos a 
+responsabilidad civil, penal, fiscal y disciplinaria.
+
+Art. 269.- La aplicación a los Escribanos de sanciones civiles, penales y 
+fiscales, corresponde a los jueces del fuero común.
+
+Art. 270.- Dichos jueces comunicarán a la Suprema Corte de Justicia las 
+sanciones civiles, penales y fiscales que aplicaren a los Escribanos, 
+dentro de las 48 horas de ejecutoriada la sentencia respectiva, sin 
+perjuicio de lo establecido en el artículo 27.
+De esa comunicación se dejará constancia en el expediente del Escribano 
+sancionado.
+
+Art. 271.- Se sancionarán disciplinariamente las faltas por omisiones o 
+infracciones a los deberes que las leyes y reglamentos imponen a los 
+Escribanos, aunque en dicha normativa no se establezca una sanción 
+determinada.
+
+Art. 272.- Las sanciones disciplinarias que se aplicarán al Escribano 
+guardarán relación con la gravedad de la falta cometida, los perjuicios 
+causados, el desprestigio que aparejare a la función notarial y el 
+menoscabo ocasionado a la confianza debida al carácter de la profesión.
+
+Art. 273.- Falta es toda infracción del agente de la función notarial a 
+un deber establecido en una norma legal o reglamentaria.
+
+Art. 274.- Las faltas se clasifican en leves, graves y muy graves, según 
+la importancia del agravio inferido al orden institucional notarial, los 
+perjuicios causados a terceros y a la credibilidad de la profesión y del 
+documento notarial.
+Se consideran: 
+I) Faltas leves, siempre que las infracciones no impliquen el 
+reotorgamiento de un determinado acto o negocio jurídico, no causen 
+perjuicio a terceros y no constituyan falta grave:
+-a) la negligencia en la prestación de la función pública de que está 
+investido el Escribano;
+- b) la transgresión a normas legales o reglamentarias;
+II) Faltas graves, cuando las infracciones aparejen el reotorgamiento de 
+un determinado acto o negocio jurídico o causen perjuicio a terceros: 
+a) la negligencia en la prestación de la función;
+b) la transgresión a las disposiciones legales o reglamentarias siempre 
+que no configure delito; 
+c) la actuación del Escribano en violación a los principios generales 
+reguladores de la función notarial, en especial los de veracidad, 
+imparcialidad y reserva. 
+Asimismo constituyen faltas graves la reincidencia o acumulación de 
+faltas leves y la indisciplina respecto del órgano que ejerce la 
+superintendencia del Notariado.
+III) Faltas muy graves:
+a) las conductas que den lugar a procesamientos o condenas por delitos 
+cometidos en el ejercicio de la función notarial, o con abuso de ella y 
+aquellos por los cuales se desmerezca la confianza debida a la profesión, 
+sin perjuicio de lo dispuesto en el artículo 22 de la presente 
+reglamentación.
+b) la reiteración o acumulación de faltas graves.
+La enunciación precedente no tiene carácter taxativo.-
+
+Art. 275.- Las sanciones disciplinarias que se aplicarán a los Escribanos 
+serán:
+I) Para faltas leves:
+        a) advertencia;
+        b) observación.
+II) Para faltas graves:
+        a) suspensión de la habilitación de cuadernos de Protocolo;
+        b) desinvestidura temporaria de hasta cuatro años.
+III) Para faltas muy graves:
+        a) desinvestidura temporaria de cuatro a ocho años
+        b) desinvestidura permanente.
+
+Art. 276.- En la aplicación de sanciones disciplinarias, deberá 
+considerarse:
+a) el carácter de la omisión o infracción cometida por el Escribano;
+b) la reiteración de las faltas y aplicación de sanciones a que se 
+   refiere el artículo 275, teniendo en cuenta la gravedad y demás 
+   circunstancias de las infracciones cometidas.
+La Suprema Corte de Justicia podrá atenuar la sanción cuando la falta 
+cometida tenga su origen en un error excusable o cuando las 
+circunstancias del caso aconsejen disminuir aquélla.
+Se considerará falta grave cualquier omisión en el cumplimiento de un 
+mandato de la Suprema Corte de Justicia y aparejará sanción de suspensión 
+de habilitación de cuadernos de Protocolo hasta tanto se cumpla con dicho 
+mandato. Cumplido, se evaluará la actuación del Escribano, pudiendo 
+levantarse la sanción, mantenerse, o aplicarse una mayor cuando el caso 
+lo requiriera.
+
+Art. 277.- En los casos que puedan originar sanciones disciplinarias, la 
+iniciativa corresponderá a la Suprema Corte de Justicia, al Fiscal de 
+Corte y Procurador General de la Nación, a los funcionarios encargados de 
+las visitas -artículo 263- quienes señalarán las omisiones o infracciones 
+atribuidas al Escribano.
+Se observará el siguiente procedimiento:
+a) se agregarán al expediente, en lo posible, todos los antecedentes 
+   relativos a observaciones o sanciones anteriores aplicadas al mismo 
+   Escribano;
+b) de lo actuado, se dará traslado al Escribano por el término de 
+   quince días hábiles contados desde el siguiente a su notificación,
+   para que formule sus descargos;
+c) evacuado el traslado o vencido el plazo para hacerlo, la Suprema 
+   Corte de Justicia oirá por su orden al Director de la Inspección
+   General de Registros Notariales y al Fiscal de Corte y Procurador
+   General de la Nación;
+d) la Suprema Corte de Justicia podrá ordenar diligencias para mejor 
+   proveer y dictará resolución.
+Contra la resolución expresada habrá recurso de revocación, el que deberá 
+promoverse dentro de los diez días hábiles de notificada.
+
+Art. 278.- Si se impusiere sanción, se dejará constancia de ella en el 
+expediente del Escribano y si éste fuere desinvestido, se procederá, 
+además, de acuerdo con lo dispuesto en el artículo 30.       
+
+                                TITULO VI                                 
+                         REGISTRO DE TESTAMENTOS                          
+                                                                          
+Art. 279.- El Registro de Testamentos es una oficina de carácter técnico 
+jurídico con competencia nacional y sede en Montevideo, que depende de la 
+Inspección General de Registros Notariales de la Suprema Corte de 
+Justicia.
+
+Art. 280.- Se inscribirán en el Registro: 
+a) las relaciones que presenten los Escribanos de los testamentos 
+   solemnes abiertos y de las cubiertas de testamentos cerrados que 
+   autoricen; quienes podrán también presentar relación de los
+   testamentos otorgados en el extranjero para surtir efectos en nuestro
+   país;
+b) las comunicaciones que efectúen los Jueces de las incorporaciones 
+   realizadas al Registro de Protocolizaciones del Juzgado, de los 
+   testamentos menos solemnes y los testamentos otorgados ante Cónsul por 
+   orientales en país extranjero, y las sentencias que dicten y afecten la
+   validez de testamentos que por su fecha han debido ser anotados en el 
+   Registro.
+
+Art. 281.- Tratándose de los actos referidos en el artículo 280 literal 
+a), los Escribanos deben presentar la relación en el plazo de diez días 
+corridos contados a partir del siguiente al de la autorización.
+Vencido el plazo antes indicado, el Escribano deberá dejar constancia 
+expresa, a la fecha de presentación de la relación, de si el otorgante 
+vive o falleció, indicando en este último caso la fecha y lugar del 
+fallecimiento.
+ 
+Art. 282.- Las relaciones a que se refiere el artículo 280 literal a) se 
+extenderán en original y duplicado, en formularios cuyo texto y diseño 
+autorice la Inspección General de Registros Notariales.
+Las comunicaciones a que refiere el artículo 280 literal b) se 
+presentarán mediante oficio por duplicado del Juzgado, o en los 
+formularios referidos en el inciso anterior.
+
+Art. 283.- El original del formulario de relación o del oficio, será 
+protocolizado y el duplicado, devuelto al remitente, con la constancia de 
+haberse recibido el original.
+Las protocolizaciones se encuadernarán cada 300 folios y los Escribanos 
+de la Inspección General de Registros Notariales extenderán un 
+certificado de clausura a continuación de la última protocolización de 
+cada año, en el que se hará constar el número de protocolizaciones 
+efectuadas y los folios que ocupan.
+
+Art. 284.- Las relaciones a presentar por los Escribanos contendrán los 
+siguientes datos:
+a) naturaleza del acto;
+b) nombres, apellidos, nacionalidad, estado civil, cédula de identidad u 
+   otro documento identificatorio oficial en caso de ser extranjero, 
+   domicilio y profesión del otorgante;
+c) el lugar y la fecha de su nacimiento;
+d) lugar y fecha del otorgamiento;
+e) nombres, apellidos, cédula de identidad y domicilio de los testigos;
+f) nombres, apellidos, domicilio y teléfono del autorizante;
+g) en el caso previsto en el artículo 281 inciso final la declaración de 
+   si al momento de la presentación de la relación el otorgante vive o 
+   falleció;
+h) firma y sello del Escribano. 
+
+Art. 285.- En el caso de las comunicaciones a presentar por los Jueces, 
+además de lo establecido en el artículo 284, deberán indicar en forma 
+precisa el expediente en que se dictó la sentencia o se ordenó la 
+protocolización, y su fecha.
+
+Art. 286.- La Inspección General de Registros Notariales comunicará a la 
+Suprema Corte de Justicia, las irregularidades del acto relacionado que 
+resulten del formulario indicado en el artículo 284.
+La Suprema Corte de Justicia, en los casos que lo estime necesario, 
+formará un expediente, el que se regulará de acuerdo al procedimiento 
+establecido por el artículo 277.
+
+Art. 287.- El Registro tiene carácter reservado durante la vida del 
+testador; no obstante, cualquier persona puede solicitar que se le 
+informe si existe o no inscripción en la cual aparezca como otorgante.
+Dejará de tener carácter reservado:
+a) cuando se acredite en forma el fallecimiento o la declaración de 
+ausencia de la persona con relación a la cual se solicite información;
+b) para expedir informes o certificados a los Jueces en asuntos sometidos 
+a su conocimiento.
+
+Art. 288.- A solicitud de parte interesada, el Registro de Testamentos 
+expedirá un certificado donde conste si existe o no inscripción a nombre 
+del causante o del declarado ausente.
+La solicitud deberá presentarse en formularios cuyo texto y diseño 
+autorice la Inspección General de Registros Notariales. Deberá 
+acompañarse del respectivo testimonio de la partida de defunción o de la 
+sentencia que declare la ausencia y sólo podrá gestionarse transcurridos 
+15 días corridos a contar del siguiente al fallecimiento. 
+
+Art. 289.- Los certificados que emita el Registro de Testamentos podrán 
+expedirse por cualquier medio mecánico o digital de impresión. En caso de 
+ser positiva la información, se acompañará de la reproducción de la 
+relación o comunicación protocolizada.
+
+Art. 290.- Las relaciones y comunicaciones y las solicitudes de 
+información al Registro podrán efectuarse por vía electrónica, a partir 
+del momento en que la Inspección General de Registros Notariales así lo 
+determine."
+
+2°.- Derógase la Acordada nº 4.716 de 10 de febrero de 1971. Asimismo se 
+declaran derogados las Acordadas, Reglamentos y Resoluciones de carácter 
+general, cuyo contenido forme parte de la presente o que se opongan a sus 
+disposiciones.-
+
+3°.- La presente entrará en vigencia el día 1º de enero de 2005.-
+
+4°.- Que se comunique, circule y publique.-
+Dr. Leslie VAN ROMPAEY, Presidente, Suprema Corte de Justicia, Dr. 
+Roberto PARGA LISTA, Ministro, Suprema Corte de Justicia, Dr. Daniel 
+GUTIERREZ PROTO, Ministro, Suprema Corte de Justicia, Dr. Hipólito 
+RODRIGUEZ CAORSI, Ministro, Suprema Corte de Justicia, Dr. Pablo TROISE 
+ROSSI, Ministro, Suprema Corte de Justicia, Dra. Martha B. CHAO de 
+INCHAUSTI, Secretaria Letrada, Suprema Corte de Justicia.
+Ayuda
+$(function() {
+				
+				$('#botonSalir').click(exitForm);
+					
+				$('#botonLista').click(function() {
+					if ($('#formLista').html() == undefined) {
+						history.back(1);
+					} else {
+						$('#formLista').trigger( "submit" );
+					}
+				});
+					
+				
+				$("#ayudaDocumento").attr("href",$("#ayudaDocumento").css("background-image").replace(/"/g, "").replace("url(","").replace(")",""));
+					
+				$('[data-toggle="tooltip"]').tooltip();
+				$('[data-toggle="popover"]').popover();
+			});
+			
+			function exitForm(event) {
+				window.location = '/cgi-bin/bases/logout.cgi';
+			}
+					
+			
+			$("#logo_interfaz").attr("src",$("#logo_interfaz").css("background-image").replace(/"/g, "").replace("url(","").replace(")",""));
+			
+			$("#url_logo").attr("href",$("#url_logo").css("font-family").replace(/"/g, "").replace("url(","").replace(")",""));

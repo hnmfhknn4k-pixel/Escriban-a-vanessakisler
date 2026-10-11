@@ -1,0 +1,5 @@
+{
+  "archive": "EscribanIA_corregida_v03.zip",
+  "sha256": "28e6f8819b9692f17748addc40f5aaf1dc20dfebba11ab94160e299b991aec34",
+  "use": "Referencia histórica. No se ejecuta la ruta IA v0.3: enviaba texto sin seudonimización. Controles portados a core.py. Las afirmaciones normativas del archivo de referencia no configuran el perfil activo."
+}

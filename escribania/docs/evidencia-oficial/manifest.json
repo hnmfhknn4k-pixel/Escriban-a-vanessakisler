@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Acordada 7533, original publicado",
+    "url": "https://www.impo.com.uy/bases/acordadas-scj-originales/7533-2004",
+    "consulted_at": "2026-10-11",
+    "file": "impo-0.txt",
+    "extracted_text_sha256": "d405099ee08038176e3782c33d73d0a16ec2725f499c547992a58800392fd37e",
+    "note": "Copia de texto público consultado, no firma ni fecha acreditada; comprobar cambios antes de aplicar."
+  },
+  {
+    "title": "Ley 18331, actualizado",
+    "url": "https://www.impo.com.uy/bases/leyes/18331-2008",
+    "consulted_at": "2026-10-11",
+    "file": "impo-1.txt",
+    "extracted_text_sha256": "0e24f89d99a63e9044ba42a067ea3c5424b54f5a17ba540aedb449fdbf79ee1c",
+    "note": "Copia de texto público consultado, no firma ni fecha acreditada; comprobar cambios antes de aplicar."
+  },
+  {
+    "title": "Decreto 414/009",
+    "url": "https://www.impo.com.uy/bases/decretos/414-2009",
+    "consulted_at": "2026-10-11",
+    "file": "impo-2.txt",
+    "extracted_text_sha256": "09e7c9ef6c5f145c44689b7d092087a167edb62184ab5438e66cd5e1b37a5ec6",
+    "note": "Copia de texto público consultado, no firma ni fecha acreditada; comprobar cambios antes de aplicar."
+  },
+  {
+    "title": "Ley 18600, actualizado",
+    "url": "https://www.impo.com.uy/bases/leyes/18600-2009",
+    "consulted_at": "2026-10-11",
+    "file": "impo-3.txt",
+    "extracted_text_sha256": "db85e376ac2b94d46bec05ee87d805b6a821446eb4f834c8c070525c75804bdb",
+    "note": "Copia de texto público consultado, no firma ni fecha acreditada; comprobar cambios antes de aplicar."
+  },
+  {
+    "title": "Decreto 64/020",
+    "url": "https://www.impo.com.uy/bases/decretos/64-2020",
+    "consulted_at": "2026-10-11",
+    "file": "impo-64.txt",
+    "extracted_text_sha256": "f427040424c362b89272c9e25c2036aba93553c4ea3f6bb54cd8cc8e614cdeb5",
+    "note": "Copia de texto público consultado, no firma ni fecha acreditada; comprobar cambios antes de aplicar."
+  }
+]
